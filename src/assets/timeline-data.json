@@ -1,0 +1,54 @@
+{
+  "timelineItems": [
+    {
+      "year": "2015",
+      "month": "February",
+      "day": "25",
+      "poi": ["Sam Altman"],
+      "companies": ["Y Combinator", "OpenAI"],
+      "itemTypes": ["Mining Digital Ick"],
+      "title": "Altman publishes blog post stating that AI is scary",
+      "details": "Altman publishes blog post stating that AI is scary https://blog.samaltman.com/machine-intelligence-part-1"
+    },
+    {
+      "year": "2016",
+      "month": "January",
+      "day": "",
+      "poi": ["Ilya Sutskever"],
+      "companies": ["OpenAI"],
+      "itemTypes": ["Personnel Change"],
+      "title": "Ilya Sutskever joins OpenAI as Chief Scientist",
+      "details": "Ilya Sutskever joins OpenAI as Chief Scientist"
+    },
+    {
+      "year": "2019",
+      "month": "August",
+      "day": "20",
+      "poi": [],
+      "companies": ["OpenAI"],
+      "itemTypes": ["Model Release"],
+      "title": "OpenAI releases GPT-2",
+      "details": "OpenAI releases GPT-2"
+    },
+    {
+      "year": "2023",
+      "month": "March",
+      "day": "14",
+      "poi": [],
+      "companies": ["OpenAI"],
+      "itemTypes": ["Model Release"],
+      "title": "OpenAI releases GPT-4",
+      "details": "OpenAI releases GPT-4"
+    },
+    {
+      "year": "2025",
+      "month": "November",
+      "day": "13",
+      "poi": [],
+      "companies": ["OpenAI"],
+      "itemTypes": ["Model Release"],
+      "title": "OpenAI releases GPT-5.1",
+      "details": "OpenAI releases GPT-5.1"
+    }
+  ]
+}
