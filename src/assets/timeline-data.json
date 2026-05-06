@@ -2,7 +2,7 @@
   "timelineItems": [
     {
       "year": "2015",
-      "month": "February",
+      "month": 2,
       "day": "25",
       "poi": ["Sam Altman"],
       "companies": ["Y Combinator", "OpenAI"],
@@ -12,7 +12,7 @@
     },
     {
       "year": "2016",
-      "month": "January",
+      "month": 1,
       "day": "",
       "poi": ["Ilya Sutskever"],
       "companies": ["OpenAI"],
@@ -22,7 +22,7 @@
     },
     {
       "year": "2019",
-      "month": "August",
+      "month": 8,
       "day": "20",
       "poi": [],
       "companies": ["OpenAI"],
@@ -32,7 +32,7 @@
     },
     {
       "year": "2023",
-      "month": "March",
+      "month": 3,
       "day": "14",
       "poi": [],
       "companies": ["OpenAI"],
@@ -42,7 +42,7 @@
     },
     {
       "year": "2025",
-      "month": "November",
+      "month": 11,
       "day": "13",
       "poi": [],
       "companies": ["OpenAI"],
