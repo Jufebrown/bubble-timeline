@@ -1,7 +1,5 @@
 <template>
-  <div class="year">
-    <slot name="yearNumber"></slot>
-  </div>
+  <div class="year"></div>
 </template>
 
 <style scoped>
