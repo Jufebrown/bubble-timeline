@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
 import TimeLine from './components/TimeLine.vue'
 </script>
 
@@ -7,15 +6,8 @@ import TimeLine from './components/TimeLine.vue'
   <header>
     <div class="wrapper">
       <TimeLine msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
     </div>
   </header>
-
-  <RouterView />
 </template>
 
 <style scoped>

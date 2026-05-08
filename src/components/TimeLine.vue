@@ -1,14 +1,20 @@
 <script setup lang="ts">
+import { useTimelineStore } from '@/stores/timeline'
 defineProps<{
   msg: string
 }>()
+
+const timelineStore = useTimelineStore()
 </script>
 
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
-    <h3></h3>
   </div>
+
+  <li class="year-list" v-for="year in timelineStore.years" v-bind:key="year">
+    {{ year }}
+  </li>
 </template>
 
 <style scoped>
