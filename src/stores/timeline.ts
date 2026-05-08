@@ -1,8 +1,27 @@
 import { defineStore } from 'pinia'
-import { timelineData } from '../assets/timeline-data.json'
 
 export const useTimelineStore = defineStore('timelineItems', {
-  state: () => ({
-    items: timelineData,
-  }),
+  state: () => {
+    return {
+      years: [
+        '2015',
+        '2015',
+        '2016',
+        '2017',
+        '2018',
+        '2019',
+        '2020',
+        '2021',
+        '2022',
+        '2023',
+        '2024',
+        '2025',
+        '2026',
+        '2027',
+        '2028',
+        '2029',
+        '2030',
+      ],
+    }
+  },
 })
