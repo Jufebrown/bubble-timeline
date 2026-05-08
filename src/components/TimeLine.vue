@@ -35,7 +35,9 @@ h3 {
 }
 
 .year-list {
+  list-style-type: none;
   text-align: center;
+  padding: 0px 20px;
 }
 
 @media (min-width: 1024px) {
