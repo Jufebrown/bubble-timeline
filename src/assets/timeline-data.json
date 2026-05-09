@@ -1,17 +1,17 @@
 {
   "timelineData": [
     {
-      "year": "2015",
+      "year": 2015,
       "month": 2,
       "day": "25",
       "poi": ["Sam Altman"],
       "companies": ["Y Combinator", "OpenAI"],
-      "itemTypes": ["Mining Digital Ick"],
+      "itemTypes": ["Doom"],
       "title": "Altman publishes blog post stating that AI is scary",
       "details": "Altman publishes blog post stating that AI is scary https://blog.samaltman.com/machine-intelligence-part-1"
     },
     {
-      "year": "2016",
+      "year": 2016,
       "month": 1,
       "day": "",
       "poi": ["Ilya Sutskever"],
@@ -21,7 +21,7 @@
       "details": "Ilya Sutskever joins OpenAI as Chief Scientist"
     },
     {
-      "year": "2019",
+      "year": 2019,
       "month": 8,
       "day": "20",
       "poi": [],
@@ -31,7 +31,7 @@
       "details": "OpenAI releases GPT-2"
     },
     {
-      "year": "2023",
+      "year": 2023,
       "month": 3,
       "day": "14",
       "poi": [],
@@ -41,7 +41,7 @@
       "details": "OpenAI releases GPT-4"
     },
     {
-      "year": "2025",
+      "year": 2025,
       "month": 11,
       "day": "13",
       "poi": [],
