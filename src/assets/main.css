@@ -8,6 +8,13 @@ a,
   padding: 3px;
 }
 
+.wrapper {
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
