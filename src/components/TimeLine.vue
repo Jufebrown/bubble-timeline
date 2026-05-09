@@ -8,29 +8,23 @@ const timelineStore = useTimelineStore()
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-  </div>
   <div>
     <ul class="year-list">
       <li class="year-block" v-for="year in timelineStore.years" v-bind:key="year">
-        {{ year }}
+        <ul class="month-list">
+          <li class="month-block" v-for="month in timelineStore.months" v-bind:key="month">
+            <div class="month-label">{{ month }}</div>
+          </li>
+        </ul>
+        <div class="year-label">{{ year }}</div>
       </li>
     </ul>
   </div>
 </template>
 
 <style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  position: relative;
-  top: -10px;
-}
-
-.greetings h1,
-.greetings h3 {
-  text-align: center;
+li {
+  list-style-type: none;
 }
 
 .year-list {
