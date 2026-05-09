@@ -5,7 +5,6 @@ export const useTimelineStore = defineStore('timelineItems', {
     return {
       years: [
         '2015',
-        '2015',
         '2016',
         '2017',
         '2018',
