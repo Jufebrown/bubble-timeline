@@ -28,18 +28,22 @@ h1 {
   top: -10px;
 }
 
-h3 {
-  font-size: 1.2rem;
-}
-
 .greetings h1,
 .greetings h3 {
   text-align: center;
 }
 
 .year-list {
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.year-block {
   list-style-type: none;
   text-align: center;
+  width: 200px;
   padding: 0px 20px;
 }
 
