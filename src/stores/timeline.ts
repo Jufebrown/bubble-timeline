@@ -21,6 +21,7 @@ export const useTimelineStore = defineStore('timelineItems', {
         '2029',
         '2030',
       ],
+      months: ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
     }
   },
 })

@@ -5,12 +5,26 @@ defineProps<{
 }>()
 
 const timelineStore = useTimelineStore()
+const backgroundColors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+
+const setBackgroundColor = (index: number) => {
+  if (index > 6) {
+    return backgroundColors[index % 7]
+  } else {
+    return backgroundColors[index]
+  }
+}
 </script>
 
 <template>
   <div>
     <ul class="year-list">
-      <li class="year-block" v-for="year in timelineStore.years" v-bind:key="year">
+      <li
+        class="year-block"
+        v-for="(year, index) in timelineStore.years"
+        v-bind:key="year"
+        :style="{ backgroundColor: setBackgroundColor(index) }"
+      >
         <ul class="month-list">
           <li class="month-block" v-for="month in timelineStore.months" v-bind:key="month">
             <div class="month-label">{{ month }}</div>
@@ -32,19 +46,38 @@ li {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  justify-content: flex-start;
+  padding-bottom: 40px;
 }
 
 .year-block {
-  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-width: 12em;
   text-align: center;
-  width: 200px;
-  padding: 0px 20px;
+  filter: grayscale(50%);
 }
 
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
+.year-label {
+  font-size: 2em;
+  color: black;
+}
+
+.month-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.month-block {
+  font-size: 1em;
+}
+
+.month-label {
+  font-size: 0.8em;
+  color: white;
 }
 </style>
