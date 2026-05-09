@@ -11,10 +11,13 @@ const timelineStore = useTimelineStore()
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
   </div>
-
-  <li class="year-list" v-for="year in timelineStore.years" v-bind:key="year">
-    {{ year }}
-  </li>
+  <div>
+    <ul class="year-list">
+      <li class="year-block" v-for="year in timelineStore.years" v-bind:key="year">
+        {{ year }}
+      </li>
+    </ul>
+  </div>
 </template>
 
 <style scoped>
