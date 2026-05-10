@@ -64,6 +64,8 @@ li {
   justify-content: flex-start;
   padding-bottom: 40px;
   padding-left: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #555 #222;
 }
 
 .year-block {
@@ -76,7 +78,7 @@ li {
 
 .year-label {
   font-size: 2em;
-  color: black;
+  color: #222222;
 }
 
 .month-list {
@@ -92,6 +94,6 @@ li {
 
 .month-label {
   font-size: 0.8em;
-  color: slategray;
+  color: #222222;
 }
 </style>
