@@ -5,11 +5,26 @@ defineProps<{
 }>()
 
 const timelineStore = useTimelineStore()
-const backgroundColors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+const backgroundColors = [
+  '#ffadad',
+  '#ffc6b5',
+  '#ffd6a5',
+  '#ffe5b5',
+  '#fdffb6',
+  '#d9ffb6',
+  '#caffbf',
+  '#b5ffda',
+  '#9bf6ff',
+  '#9bdfff',
+  '#a0c4ff',
+  '#bdb2ff',
+  '#e0b1ff',
+  '#ffc6ff',
+]
 
 const setBackgroundColor = (index: number) => {
   if (index > 6) {
-    return backgroundColors[index % 7]
+    return backgroundColors[index % 14]
   } else {
     return backgroundColors[index]
   }
@@ -54,9 +69,8 @@ li {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  min-width: 12em;
+  min-width: 14em;
   text-align: center;
-  filter: grayscale(50%);
 }
 
 .year-label {
@@ -78,6 +92,6 @@ li {
 
 .month-label {
   font-size: 0.8em;
-  color: white;
+  color: slategray;
 }
 </style>
