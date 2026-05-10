@@ -63,6 +63,7 @@ li {
   align-items: flex-end;
   justify-content: flex-start;
   padding-bottom: 40px;
+  padding-left: 0;
 }
 
 .year-block {
@@ -82,7 +83,6 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 0;
   padding: 0;
 }
 
