@@ -8,11 +8,22 @@ defineProps<{
 
 const timelineStore = useTimelineStore()
 
-const setBackgroundColor = (index: number) => {
+const getCorrectYearIndex = (index: number) => {
   if (index > 6) {
-    return timelineStore.backgroundColors[index % 14]
+    return index % 14
   } else {
-    return timelineStore.backgroundColors[index]
+    return index
+  }
+}
+const getYearBackgroundColor = (index: number) => {
+  return timelineStore.backgroundColors[getCorrectYearIndex(index)]
+}
+const getMonthBackgroundColor = (yearIndex: number, monthIndex: number) => {
+  const correctYearIndex = getCorrectYearIndex(yearIndex)
+  if (timelineStore.monthBackgroundColors[correctYearIndex] !== undefined) {
+    return timelineStore.monthBackgroundColors[correctYearIndex][monthIndex]
+  } else {
+    return getYearBackgroundColor(correctYearIndex)
   }
 }
 </script>
@@ -24,10 +35,17 @@ const setBackgroundColor = (index: number) => {
         class="year-block"
         v-for="(year, yearIndex) in timelineStore.years"
         :key="year"
-        :style="{ backgroundColor: setBackgroundColor(yearIndex) }"
+        :style="{ backgroundColor: getYearBackgroundColor(yearIndex) }"
       >
         <ul class="month-list">
-          <li class="month-block" v-for="(month, monthIndex) in timelineStore.months" :key="month">
+          <li
+            class="month-block"
+            v-for="(month, monthIndex) in timelineStore.months"
+            :key="month"
+            :style="{
+              backgroundColor: getMonthBackgroundColor(yearIndex, monthIndex),
+            }"
+          >
             <TimelineItem
               v-for="item in timelineStore.getMonthItems(
                 timelineStore.years[yearIndex],
@@ -68,6 +86,7 @@ li {
   flex-wrap: nowrap;
   min-width: 20em;
   text-align: center;
+  justify-content: stretch;
 }
 
 .year-label {
@@ -84,11 +103,12 @@ li {
 
 .month-block {
   height: 80vh;
-  font-size: 1em;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  padding: 0 1px 3px 1px;
+  margin: 0;
 }
 
 .month-label {
