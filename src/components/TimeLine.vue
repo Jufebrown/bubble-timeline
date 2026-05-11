@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { useTimelineStore } from '@/stores/timeline'
+import TimelineItem from './TimelineItem.vue'
+
 defineProps<{
   msg: string
 }>()
