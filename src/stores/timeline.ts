@@ -42,4 +42,16 @@ export const useTimelineStore = defineStore('timelineItems', {
       timelineItems: timelineData as TimelineItem[],
     }
   },
+  actions: {
+    getMonthItems(year: string | undefined, month: number | undefined) {
+      const monthItems = []
+      for (let i = 0; i < this.timelineItems.length; i++) {
+        const element = this.timelineItems[i]
+        if (element !== undefined && element.year.toString() == year && element.month == month) {
+          monthItems.push(element)
+        }
+      }
+      return monthItems
+    },
+  },
 })
