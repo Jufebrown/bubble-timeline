@@ -119,7 +119,7 @@ li {
   height: 1.5em;
   width: 1.5em;
   border: 1px solid #222222;
-  border-radius: 50%;
+
   padding: 0;
   margin: 10px 0 0 0;
   display: flex;
