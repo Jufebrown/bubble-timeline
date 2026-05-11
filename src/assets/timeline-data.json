@@ -1,6 +1,19 @@
 {
   "timelineData": [
     {
+      "year": 2014,
+      "month": 10,
+      "day": "22",
+      "poi": ["Elon Musk"],
+      "companies": ["OpenAI"],
+      "itemTypes": ["Doom"],
+      "title": "Elon Musk calls AI humanity's biggest existential threat",
+      "details": "During an interview at the MIT Aeronautics and Astronautics department’s Centennial Symposium, Elon Musk called AI humanity's biggest existential threat",
+      "links": [
+        "https://www.washingtonpost.com/video/business/technology/elon-musk-warns-that-artificial-intelligence-could-be-our-biggest-existential-threat/2014/10/24/1bcbe084-5bbd-11e4-9d6c-756a229d8b18_video.html"
+      ]
+    },
+    {
       "year": 2015,
       "month": 2,
       "day": "25",
@@ -8,17 +21,29 @@
       "companies": ["Y Combinator", "OpenAI"],
       "itemTypes": ["Doom"],
       "title": "Altman publishes blog post stating that AI is scary",
-      "details": "Altman publishes blog post stating that AI is scary https://blog.samaltman.com/machine-intelligence-part-1"
+      "details": "Altman publishes blog post stating that AI is scary",
+      "links": ["https://blog.samaltman.com/machine-intelligence-part-1"]
+    },
+    {
+      "year": 2015,
+      "month": 12,
+      "day": "11",
+      "companies": ["OpenAI"],
+      "itemTypes": ["Launch"],
+      "title": "OpenAI is launched",
+      "details": "OpenAI was founded in 2015 in Delaware as a nonprofit."
     },
     {
       "year": 2016,
-      "month": 1,
-      "day": "",
-      "poi": ["Ilya Sutskever"],
-      "companies": ["OpenAI"],
-      "itemTypes": ["Personnel Change"],
-      "title": "Ilya Sutskever joins OpenAI as Chief Scientist",
-      "details": "Ilya Sutskever joins OpenAI as Chief Scientist"
+      "month": 8,
+      "day": "15",
+      "companies": ["Nvidia", "OpenAI"],
+      "itemTypes": ["Funding"],
+      "title": "Nvidia donates DGX-1 to OpenAI",
+      "details": "Nvidia donates DGX-1 to OpenAI",
+      "links": [
+        "https://nvidianews.nvidia.com/news/nvidia-launches-world-s-first-deep-learning-supercomputer"
+      ]
     },
     {
       "year": 2019,
