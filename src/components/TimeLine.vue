@@ -5,28 +5,12 @@ defineProps<{
 }>()
 
 const timelineStore = useTimelineStore()
-const backgroundColors = [
-  '#ffadad',
-  '#ffc6b5',
-  '#ffd6a5',
-  '#ffe5b5',
-  '#fdffb6',
-  '#d9ffb6',
-  '#caffbf',
-  '#b5ffda',
-  '#9bf6ff',
-  '#9bdfff',
-  '#a0c4ff',
-  '#bdb2ff',
-  '#e0b1ff',
-  '#ffc6ff',
-]
 
 const setBackgroundColor = (index: number) => {
   if (index > 6) {
-    return backgroundColors[index % 14]
+    return timelineStore.backgroundColors[index % 14]
   } else {
-    return backgroundColors[index]
+    return timelineStore.backgroundColors[index]
   }
 }
 </script>
