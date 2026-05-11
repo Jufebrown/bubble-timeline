@@ -1,3 +1,10 @@
+<script setup lang="ts">
+defineProps<{
+  title?: string
+  details?: string
+}>()
+</script>
+
 <template>
   <div class="item">$</div>
 </template>
