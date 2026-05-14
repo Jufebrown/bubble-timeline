@@ -2,10 +2,6 @@
 import { useTimelineStore } from '@/stores/timeline'
 import TimelineItem from './TimelineItem.vue'
 
-defineProps<{
-  msg: string
-}>()
-
 const timelineStore = useTimelineStore()
 
 const getCorrectYearIndex = (index: number) => {
