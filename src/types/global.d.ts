@@ -7,7 +7,7 @@ declare global {
     day?: string
     poi?: string[]
     companies: string[]
-    itemTypes: string[]
+    type: string
     title: string
     details: string
     links?: string[]

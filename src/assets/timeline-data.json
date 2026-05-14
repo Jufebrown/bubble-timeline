@@ -6,7 +6,7 @@
       "day": "22",
       "poi": ["Elon Musk"],
       "companies": ["OpenAI"],
-      "itemTypes": ["Doom"],
+      "type": "Doom",
       "title": "Elon Musk calls AI humanity's biggest existential threat",
       "details": "During an interview at the MIT Aeronautics and Astronautics department’s Centennial Symposium, Elon Musk called AI humanity's biggest existential threat",
       "links": [
@@ -19,7 +19,7 @@
       "day": "25",
       "poi": ["Sam Altman"],
       "companies": ["Y Combinator", "OpenAI"],
-      "itemTypes": ["Doom"],
+      "type": "Doom",
       "title": "Altman publishes blog post stating that AI is scary",
       "details": "Altman publishes blog post stating that AI is scary",
       "links": ["https://blog.samaltman.com/machine-intelligence-part-1"]
@@ -29,16 +29,29 @@
       "month": 12,
       "day": "11",
       "companies": ["OpenAI"],
-      "itemTypes": ["Launch"],
+      "type": "Launch",
       "title": "OpenAI is launched",
       "details": "OpenAI was founded in 2015 in Delaware as a nonprofit."
+    },
+    {
+      "year": 2015,
+      "month": 12,
+      "poi": ["Peter Thiel", "Reid Hoffman", "Jessica Livingston", "Elon Musk"],
+      "companies": ["OpenAI"],
+      "type": "Funding",
+      "title": "OpenAI receives $130 Million grant",
+      "details": "OpenAI receives $130 Million grant from Peter Thiel, Reid Hoffman, Jessica Livingston, Infosys, YC Research, Amazon Web Services",
+      "links": [
+        "https://www.datastudios.org/post/how-openai-was-funded-from-nonprofit-donations-to-billions-in-investments-and-global-partnerships",
+        "https://tracxn.com/d/companies/openai/__kElhSG7uVGeFk1i71Co9-nwFtmtyMVT7f-YHMn4TFBg/funding-and-investors#funding-rounds"
+      ]
     },
     {
       "year": 2016,
       "month": 8,
       "day": "15",
       "companies": ["Nvidia", "OpenAI"],
-      "itemTypes": ["Funding"],
+      "type": "Funding",
       "title": "Nvidia donates DGX-1 to OpenAI",
       "details": "Nvidia donates DGX-1 to OpenAI",
       "links": [
@@ -51,7 +64,7 @@
       "day": "20",
       "poi": [],
       "companies": ["OpenAI"],
-      "itemTypes": ["Model Release"],
+      "type": "Model Release",
       "title": "OpenAI releases GPT-2",
       "details": "OpenAI releases GPT-2"
     },
@@ -61,7 +74,7 @@
       "day": "14",
       "poi": [],
       "companies": ["OpenAI"],
-      "itemTypes": ["Model Release"],
+      "type": "Model Release",
       "title": "OpenAI releases GPT-4",
       "details": "OpenAI releases GPT-4"
     },
@@ -71,7 +84,7 @@
       "day": "13",
       "poi": [],
       "companies": ["OpenAI"],
-      "itemTypes": ["Model Release"],
+      "type": "Model Release",
       "title": "OpenAI releases GPT-5.1",
       "details": "OpenAI releases GPT-5.1"
     }
