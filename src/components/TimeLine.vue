@@ -84,11 +84,17 @@ li {
   min-width: 20em;
   text-align: center;
   justify-content: stretch;
+  margin: 0;
+  padding: 0;
 }
 
 .year-label {
+  text-align: center;
   font-size: 2em;
   color: #222222;
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .month-list {
@@ -109,7 +115,7 @@ li {
 }
 
 .month-label {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   font-size: 1em;
   color: #222222;
