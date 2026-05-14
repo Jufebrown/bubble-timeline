@@ -43,12 +43,13 @@ const getMonthBackgroundColor = (yearIndex: number, monthIndex: number) => {
             }"
           >
             <TimelineItem
-              v-for="item in timelineStore.getMonthItems(
+              v-for="(item, itemIndex) in timelineStore.getMonthItems(
                 timelineStore.years[yearIndex],
                 monthIndex,
               )"
-              :key="item.year"
-              >{{ item.title }}</TimelineItem
+              :key="itemIndex"
+              :itemData="item"
+              >{{ item }}</TimelineItem
             >
             <div class="month-label">{{ month }}</div>
           </li>
