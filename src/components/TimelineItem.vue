@@ -28,14 +28,16 @@ const determineIcon = (itemType: string) => {
 </script>
 
 <template>
-  <div class="item" @click="showTitle = !showTitle">{{ determineIcon(itemData.type) }}</div>
-  <span class="title" v-if="showTitle">{{ itemData.title }}{{ itemData.type }}</span>
+  <div class="item" @click="showTitle = !showTitle">
+    {{ determineIcon(itemData.type) }}
+  </div>
+  <div class="title" v-if="showTitle">{{ itemData.title }}</div>
 </template>
 
 <style scoped>
 .item {
-  height: 1.5em;
-  width: 1.5em;
+  height: 1.75em;
+  width: 1.75em;
   border: 1px solid #222;
   border-radius: 50%;
   background-color: #222;
@@ -45,9 +47,15 @@ const determineIcon = (itemType: string) => {
   justify-content: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #ddd;
+  margin-bottom: 0.25em;
 }
 
 .title {
-  color: #222;
+  color: #ddd;
+  display: block;
+  position: absolute;
+  background-color: #222;
+  padding: 0 5px;
+  border-radius: 0.35em;
 }
 </style>

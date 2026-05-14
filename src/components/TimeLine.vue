@@ -81,9 +81,9 @@ li {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  min-width: 20em;
+  min-width: 22.6em;
   text-align: center;
-  justify-content: stretch;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -119,8 +119,8 @@ li {
   text-align: center;
   font-size: 1em;
   color: #222222;
-  height: 1.5em;
-  width: 1.5em;
+  height: 1.75em;
+  width: 1.75em;
   border: 1px solid #222222;
 
   padding: 0;
