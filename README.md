@@ -4,7 +4,8 @@ This project tracks important events in the AI bubble. Not real AI, but large la
 
 ## Timeline Event Sources
 
-[Timeline of OpenAI](https://timelines.issarice.com/wiki/Timeline_of_OpenAI).
+[Timeline of OpenAI](https://timelines.issarice.com/wiki/Timeline_of_OpenAI)
+[OpenAI - Funding & Investors](https://tracxn.com/d/companies/openai/__kElhSG7uVGeFk1i71Co9-nwFtmtyMVT7f-YHMn4TFBg/funding-and-investors#funding-rounds)
 
 ## Project Setup
 
