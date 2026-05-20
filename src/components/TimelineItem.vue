@@ -1,8 +1,12 @@
 <script setup lang="ts">
+import { ref } from 'vue'
+
 defineProps<{
   itemData: TimelineItem
   extendMonth: boolean
 }>()
+
+const displayDetail = ref(false)
 
 const determineIcon = (itemType: string) => {
   switch (itemType) {
@@ -42,7 +46,9 @@ const determineIcon = (itemType: string) => {
 <template>
   <div class="item">
     <span class="icon">{{ determineIcon(itemData.type) }}</span>
-    <span class="title" v-if="extendMonth">{{ itemData.title }}</span>
+    <span class="title" v-if="extendMonth"
+      >{{ itemData.title }} <span class="more">more...</span></span
+    >
   </div>
 </template>
 
@@ -53,7 +59,7 @@ const determineIcon = (itemType: string) => {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #ddd;
   margin-bottom: 0.25em;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .icon {
@@ -79,6 +85,7 @@ const determineIcon = (itemType: string) => {
   z-index: 10;
   text-align: center;
   margin: 0 0 0 0.35em;
+  align-items: center;
 }
 
 .title::after {
@@ -90,5 +97,11 @@ const determineIcon = (itemType: string) => {
   border-width: 5px;
   border-style: solid;
   border-color: transparent #222 transparent transparent;
+}
+
+.more {
+  font-size: 0.75em;
+  color: #aaa;
+  margin-left: 0.5em;
 }
 </style>
