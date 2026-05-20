@@ -1,8 +1,12 @@
 <script setup lang="ts">
 import { useTimelineStore } from '@/stores/timeline'
 import TimelineItem from './TimelineItem.vue'
+import { ref } from 'vue'
+import MonthBlock from './MonthBlock.vue'
 
 const timelineStore = useTimelineStore()
+
+const extendMonth = ref(false)
 
 const getCorrectYearIndex = (index: number) => {
   if (index > 6) {
@@ -22,6 +26,12 @@ const getMonthBackgroundColor = (yearIndex: number, monthIndex: number) => {
     return getYearBackgroundColor(correctYearIndex)
   }
 }
+const determineShortOrLongMonthLabel = (
+  extendMonth: boolean,
+  month: { short: string; long: string },
+) => {
+  return extendMonth ? month.long : month.short
+}
 </script>
 
 <template>
@@ -34,24 +44,8 @@ const getMonthBackgroundColor = (yearIndex: number, monthIndex: number) => {
         :style="{ backgroundColor: getYearBackgroundColor(yearIndex) }"
       >
         <ul class="month-list">
-          <li
-            class="month-block"
-            v-for="(month, monthIndex) in timelineStore.months"
-            :key="month"
-            :style="{
-              backgroundColor: getMonthBackgroundColor(yearIndex, monthIndex),
-            }"
-          >
-            <TimelineItem
-              v-for="(item, itemIndex) in timelineStore.getMonthItems(
-                timelineStore.years[yearIndex],
-                monthIndex,
-              )"
-              :key="itemIndex"
-              :itemData="item"
-              >{{ item }}</TimelineItem
-            >
-            <div class="month-label">{{ month }}</div>
+          <li v-for="(month, monthIndex) in timelineStore.months" :key="month.short">
+            <MonthBlock :month="month" :monthIndex="monthIndex" :yearIndex="yearIndex" />
           </li>
         </ul>
         <div class="year-label">{{ year }}</div>
@@ -81,7 +75,7 @@ li {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  min-width: 22.6em;
+
   text-align: center;
   justify-content: center;
   margin: 0;
@@ -120,7 +114,7 @@ li {
   font-size: 1em;
   color: #222222;
   height: 1.75em;
-  width: 1.75em;
+
   border: 1px solid #222222;
 
   padding: 0;
