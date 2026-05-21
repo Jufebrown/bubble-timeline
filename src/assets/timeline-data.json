@@ -165,6 +165,33 @@
       ]
     },
     {
+      "year": 2026,
+      "month": 3,
+      "day": "9",
+      "companies": ["Anthropic"],
+      "poi": ["Krishna Rao"],
+      "type": "Fail",
+      "title": "Anthropic files affidavit that reveals only $5 billion lifetime revenue",
+      "details": "Anthropic CFO Krishna Rao says revenue exeeded $5 billion to date. This doesn't equal the sum of previous annualized revenue claims. Looks like fraud and quacks like fraud.",
+      "links": [
+        "https://www.reuters.com/commentary/breakingviews/anthropic-gives-lesson-ai-revenue-hallucination-2026-03-10/"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "day": "3",
+      "companies": ["All"],
+      "type": "Doom",
+      "title": "AI 2027 is published. Predicts our doom with many faulty assumptions.",
+      "details": "Written by Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland, Romeo Dean; AI 2027 predicts human extinction at the hands of LLMs. The report demonstrates a fundamental lack of understanding of how LLMs work. AI models really are just auto-complete with some added psychological tricks to drive engagement. AI 2027 ascribes motivations and capabilities to LLMs that just don't exist.",
+      "links": [
+        "https://ai-2027.com/",
+        "https://www.youtube.com/watch?v=k_onqn68GHY",
+        "https://www.youtube.com/watch?v=HB2Qx25Covo"
+      ]
+    },
+    {
       "year": 2019,
       "month": 8,
       "day": "20",
