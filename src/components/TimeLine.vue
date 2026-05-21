@@ -1,12 +1,9 @@
 <script setup lang="ts">
 import { useTimelineStore } from '@/stores/timeline'
-import TimelineItem from './TimelineItem.vue'
-import { ref } from 'vue'
 import MonthBlock from './MonthBlock.vue'
+import ItemDetail from './ItemDetail.vue'
 
 const timelineStore = useTimelineStore()
-
-const extendMonth = ref(false)
 
 const getCorrectYearIndex = (index: number) => {
   if (index > 6) {
@@ -17,20 +14,6 @@ const getCorrectYearIndex = (index: number) => {
 }
 const getYearBackgroundColor = (index: number) => {
   return timelineStore.backgroundColors[getCorrectYearIndex(index)]
-}
-const getMonthBackgroundColor = (yearIndex: number, monthIndex: number) => {
-  const correctYearIndex = getCorrectYearIndex(yearIndex)
-  if (timelineStore.monthBackgroundColors[correctYearIndex] !== undefined) {
-    return timelineStore.monthBackgroundColors[correctYearIndex][monthIndex]
-  } else {
-    return getYearBackgroundColor(correctYearIndex)
-  }
-}
-const determineShortOrLongMonthLabel = (
-  extendMonth: boolean,
-  month: { short: string; long: string },
-) => {
-  return extendMonth ? month.long : month.short
 }
 </script>
 
@@ -52,6 +35,12 @@ const determineShortOrLongMonthLabel = (
       </li>
     </ul>
   </div>
+  <Transition name="slide">
+    <ItemDetail
+      v-show="timelineStore.displayDetailSidebar"
+      :displayDetail="timelineStore.displayDetailSidebar"
+    />
+  </Transition>
 </template>
 
 <style scoped>
@@ -75,7 +64,6 @@ li {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-
   text-align: center;
   justify-content: center;
   margin: 0;
@@ -98,29 +86,21 @@ li {
   padding: 0;
 }
 
-.month-block {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0 1px 3px 1px;
-  margin: 0;
+.slide-enter-active {
+  transition: all 0.3s ease-out;
 }
 
-.month-label {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
-  font-size: 1em;
-  color: #222222;
-  height: 1.75em;
+.slide-leave-active {
+  transition: all 0.3s ease-out;
+}
 
-  border: 1px solid #222222;
+.slide-enter-from {
+  transform: translateY(100%);
+  opacity: 0;
+}
 
-  padding: 0;
-  margin: 10px 0 0 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.slide-leave-to {
+  transform: translateY(100%);
+  opacity: 0;
 }
 </style>

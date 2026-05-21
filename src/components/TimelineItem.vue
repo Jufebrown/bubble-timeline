@@ -1,12 +1,17 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { useTimelineStore } from '@/stores/timeline'
 
-defineProps<{
+const timelineStore = useTimelineStore()
+
+const props = defineProps<{
   itemData: TimelineItem
   extendMonth: boolean
 }>()
 
-const displayDetail = ref(false)
+const showDetail = () => {
+  timelineStore.detailData = props.itemData
+  timelineStore.displayDetailSidebar = true
+}
 
 const determineIcon = (itemType: string) => {
   switch (itemType) {
@@ -46,7 +51,7 @@ const determineIcon = (itemType: string) => {
 <template>
   <div class="item">
     <span class="icon">{{ determineIcon(itemData.type) }}</span>
-    <span class="title" v-if="extendMonth"
+    <span class="title" v-if="extendMonth" @click.stop="showDetail()"
       >{{ itemData.title }} <span class="more">more...</span></span
     >
   </div>
@@ -59,7 +64,6 @@ const determineIcon = (itemType: string) => {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #ddd;
   margin-bottom: 0.25em;
-  justify-content: center;
 }
 
 .icon {

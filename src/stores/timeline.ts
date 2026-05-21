@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
 import { timelineData } from '../assets/timeline-data.json'
+import TimelineItem from '@/components/TimelineItem.vue'
 
 export const useTimelineStore = defineStore('timelineItems', {
   state: () => {
@@ -251,8 +252,9 @@ export const useTimelineStore = defineStore('timelineItems', {
           '#ffdcff',
         ],
       ],
-
+      displayDetailSidebar: false,
       timelineItems: timelineData as TimelineItem[],
+      detailData: {} as TimelineItem,
     }
   },
   actions: {
