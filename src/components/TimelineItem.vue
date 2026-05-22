@@ -44,6 +44,9 @@ const determineIcon = (itemType: string) => {
     case 'Environment':
       return '🌱'
 
+    case 'Resistance':
+      return '✊'
+
     default:
       return ''
   }
