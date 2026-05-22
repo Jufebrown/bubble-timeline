@@ -59,6 +59,7 @@ const determineShortOrLongMonthLabel = (
       :key="itemIndex"
       :itemData="item"
       :extendMonth="extendMonth"
+      :monthColor="getMonthBackgroundColor(yearIndex, monthIndex)"
       >{{ item }}</TimelineItem
     >
     <div

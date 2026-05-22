@@ -255,6 +255,7 @@ export const useTimelineStore = defineStore('timelineItems', {
       displayDetailSidebar: false,
       timelineItems: timelineData as TimelineItem[],
       detailData: {} as TimelineItem,
+      detailMonthColor: '',
     }
   },
   actions: {

@@ -6,11 +6,13 @@ const timelineStore = useTimelineStore()
 const props = defineProps<{
   itemData: TimelineItem
   extendMonth: boolean
+  monthColor?: string
 }>()
 
 const showDetail = () => {
   timelineStore.detailData = props.itemData
   timelineStore.displayDetailSidebar = true
+  timelineStore.detailMonthColor = props.monthColor || ''
 }
 
 const determineIcon = (itemType: string) => {
