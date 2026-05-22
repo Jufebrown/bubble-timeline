@@ -7,7 +7,7 @@
       "poi": ["Elon Musk"],
       "companies": ["OpenAI"],
       "type": "Doom",
-      "title": "Elon Musk calls AI humanity's biggest existential threat",
+      "title": "Elon Musk Calls AI Humanity's Biggest Existential Threat",
       "details": "During an interview at the MIT Aeronautics and Astronautics department’s Centennial Symposium, Elon Musk called AI humanity's biggest existential threat",
       "links": [
         "https://www.washingtonpost.com/video/business/technology/elon-musk-warns-that-artificial-intelligence-could-be-our-biggest-existential-threat/2014/10/24/1bcbe084-5bbd-11e4-9d6c-756a229d8b18_video.html"
@@ -20,9 +20,12 @@
       "poi": ["Sam Altman"],
       "companies": ["Y Combinator", "OpenAI"],
       "type": "Doom",
-      "title": "Altman publishes blog post stating that AI is scary",
-      "details": "Altman publishes blog post stating that AI is scary",
-      "links": ["https://blog.samaltman.com/machine-intelligence-part-1"]
+      "title": "Altman Publishes Blog Post Stating 'AI is scary'",
+      "details": "Altman publishes blog post stating that AI is scary. The obvious solution is to spare no expense in trying to build it as quickly as possible. At least that's the solution that lets you drive around in a $4 million Koenigsegg. He looked pretty worried behind the wheel. Maybe he should have sat on a phonebook.",
+      "links": [
+        "https://blog.samaltman.com/machine-intelligence-part-1",
+        "https://www.youtube.com/shorts/DIoMd7xDzZE"
+      ]
     },
     {
       "year": 2015,
@@ -30,8 +33,9 @@
       "day": "11",
       "companies": ["OpenAI"],
       "type": "Launch",
-      "title": "OpenAI is launched",
-      "details": "OpenAI was founded in 2015 in Delaware as a nonprofit."
+      "title": "OpenAI Launched",
+      "details": "OpenAI was founded in 2015 in Delaware as a nonprofit.",
+      "links": ["https://futureoflife.org/recent-news/openai-announced/"]
     },
     {
       "year": 2015,
@@ -39,8 +43,8 @@
       "poi": ["Peter Thiel", "Reid Hoffman", "Jessica Livingston", "Elon Musk"],
       "companies": ["OpenAI"],
       "type": "Funding",
-      "title": "OpenAI receives $130 Million grant",
-      "details": "OpenAI receives $130 Million grant from Peter Thiel, Reid Hoffman, Jessica Livingston, Infosys, YC Research, Amazon Web Services",
+      "title": "OpenAI Receives $130 Million Grant",
+      "details": "OpenAI receives $130 million grant from Peter Thiel, Reid Hoffman, Jessica Livingston, Infosys, YC Research, Amazon Web Services",
       "links": [
         "https://www.datastudios.org/post/how-openai-was-funded-from-nonprofit-donations-to-billions-in-investments-and-global-partnerships",
         "https://tracxn.com/d/companies/openai/__kElhSG7uVGeFk1i71Co9-nwFtmtyMVT7f-YHMn4TFBg/funding-and-investors#funding-rounds"
@@ -52,10 +56,11 @@
       "day": "15",
       "companies": ["Nvidia", "OpenAI"],
       "type": "Funding",
-      "title": "Nvidia donates DGX-1 to OpenAI",
+      "title": "Nvidia Donates DGX-1 Computer to OpenAI",
       "details": "Nvidia donates DGX-1 to OpenAI",
       "links": [
-        "https://nvidianews.nvidia.com/news/nvidia-launches-world-s-first-deep-learning-supercomputer"
+        "https://nvidianews.nvidia.com/news/nvidia-launches-world-s-first-deep-learning-supercomputer",
+        "https://www.nvidia.com/en-in/data-center/dgx-1/"
       ]
     },
     {
@@ -64,7 +69,7 @@
       "day": "14",
       "companies": ["Fermi"],
       "type": "Funding",
-      "title": "Fermi America secures $785 million in financing",
+      "title": "Fermi America Secures $785 Million in Financing",
       "details": "For it's first quarter, 2026 earnings report, Fermi America secured $785 million in financing, and lost $189 million.",
       "links": [
         "https://finance.yahoo.com/sectors/energy/articles/fermi-posts-189-million-first-134007333.html"
@@ -76,7 +81,7 @@
       "day": "26",
       "companies": ["Nvidia", "CoreWeave"],
       "type": "Circle Jerk",
-      "title": "Nvidia buys $2 billion in CoreWeave stock",
+      "title": "Nvidia Buys $2 Billion in CoreWeave Stock",
       "details": "Nvidia buys $2 billion in CoreWeave stock. CoreWeave buys chips from Nvidia to build AI data centers.",
       "links": [
         "https://www.cnbc.com/2026/01/26/3coreweave-nvidia-stock-ai-data-centers.html",
@@ -89,9 +94,12 @@
       "day": "24",
       "companies": ["Nvidia"],
       "type": "Fail",
-      "title": "Nvidia claims in private memo that it is not Enron",
-      "details": "No one said Nvidia was Enron, but Nvidia felt the need to make sure everyone knew. Nvidia sent a memo to employees stating that Nvidia is not Enron, and that the company is financially healthy. Now everyone thinks Nvidia is Enron and is wondering about the company's financial health.",
-      "links": ["https://www.barrons.com/articles/nvidia-stock-ai-accounting-allegations-366f16ac"]
+      "title": "Nvidia Claims That It Is Not Enron",
+      "details": "No one said Nvidia was Enron, but Nvidia felt the need to make sure everyone knew. Nvidia sent a memo to employees stating that 'Nvidia is not Enron', and that the company is financially healthy. Now everyone thinks Nvidia is Enron and is wondering about the company's financial health.",
+      "links": [
+        "https://www.barrons.com/articles/nvidia-stock-ai-accounting-allegations-366f16ac",
+        "https://www.youtube.com/watch?v=tWpxEjhZsJE"
+      ]
     },
     {
       "year": 2026,
@@ -100,7 +108,7 @@
       "companies": ["OpenAI"],
       "type": "Fail",
       "poi": ["Sarah Friar"],
-      "title": "OpenAI misses revenue and user targets",
+      "title": "OpenAI Misses Revenue and User Targets",
       "details": "According to the Wall Steet Journal, 'Chief Financial Officer Sarah Friar has told other company leaders that she is worried the company might not be able to pay for future computing contracts if revenue doesn't grow fast enough.'",
       "links": [
         "https://www.wsj.com/tech/ai/openai-misses-key-revenue-user-targets-in-high-stakes-sprint-toward-ipo-94a95273",
@@ -114,8 +122,8 @@
       "companies": ["Anthropic"],
       "poi": ["Dario Amodei"],
       "type": "Doom",
-      "title": "Dario Amodei gives an interview to Anderson Cooper on 60 Minutes.",
-      "details": "Dario Amodei gives an interview to Anderson Cooper on 60 Minutes. He claims that AI could wipe out half of entry level white collar jobs. Amodei continues to try to paint himself as the 'responsible' AI executive. Cooper never asks why Amodei doesn't shut down Claude and devote the rest of his life to stopping AI development.",
+      "title": "Dario Amodei Gives An Interview To Anderson Cooper On 60 Minutes.",
+      "details": "Dario Amodei gives an interview to Anderson Cooper on 60 Minutes. He claims that AI could wipe out half of entry level white collar jobs. Amodei continues to try to paint himself as the 'responsible' AI executive. Cooper never asks why, if AI is so dangerous, Amodei, the paragon of ethical responsibility, doesn't shut down Claude and devote the rest of his life to stopping AI development.",
       "links": [
         "https://www.youtube.com/watch?v=aAPpQC-3EyE",
         "https://calnewport.com/what-if-ai-doesnt-get-much-better-than-this/",
@@ -129,7 +137,7 @@
       "companies": ["Nvidia", "OpenAI"],
       "poi": ["Jensen Huang", "Sam Altman"],
       "type": "Circle Jerk",
-      "title": "Nvidia announces letter of intent to invest up to $100 billion in OpenAI",
+      "title": "Nvidia Announces Letter of Intent to Invest Up to $100 Billion in OpenAI",
       "details": "Nvidia releases letter of intent to invest up to $100 billion in OpenAI. Nvidia says they will release $10 billion tranches as OpenAI completes each gigawatt of a planned 10GW compute buildout. Months before anyone else, Ed Zitron analyzed Nvidia's earnings statement an called that Nvidia would never give OpenAI the money.",
       "links": [
         "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems",
@@ -143,8 +151,8 @@
       "day": "18",
       "companies": ["Anthropic"],
       "type": "Funding",
-      "title": "Anthopic secures $30 billion funding round",
-      "details": "Anthopic secures $30 billion funding round and is valued at $900 billion. Leading investors include Dragoneer, Greenoaks, Sequoia Capital, and Altimeter Capital.",
+      "title": "Anthropic Secures $30 Billion Funding Round",
+      "details": "Anthropic secures $30 billion funding round and is valued at $900 billion. Leading investors include Dragoneer, Greenoaks, Sequoia Capital, and Altimeter Capital.",
       "links": [
         "https://www.youtube.com/watch?v=qsLvZN9oVCo",
         "https://finance.yahoo.com/sectors/technology/articles/anthropic-closes-30-billion-fundraising-112955192.html"
@@ -157,7 +165,7 @@
       "companies": ["Nvidia", "OpenAI"],
       "poi": ["Jensen Huang"],
       "type": "Fail",
-      "title": "Jensen Huang walks back Nvidia's $100 billion OpenAI commitment",
+      "title": "Jensen Huang Walks Back Nvidia's $100 Billion OpenAI Commitment",
       "details": "Jensen Huang walks back Nvidia's $100 billion OpenAI commitment. Turns out a letter of intent is not a legally binding contract. Good job skirting fraud regulations, scumbags.",
       "links": [
         "https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/",
@@ -171,7 +179,7 @@
       "companies": ["Anthropic"],
       "poi": ["Krishna Rao"],
       "type": "Fail",
-      "title": "Anthropic files affidavit that reveals only $5 billion lifetime revenue",
+      "title": "Anthropic Files Affidavit That Reveals Only $5 Billion Lifetime Revenue",
       "details": "Anthropic CFO Krishna Rao says revenue exeeded $5 billion to date. This doesn't equal the sum of previous annualized revenue claims. Looks like fraud and quacks like fraud.",
       "links": [
         "https://www.reuters.com/commentary/breakingviews/anthropic-gives-lesson-ai-revenue-hallucination-2026-03-10/"
@@ -183,7 +191,7 @@
       "day": "3",
       "companies": ["All"],
       "type": "Doom",
-      "title": "AI 2027 is published. Predicts our doom with many faulty assumptions.",
+      "title": "AI 2027 is Published",
       "details": "Written by Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland, Romeo Dean; AI 2027 predicts human extinction at the hands of LLMs. The report demonstrates a fundamental lack of understanding of how LLMs work. AI models really are just auto-complete with some added psychological tricks to drive engagement. AI 2027 ascribes motivations and capabilities to LLMs that just don't exist.",
       "links": [
         "https://ai-2027.com/",
@@ -192,12 +200,68 @@
       ]
     },
     {
+      "year": 2025,
+      "month": 7,
+      "day": "8",
+      "companies": ["xAI"],
+      "type": "Fail",
+      "title": "Grok Becomes MechaHitler",
+      "details": "An LLM will just try to predict the correct way to continue a sentence based on the context window and its training data. Who would have ever thought that the LLM owned by Elon Musk, the man who gives heartfelt salutes and talks about white genocide, would be weighted toward antisemetic responses? When Musk had the engineers at xAI relax the model's guardrails so it wouldn't be so 'woke', did he really nazi what would happen?",
+      "links": [
+        "https://www.npr.org/2025/07/09/nx-s1-5462609/grok-elon-musk-antisemitic-racist-content",
+        "https://mashable.com/article/grok-xai-apologizes-for-praising-hitler-blames-users",
+        "https://www.youtube.com/watch?v=r_9wkavYt4Y"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "day": "",
+      "companies": ["Roundhouse Digital"],
+      "type": "Resistance",
+      "title": "Residents of Cascade Locks, Oregon stop $100 million data center project",
+      "details": "Local activists in Cascade Locks, Oregon stopped a 10MW data center from being built. Two officials that had supported the project lost recall elections and two others lost regular elections. It's good to see democracy work.",
+      "links": [
+        "https://protectpwc.org/2023/07/24/bisnow-local-opposition-kills-100m-data-center-project-in-hot-oregon-market/",
+        "https://gorgefriends.org/news/squandering-gorge-assets/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "day": "5",
+      "companies": ["Amazon"],
+      "type": "Resistance",
+      "title": "Voters in Warrenton, VA elect 5 Members to Town Council to Oppose Data Centers",
+      "details": "Five citizens of Warrenton, VA became council members after having campaigned on a platform in opposition to data centers. The new council members were elected after the previous council had approved a 220,000 square foot Amazon data center in a 4-3 vote. All four of the sellouts were asked to get out by the People.",
+      "links": [
+        "https://www.fauquier.com/opinion/letter-a-statement-from-incoming-warrenton-town-council-representatives/article_e8ee929e-a8f3-11ef-9da1-4f21e920b565.html",
+        "https://www.fauquiernow.com/news/warrenton-town-council-pushes-back-against-data-centers-amends-zoning-ordinance/article_67ce814a-e880-4c95-8099-bac067988a25.html",
+        "https://thenewenergycrisis.com/updates/town-council-to-take-on-data-centers-in-2025",
+        "https://www.princewilliamtimes.com/news/warrenton-town-council-election-results-were-referendum-on-amazon/article_3addfcaa-4ef5-59f2-af36-1d36d78f6ad9.html"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "day": "",
+      "companies": ["Oracle", "OpenAI"],
+      "type": "Data Centers",
+      "title": "OpenAI and Oracle Cancel 600MW Data Center Expansion",
+      "details": "OpenAI's Stargate Abilene was supposed to get an additional 600MW of compute capacity. The data center complex is being built by Crusoe for Oracle to rent the compute to OpenAI. Reportedly, Oracle and OpenAI were unable to agree on financing arrangements. I'm sure it's nothing.",
+      "links": [
+        "https://finance.yahoo.com/news/openais-massive-stargate-data-center-154932400.html",
+        "https://www.datacenterdynamics.com/en/news/oracleopenai-drop-plans-to-expand-flagship-abilene-stargate-site-meta-in-talks-to-pick-up-crusoe-capacity-with-nvidias-help/",
+        "https://www.reporternews.com/story/news/local/2026/03/10/oracle-denies-reports-on-stargate-in-abilene/89081992007/"
+      ]
+    },
+    {
       "year": 2019,
       "month": 8,
       "day": "20",
       "companies": ["OpenAI"],
       "type": "Model Release",
-      "title": "OpenAI releases GPT-2",
+      "title": "OpenAI Releases GPT-2",
       "details": "OpenAI releases GPT-2"
     },
     {
@@ -206,7 +270,7 @@
       "day": "14",
       "companies": ["OpenAI"],
       "type": "Model Release",
-      "title": "OpenAI releases GPT-4",
+      "title": "OpenAI Releases GPT-4",
       "details": "OpenAI releases GPT-4"
     },
     {
@@ -215,7 +279,7 @@
       "day": "13",
       "companies": ["OpenAI"],
       "type": "Model Release",
-      "title": "OpenAI releases GPT-5.1",
+      "title": "OpenAI Releases GPT-5.1",
       "details": "OpenAI releases GPT-5.1"
     }
   ]
