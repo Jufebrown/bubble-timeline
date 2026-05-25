@@ -26,7 +26,7 @@ const determineIcon = (itemType: string) => {
     case 'Funding':
       return '💲'
 
-    case 'Model Release':
+    case 'Product Release':
       return '🔖'
 
     case 'Fail':
