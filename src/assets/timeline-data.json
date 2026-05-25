@@ -138,7 +138,7 @@
       "poi": ["Jensen Huang", "Sam Altman"],
       "type": "Circle Jerk",
       "title": "Nvidia Announces Letter of Intent to Invest Up to $100 Billion in OpenAI",
-      "details": "Nvidia releases letter of intent to invest up to $100 billion in OpenAI. Nvidia says they will release $10 billion tranches as OpenAI completes each gigawatt of a planned 10GW compute buildout. Months before anyone else, Ed Zitron analyzed Nvidia's earnings statement an called that Nvidia would never give OpenAI the money.",
+      "details": "Nvidia releases letter of intent to invest up to $100 billion in OpenAI. Nvidia says they will release $10 billion tranches as OpenAI completes each gigawatt of a planned 10GW compute buildout. Months before anyone else, Ed Zitron analyzed Nvidia's earnings statement and called that Nvidia would never give OpenAI the money.",
       "links": [
         "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems",
         "https://www.cnbc.com/2025/09/23/altman-huang-negotiations-that-sealed-100-billion-openai-nvidia-deal.html",
@@ -267,6 +267,33 @@
         "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
         "https://www.youtube.com/watch?v=ImLdI_Ix6zg",
         "https://www.youtube.com/watch?v=55Z4cg5Fyu4"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "day": "17",
+      "companies": ["All"],
+      "type": "Resistance",
+      "title": "60+ Groups Call For Moratorium On NJ Data Centers",
+      "details": "Environmental, labor and community groups called on New Jersey's Governor to pause new AI data center construction. It seems that people don't want subsidize this boondoggle with higher electric bills and loss of drinking water.",
+      "links": [
+        "https://www.nj.com/news/2026/05/60-groups-just-called-on-nj-governor-to-immediately-pause-all-ai-data-center-projects.html",
+        "https://engage.pinelandsalliance.org/datacentersnj",
+        "https://www.foodandwaterwatch.org/2026/05/14/60-groups-to-gov-sherrill-protect-new-jersey-from-data-centers/"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "day": "20",
+      "companies": ["A1 Data Center"],
+      "type": "Resistance",
+      "title": "Millville, NJ Votes to ban AI Data Centers",
+      "details": "The city commissioners of Millville, NJ voted to ban AI data centers. This halted a 66 acre, 1.4GW data center campus that was going to be built by A1 Data Center.",
+      "links": [
+        "https://www.businessinsider.com/ai-data-center-ban-opposition-new-jersey-2026-5",
+        "https://www.a1datacenter.net/"
       ]
     },
     {
