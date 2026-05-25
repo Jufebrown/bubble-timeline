@@ -248,7 +248,6 @@ export const useTimelineStore = defineStore('timelineItems', {
           workingYearsList.push(year)
         }
       }
-
       const yearsList: number[] = []
       for (let j = Math.min(...workingYearsList); j <= Math.max(...workingYearsList); j++) {
         yearsList.push(j)
