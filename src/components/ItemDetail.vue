@@ -79,7 +79,8 @@ a {
   position: fixed;
   top: 9vh;
   width: 25vw;
-  height: 85.5vh;
+  /* height: 85.5vh; */
+  height: 100%;
   background-color: #1c1c1c;
   color: #eee;
   padding: 2em;
@@ -137,5 +138,11 @@ a {
 .links {
   margin-top: auto;
   list-style-type: square;
+}
+
+@media (max-width: 720px) {
+  .detail-sidebar {
+    width: 100%;
+  }
 }
 </style>
