@@ -38,7 +38,9 @@ const getFormattedDate = () => {
       color: timelineStore.detailMonthColor,
     }"
   >
-    <button class="close-button" @click="timelineStore.displayDetailSidebar = false">Close</button>
+    <button class="close-button" @click="timelineStore.displayDetailSidebar = false">
+      CLOSE<span class="close-x">X</span>
+    </button>
 
     <h5 class="date-header">
       {{ getFormattedDate() }}
@@ -105,8 +107,15 @@ a {
   background-color: transparent;
   color: #eee;
   border: none;
-  font-size: 1em;
+  font-size: 0.8em;
   cursor: pointer;
+}
+
+.close-x {
+  border: 1px solid #eee;
+  border-radius: 2px;
+  padding: 1px 2px;
+  margin-left: 3px;
 }
 
 .date-header {
