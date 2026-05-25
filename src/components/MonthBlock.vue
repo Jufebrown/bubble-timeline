@@ -16,6 +16,10 @@ const timelineStore = useTimelineStore()
 
 const extendMonth = ref(false)
 
+defineExpose({
+  extendMonth,
+})
+
 const getCorrectYearIndex = (index: number) => {
   if (index > 6) {
     return index % 14

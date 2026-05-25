@@ -5,25 +5,6 @@ import TimelineItem from '@/components/TimelineItem.vue'
 export const useTimelineStore = defineStore('timelineItems', {
   state: () => {
     return {
-      years: [
-        '2014',
-        '2015',
-        '2016',
-        '2017',
-        '2018',
-        '2019',
-        '2020',
-        '2021',
-        '2022',
-        '2023',
-        '2024',
-        '2025',
-        '2026',
-        '2027',
-        '2028',
-        '2029',
-        '2030',
-      ],
       months: [
         { short: 'J', long: 'January' },
         { short: 'F', long: 'February' },
@@ -257,6 +238,23 @@ export const useTimelineStore = defineStore('timelineItems', {
       detailData: {} as TimelineItem,
       detailMonthColor: '',
     }
+  },
+  getters: {
+    years(state) {
+      const workingYearsList: number[] = []
+      for (let i = 0; i < state.timelineItems.length; i++) {
+        const year = state.timelineItems[i]?.year
+        if (typeof year === 'number') {
+          workingYearsList.push(year)
+        }
+      }
+
+      const yearsList: number[] = []
+      for (let j = Math.min(...workingYearsList); j <= Math.max(...workingYearsList); j++) {
+        yearsList.push(j)
+      }
+      return yearsList
+    },
   },
   actions: {
     getMonthItems(year: string | undefined, monthIndex: number | undefined) {
