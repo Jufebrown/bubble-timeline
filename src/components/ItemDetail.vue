@@ -80,7 +80,7 @@ a {
   top: 9vh;
   width: 25vw;
   /* height: 85.5vh; */
-  height: 100%;
+  height: 100vh;
   background-color: #1c1c1c;
   color: #eee;
   padding: 2em;
@@ -136,7 +136,7 @@ a {
 }
 
 .links {
-  margin-top: auto;
+  margin: auto 0 8em 0;
   list-style-type: square;
 }
 
