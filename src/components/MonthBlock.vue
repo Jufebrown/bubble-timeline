@@ -57,7 +57,7 @@ const determineShortOrLongMonthLabel = (
   >
     <TimelineItem
       v-for="(item, itemIndex) in timelineStore.getMonthItems(
-        timelineStore.years[yearIndex],
+        timelineStore.years[yearIndex]?.toString(),
         monthIndex,
       )"
       :key="itemIndex"
