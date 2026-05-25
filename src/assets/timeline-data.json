@@ -122,7 +122,7 @@
       "companies": ["Anthropic"],
       "poi": ["Dario Amodei"],
       "type": "Doom",
-      "title": "Dario Amodei Gives An Interview To Anderson Cooper On 60 Minutes.",
+      "title": "Dario Amodei Gives 60 Minutes Interview",
       "details": "Dario Amodei gives an interview to Anderson Cooper on 60 Minutes. He claims that AI could wipe out half of entry level white collar jobs. Amodei continues to try to paint himself as the 'responsible' AI executive. Cooper never asks why, if AI is so dangerous, Amodei, the paragon of ethical responsibility, doesn't shut down Claude and devote the rest of his life to stopping AI development.",
       "links": [
         "https://www.youtube.com/watch?v=aAPpQC-3EyE",
@@ -256,11 +256,52 @@
       ]
     },
     {
+      "year": 2026,
+      "month": 4,
+      "day": "26",
+      "companies": ["OpenAI"],
+      "type": "Fail",
+      "title": "OpenAI Kills Sora",
+      "details": "Only months after releasing Sora 2, OpenAI discontinued its video generation product. Turns out it isn't profitable to burn compute making full-motion slop, not that it's profitable to make static slop, but full-motion slop is especially unprofitable.",
+      "links": [
+        "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+        "https://www.youtube.com/watch?v=ImLdI_Ix6zg",
+        "https://www.youtube.com/watch?v=55Z4cg5Fyu4"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "day": "21",
+      "poi": ["Donald Trump", "Sam Altman", "Larry Ellison", "Masayoshi Son"],
+      "companies": [
+        "Oracle",
+        "OpenAI",
+        "SoftBank",
+        "MGX",
+        "ARM",
+        "Nvidia",
+        "JP Morgan Chase",
+        "Crusoe Energy Systems",
+        "Blue Owl Capital",
+        "Primary Digital Infrastructure",
+        "Microsoft"
+      ],
+      "type": "Data Centers",
+      "title": "$500 Billion Stargate Project Announced",
+      "details": "The Stargate Project was a joint venture between OpenAI, Oracle, Softbank and MGX to build up to half a trillion dollars worth of data centers for LLMs. The project was announced by Donald Trump, Larry Ellison, Masayoshi Son and Sam Altman. It was like a Liars Anonymous meeting. A small sampling of the unsupported claims made: 100,000 jobs will be created almost immediately, we'll be amazed at the rate we're curing cancers and heart disease, 'The Golden Age' is beginning, AGI and superintelligence are on the way, we couldn't have done this without you Mr. President.",
+      "links": [
+        "https://www.youtube.com/watch?v=E3HS_LwNKps",
+        "https://www.youtube.com/watch?v=TCeXwFWmv1U",
+        "https://en.wikipedia.org/wiki/Stargate_LLC"
+      ]
+    },
+    {
       "year": 2019,
       "month": 8,
       "day": "20",
       "companies": ["OpenAI"],
-      "type": "Model Release",
+      "type": "Product Release",
       "title": "OpenAI Releases GPT-2",
       "details": "OpenAI releases GPT-2"
     },
@@ -269,7 +310,7 @@
       "month": 3,
       "day": "14",
       "companies": ["OpenAI"],
-      "type": "Model Release",
+      "type": "Product Release",
       "title": "OpenAI Releases GPT-4",
       "details": "OpenAI releases GPT-4"
     },
@@ -278,7 +319,7 @@
       "month": 11,
       "day": "13",
       "companies": ["OpenAI"],
-      "type": "Model Release",
+      "type": "Product Release",
       "title": "OpenAI Releases GPT-5.1",
       "details": "OpenAI releases GPT-5.1"
     }
