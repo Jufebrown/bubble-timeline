@@ -9,7 +9,14 @@ const props = defineProps<{
   monthColor?: string
 }>()
 
-const showDetail = () => {
+const showDetail = (event: MouseEvent) => {
+  if (event.target instanceof Element) {
+    const currentMonth = event.target.closest('.month-block')
+    if (currentMonth instanceof Element) {
+      console.log('parentnode is element')
+      currentMonth?.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' })
+    }
+  }
   timelineStore.detailData = props.itemData
   timelineStore.displayDetailSidebar = true
   timelineStore.detailMonthColor = props.monthColor || ''
@@ -56,7 +63,7 @@ const determineIcon = (itemType: string) => {
 <template>
   <div class="item">
     <span class="icon">{{ determineIcon(itemData.type) }}</span>
-    <span class="title" v-if="extendMonth" @click.stop="showDetail()"
+    <span class="title" v-if="extendMonth" @click.stop="showDetail"
       >{{ itemData.title }} <span class="more">more...</span></span
     >
   </div>
