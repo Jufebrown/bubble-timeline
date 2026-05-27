@@ -1,14 +1,17 @@
 <script setup lang="ts">
 import TimeLine from './components/TimeLine.vue'
+import TimelineControls from './components/TimelineControls.vue'
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
+  <div class="wrapper">
+    <header class="header">
       <h1>Timeline of the AI Bubble</h1>
-      <TimeLine />
-    </div>
-  </header>
+      <TimelineControls />
+    </header>
+
+    <TimeLine />
+  </div>
 </template>
 
 <style scoped>
