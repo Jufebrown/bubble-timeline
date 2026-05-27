@@ -189,7 +189,7 @@
       "year": 2025,
       "month": 4,
       "day": "3",
-      "companies": ["All"],
+      "companies": ["General"],
       "type": "Doom",
       "title": "AI 2027 is Published",
       "details": "Written by Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland, Romeo Dean; AI 2027 predicts human extinction at the hands of LLMs. The report demonstrates a fundamental lack of understanding of how LLMs work. AI models really are just auto-complete with some added psychological tricks to drive engagement. AI 2027 ascribes motivations and capabilities to LLMs that just don't exist.",
