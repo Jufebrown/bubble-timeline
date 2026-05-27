@@ -237,22 +237,44 @@ export const useTimelineStore = defineStore('timelineItems', {
       timelineItems: timelineData as TimelineItem[],
       detailData: {} as TimelineItem,
       detailMonthColor: '',
+      extendMonths: false,
+      showFilterMenu: false,
     }
   },
   getters: {
     years(state) {
       const workingYearsList: number[] = []
-      for (let i = 0; i < state.timelineItems.length; i++) {
-        const year = state.timelineItems[i]?.year
-        if (typeof year === 'number') {
-          workingYearsList.push(year)
+      state.timelineItems.forEach((item: TimelineItem) => {
+        if (!workingYearsList.includes(item.year)) {
+          workingYearsList.push(item.year)
         }
-      }
+      })
+      // return a list of years from the earliest to latest with all years in between in case there are skipped years in data
       const yearsList: number[] = []
-      for (let j = Math.min(...workingYearsList); j <= Math.max(...workingYearsList); j++) {
-        yearsList.push(j)
+      for (let i = Math.min(...workingYearsList); i <= Math.max(...workingYearsList); i++) {
+        yearsList.push(i)
       }
       return yearsList
+    },
+    companies(state) {
+      const companies: string[] = []
+      state.timelineItems.forEach((item: TimelineItem) => {
+        item.companies.forEach((company) => {
+          if (!companies.includes(company)) {
+            companies.push(company)
+          }
+        })
+      })
+      return companies.sort()
+    },
+    itemTypes(state) {
+      const itemTypes: string[] = []
+      state.timelineItems.forEach((item: TimelineItem) => {
+        if (!itemTypes.includes(item.type)) {
+          itemTypes.push(item.type)
+        }
+      })
+      return itemTypes
     },
   },
   actions: {
