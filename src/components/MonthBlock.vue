@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useTimelineStore } from '@/stores/timeline'
 import TimelineItem from './TimelineItem.vue'
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 
 defineProps<{
   month: {
@@ -44,6 +44,17 @@ const determineShortOrLongMonthLabel = (
 ) => {
   return extendMonth ? month.long : month.short
 }
+
+watch(
+  () => timelineStore.extendMonths,
+  (newValue) => {
+    if (newValue) {
+      extendMonth.value = true
+    } else if (!newValue) {
+      extendMonth.value = false
+    }
+  },
+)
 </script>
 
 <template>
