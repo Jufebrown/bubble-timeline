@@ -259,21 +259,27 @@ export const useTimelineStore = defineStore('timelineItems', {
       return yearsList
     },
     companies(state) {
-      const companies: string[] = []
+      const companiesList: CompanyInfo[] = []
+      const tempCompaniesList: string[] = []
       state.timelineItems.forEach((item: TimelineItem) => {
         item.companies.forEach((company) => {
-          if (!companies.includes(company)) {
-            companies.push(company)
+          if (!tempCompaniesList.includes(company)) {
+            tempCompaniesList.push(company)
+            const currentCompany: CompanyInfo = { name: company, selected: true }
+            companiesList.push(currentCompany)
           }
         })
       })
-      return companies.sort()
+      return companiesList.sort()
     },
     itemTypes(state) {
-      const itemTypes: string[] = []
+      const itemTypes: ItemCategory[] = []
+      const tempItemTypes: string[] = []
       state.timelineItems.forEach((item: TimelineItem) => {
-        if (!itemTypes.includes(item.type)) {
-          itemTypes.push(item.type)
+        if (!tempItemTypes.includes(item.type)) {
+          tempItemTypes.push(item.type)
+          const currentItemType: ItemCategory = { name: item.type, selected: true }
+          itemTypes.push(currentItemType)
         }
       })
       return itemTypes
