@@ -2,6 +2,24 @@
 import { useTimelineStore } from '@/stores/timeline'
 
 const timelineStore = useTimelineStore()
+
+const handleFilterClick = () => {
+  timelineStore.showFilterMenu = false
+}
+
+const handleCategoryCheck = (index: number) => {
+  const selectedCategory = timelineStore.itemTypes[index]?.name
+  if (selectedCategory) {
+    timelineStore.toggleSelectedCategories(selectedCategory)
+  }
+}
+
+const handleCompanyCheck = (index: number) => {
+  const selectedCompany = timelineStore.companies[index]?.name
+  if (selectedCompany) {
+    timelineStore.toggleSelectedCompanies(selectedCompany)
+  }
+}
 </script>
 
 <template>
