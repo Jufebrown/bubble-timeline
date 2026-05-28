@@ -287,7 +287,7 @@ export const useTimelineStore = defineStore('timelineItems', {
   },
   actions: {
     getMonthItems(year: string | undefined, monthIndex: number | undefined) {
-      const monthItems = []
+      let monthItems: TimelineItem[] = []
       let month
       if (monthIndex !== undefined) {
         month = monthIndex + 1
