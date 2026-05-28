@@ -12,4 +12,14 @@ declare global {
     details: string
     links?: string[]
   }
+
+  interface CompanyInfo {
+    name: string
+    selected: boolean
+  }
+
+  interface ItemCategory {
+    name: string
+    selected: boolean
+  }
 }
