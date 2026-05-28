@@ -1,6 +1,15 @@
 <script setup lang="ts">
+import { onMounted } from 'vue'
+import { useTimelineStore } from '@/stores/timeline'
 import TimeLine from './components/TimeLine.vue'
 import TimelineControls from './components/TimelineControls.vue'
+
+const timelineStore = useTimelineStore()
+
+onMounted(() => {
+  timelineStore.selectAllCategories()
+  timelineStore.selectAllCompanies()
+})
 </script>
 
 <template>
