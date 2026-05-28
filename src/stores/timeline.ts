@@ -239,6 +239,8 @@ export const useTimelineStore = defineStore('timelineItems', {
       detailMonthColor: '',
       extendMonths: false,
       showFilterMenu: false,
+      selectedCategories: [] as string[],
+      selectedCompanies: [] as string[],
     }
   },
   getters: {
