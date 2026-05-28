@@ -28,25 +28,31 @@ const handleCompanyCheck = (index: number) => {
       <div class="item-type-list filter-list">
         <h5>Categories:</h5>
         <ul>
-          <li v-for="itemType in timelineStore.itemTypes" :key="itemType">
-            <input type="checkbox" :name="itemType" :checked="true" /><label for="itemType">{{
-              itemType
-            }}</label>
+          <li v-for="(itemType, index) in timelineStore.itemTypes" :key="itemType.name">
+            <input
+              type="checkbox"
+              :name="itemType.name"
+              :checked="itemType.selected"
+              @change="handleCategoryCheck(index)"
+            /><label for="itemType.name">{{ itemType.name }}</label>
           </li>
         </ul>
       </div>
       <div class="company-list filter-list">
         <h5>Companies:</h5>
         <ul>
-          <li v-for="company in timelineStore.companies" :key="company">
-            <input type="checkbox" :name="company" :checked="true" /><label for="company">{{
-              company
-            }}</label>
+          <li v-for="(company, index) in timelineStore.companies" :key="company.name">
+            <input
+              type="checkbox"
+              :name="company.name"
+              :checked="company.selected"
+              @change="handleCompanyCheck(index)"
+            /><label for="company.name">{{ company.name }}</label>
           </li>
         </ul>
       </div>
     </div>
-    <button @click="timelineStore.showFilterMenu = false">Filter</button>
+    <button @click="handleFilterClick()">Close</button>
   </div>
 </template>
 
