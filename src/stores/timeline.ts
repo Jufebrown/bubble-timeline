@@ -295,10 +295,52 @@ export const useTimelineStore = defineStore('timelineItems', {
       for (let i = 0; i < this.timelineItems.length; i++) {
         const element = this.timelineItems[i]
         if (element !== undefined && element.year.toString() == year && element.month == month) {
-          monthItems.push(element)
+          if (
+            this.selectedCategories.includes(element.type) &&
+            this.determineIfCompaniesSelected(element)
+          ) {
+            monthItems.push(element)
+          } else {
+            monthItems = monthItems.filter((item) => item !== element)
+          }
         }
       }
       return monthItems
+    },
+    determineIfCompaniesSelected(timelineItem: TimelineItem) {
+      let result = false
+      timelineItem.companies.forEach((company) => {
+        if (this.selectedCompanies.includes(company)) {
+          result = true
+        } else {
+          result = false
+        }
+      })
+      return result
+    },
+    toggleSelectedCategories(category: string) {
+      if (!this.selectedCategories.includes(category)) {
+        this.selectedCategories.push(category)
+      } else {
+        this.selectedCategories = this.selectedCategories.filter((item) => item !== category)
+      }
+    },
+    toggleSelectedCompanies(company: string) {
+      if (!this.selectedCompanies.includes(company)) {
+        this.selectedCompanies.push(company)
+      } else {
+        this.selectedCompanies = this.selectedCompanies.filter((item) => item !== company)
+      }
+    },
+    selectAllCategories() {
+      this.itemTypes.forEach((itemType) => {
+        this.selectedCategories.push(itemType.name)
+      })
+    },
+    selectAllCompanies() {
+      this.companies.forEach((company) => {
+        this.selectedCompanies.push(company.name)
+      })
     },
   },
 })
