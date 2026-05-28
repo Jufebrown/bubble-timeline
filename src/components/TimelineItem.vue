@@ -13,7 +13,6 @@ const showDetail = (event: MouseEvent) => {
   if (event.target instanceof Element) {
     const currentMonth = event.target.closest('.month-block')
     if (currentMonth instanceof Element) {
-      console.log('parentnode is element')
       currentMonth?.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' })
     }
   }
