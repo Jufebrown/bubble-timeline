@@ -57,63 +57,76 @@ const handleSelectAllPeople = () => {
     <div class="filter-list-wrapper">
       <div class="item-type-list filter-list">
         <div class="column-header">
-          <input
-            type="checkbox"
-            name="all-categories"
-            :checked="timelineStore.allCategoriesSelected"
-            @change="handleSelectAllCategories()"
-          /><label for="all-categories"><h4>Categories:</h4></label>
+          <label
+            ><input
+              type="checkbox"
+              name="all-categories"
+              :checked="timelineStore.allCategoriesSelected"
+              @change="handleSelectAllCategories()"
+            />
+            <h4>Categories:</h4></label
+          >
         </div>
         <ul>
           <li v-for="(itemType, index) in timelineStore.itemTypes" :key="itemType">
-            <input
-              type="checkbox"
-              :name="itemType"
-              :checked="timelineStore.selectedCategories.includes(itemType)"
-              @change="handleCategoryCheck(index)"
-            /><label for="itemType.name">{{ itemType }}</label>
+            <label
+              ><input
+                type="checkbox"
+                :name="itemType"
+                :checked="timelineStore.selectedCategories.includes(itemType)"
+                @change="handleCategoryCheck(index)"
+              />{{ itemType }}</label
+            >
           </li>
         </ul>
       </div>
       <div class="company-list filter-list">
         <div class="column-header">
-          <input
-            type="checkbox"
-            name="all-companies"
-            :checked="timelineStore.allCompaniesSelected"
-            @change="handleSelectAllCompanies()"
-          />
-          <label for="all-companies"><h4>Companies:</h4></label>
+          <label
+            ><input
+              type="checkbox"
+              name="all-companies"
+              :checked="timelineStore.allCompaniesSelected"
+              @change="handleSelectAllCompanies()"
+            />
+            <h4>Companies:</h4></label
+          >
         </div>
         <ul>
           <li v-for="(company, index) in timelineStore.companies" :key="company">
-            <input
-              type="checkbox"
-              :name="company"
-              :checked="timelineStore.selectedCompanies.includes(company)"
-              @change="handleCompanyCheck(index)"
-            /><label for="company.name">{{ company }}</label>
+            <label
+              ><input
+                type="checkbox"
+                :name="company"
+                :checked="timelineStore.selectedCompanies.includes(company)"
+                @change="handleCompanyCheck(index)"
+              />{{ company }}</label
+            >
           </li>
         </ul>
       </div>
       <div class="person-list filter-list">
         <div class="column-header">
-          <input
-            type="checkbox"
-            name="all-people"
-            :checked="timelineStore.allCompaniesSelected"
-            @change="handleSelectAllPeople()"
-          />
-          <label for="all-people"><h4>People:</h4></label>
+          <label
+            ><input
+              type="checkbox"
+              name="all-people"
+              :checked="timelineStore.allPeopleSelected"
+              @change="handleSelectAllPeople()"
+            />
+            <h4>People:</h4></label
+          >
         </div>
         <ul>
           <li v-for="(person, index) in timelineStore.people" :key="person">
-            <input
-              type="checkbox"
-              :name="person"
-              :checked="timelineStore.selectedPeople.includes(person)"
-              @change="handlePersonCheck(index)"
-            /><label for="person.name">{{ person }}</label>
+            <label
+              ><input
+                type="checkbox"
+                :name="person"
+                :checked="timelineStore.selectedPeople.includes(person)"
+                @change="handlePersonCheck(index)"
+              />{{ person }}</label
+            >
           </li>
         </ul>
       </div>
@@ -136,13 +149,16 @@ li {
   list-style-type: none;
 }
 
+input {
+  margin-right: 0.5em;
+}
+
 label {
-  margin-left: 0.5em;
+  display: flex;
+  flex-direction: row;
 }
 
 .column-header {
-  display: flex;
-  flex-direction: row;
   margin-bottom: 0.5em;
   padding-bottom: 0.25em;
 }
