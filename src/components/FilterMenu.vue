@@ -172,6 +172,7 @@ label {
   left: 50%;
   transform: translate(-50%, 0);
   color: #eee;
+  border-radius: 8px;
 }
 
 .filter-list-wrapper {
