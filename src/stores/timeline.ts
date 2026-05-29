@@ -241,6 +241,10 @@ export const useTimelineStore = defineStore('timelineItems', {
       showFilterMenu: false,
       selectedCategories: [] as string[],
       selectedCompanies: [] as string[],
+      selectedPeople: [] as string[],
+      allCategoriesSelected: true,
+      allCompaniesSelected: true,
+      allPeopleSelected: true,
     }
   },
   getters: {
@@ -350,6 +354,15 @@ export const useTimelineStore = defineStore('timelineItems', {
       this.people.forEach((person) => {
         this.selectedPeople.push(person)
       })
+    },
+    deselectAllCategories() {
+      this.selectedCategories = []
+    },
+    deselectAllCompanies() {
+      this.selectedCompanies = []
+    },
+    deselectAllPeople() {
+      this.selectedPeople = []
     },
   },
 })

@@ -16,13 +16,54 @@ const handleCompanyCheck = (index: number) => {
     timelineStore.toggleSelectedCompanies(selectedCompany)
   }
 }
+
+const handlePersonCheck = (index: number) => {
+  const selectedPerson = timelineStore.people[index]
+  if (selectedPerson) {
+    timelineStore.toggleSelectedPeople(selectedPerson)
+  }
+}
+
+const handleSelectAllCategories = () => {
+  timelineStore.allCategoriesSelected = !timelineStore.allCategoriesSelected
+  if (timelineStore.allCategoriesSelected) {
+    timelineStore.selectAllCategories()
+  } else {
+    timelineStore.deselectAllCategories()
+  }
+}
+
+const handleSelectAllCompanies = () => {
+  timelineStore.allCompaniesSelected = !timelineStore.allCompaniesSelected
+  if (timelineStore.allCompaniesSelected) {
+    timelineStore.selectAllCompanies()
+  } else {
+    timelineStore.deselectAllCompanies()
+  }
+}
+
+const handleSelectAllPeople = () => {
+  timelineStore.allPeopleSelected = !timelineStore.allPeopleSelected
+  if (timelineStore.allPeopleSelected) {
+    timelineStore.selectAllPeople()
+  } else {
+    timelineStore.deselectAllPeople()
+  }
+}
 </script>
 
 <template>
   <div class="filter-menu">
     <div class="filter-list-wrapper">
       <div class="item-type-list filter-list">
-        <h5>Categories:</h5>
+        <div class="column-header">
+          <input
+            type="checkbox"
+            name="all-categories"
+            :checked="timelineStore.allCategoriesSelected"
+            @change="handleSelectAllCategories()"
+          /><label for="all-categories"><h4>Categories:</h4></label>
+        </div>
         <ul>
           <li v-for="(itemType, index) in timelineStore.itemTypes" :key="itemType">
             <input
@@ -35,7 +76,15 @@ const handleCompanyCheck = (index: number) => {
         </ul>
       </div>
       <div class="company-list filter-list">
-        <h5>Companies:</h5>
+        <div class="column-header">
+          <input
+            type="checkbox"
+            name="all-companies"
+            :checked="timelineStore.allCompaniesSelected"
+            @change="handleSelectAllCompanies()"
+          />
+          <label for="all-companies"><h4>Companies:</h4></label>
+        </div>
         <ul>
           <li v-for="(company, index) in timelineStore.companies" :key="company">
             <input
@@ -43,7 +92,28 @@ const handleCompanyCheck = (index: number) => {
               :name="company"
               :checked="timelineStore.selectedCompanies.includes(company)"
               @change="handleCompanyCheck(index)"
-            /><label for="company.name">{{ company.name }}</label>
+            /><label for="company.name">{{ company }}</label>
+          </li>
+        </ul>
+      </div>
+      <div class="person-list filter-list">
+        <div class="column-header">
+          <input
+            type="checkbox"
+            name="all-people"
+            :checked="timelineStore.allCompaniesSelected"
+            @change="handleSelectAllPeople()"
+          />
+          <label for="all-people"><h4>People:</h4></label>
+        </div>
+        <ul>
+          <li v-for="(person, index) in timelineStore.people" :key="person">
+            <input
+              type="checkbox"
+              :name="person"
+              :checked="timelineStore.selectedPeople.includes(person)"
+              @change="handlePersonCheck(index)"
+            /><label for="person.name">{{ person }}</label>
           </li>
         </ul>
       </div>
@@ -53,6 +123,11 @@ const handleCompanyCheck = (index: number) => {
 </template>
 
 <style scoped>
+h4 {
+  font-weight: bold;
+  border-bottom: 1px solid #777;
+}
+
 ul {
   padding: 0;
 }
@@ -63,6 +138,13 @@ li {
 
 label {
   margin-left: 0.5em;
+}
+
+.column-header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.25em;
 }
 
 .filter-menu {
