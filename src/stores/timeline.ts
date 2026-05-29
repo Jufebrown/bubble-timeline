@@ -334,12 +334,21 @@ export const useTimelineStore = defineStore('timelineItems', {
     },
     selectAllCategories() {
       this.itemTypes.forEach((itemType) => {
-        this.selectedCategories.push(itemType.name)
+        if (!this.selectedCategories.includes(itemType)) {
+          this.selectedCategories.push(itemType)
+        }
       })
     },
     selectAllCompanies() {
       this.companies.forEach((company) => {
-        this.selectedCompanies.push(company.name)
+        if (!this.selectedCompanies.includes(company)) {
+          this.selectedCompanies.push(company)
+        }
+      })
+    },
+    selectAllPeople() {
+      this.people.forEach((person) => {
+        this.selectedPeople.push(person)
       })
     },
   },

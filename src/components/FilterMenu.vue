@@ -4,14 +4,14 @@ import { useTimelineStore } from '@/stores/timeline'
 const timelineStore = useTimelineStore()
 
 const handleCategoryCheck = (index: number) => {
-  const selectedCategory = timelineStore.itemTypes[index]?.name
+  const selectedCategory = timelineStore.itemTypes[index]
   if (selectedCategory) {
     timelineStore.toggleSelectedCategories(selectedCategory)
   }
 }
 
 const handleCompanyCheck = (index: number) => {
-  const selectedCompany = timelineStore.companies[index]?.name
+  const selectedCompany = timelineStore.companies[index]
   if (selectedCompany) {
     timelineStore.toggleSelectedCompanies(selectedCompany)
   }
@@ -24,24 +24,24 @@ const handleCompanyCheck = (index: number) => {
       <div class="item-type-list filter-list">
         <h5>Categories:</h5>
         <ul>
-          <li v-for="(itemType, index) in timelineStore.itemTypes" :key="itemType.name">
+          <li v-for="(itemType, index) in timelineStore.itemTypes" :key="itemType">
             <input
               type="checkbox"
-              :name="itemType.name"
-              :checked="itemType.selected"
+              :name="itemType"
+              :checked="timelineStore.selectedCategories.includes(itemType)"
               @change="handleCategoryCheck(index)"
-            /><label for="itemType.name">{{ itemType.name }}</label>
+            /><label for="itemType.name">{{ itemType }}</label>
           </li>
         </ul>
       </div>
       <div class="company-list filter-list">
         <h5>Companies:</h5>
         <ul>
-          <li v-for="(company, index) in timelineStore.companies" :key="company.name">
+          <li v-for="(company, index) in timelineStore.companies" :key="company">
             <input
               type="checkbox"
-              :name="company.name"
-              :checked="company.selected"
+              :name="company"
+              :checked="timelineStore.selectedCompanies.includes(company)"
               @change="handleCompanyCheck(index)"
             /><label for="company.name">{{ company.name }}</label>
           </li>
