@@ -9,6 +9,7 @@ const timelineStore = useTimelineStore()
 onMounted(() => {
   timelineStore.selectAllCategories()
   timelineStore.selectAllCompanies()
+  timelineStore.selectAllPeople()
 })
 </script>
 
