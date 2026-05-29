@@ -5,7 +5,10 @@ const timelineStore = useTimelineStore()
 </script>
 
 <template>
-  <button class="filter-button" @click="timelineStore.showFilterMenu = true">
+  <button
+    class="filter-button"
+    @click="timelineStore.showFilterMenu = !timelineStore.showFilterMenu"
+  >
     <svg
       width="16px"
       height="16px"

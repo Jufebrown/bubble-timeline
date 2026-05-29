@@ -131,7 +131,7 @@ const handleSelectAllPeople = () => {
         </ul>
       </div>
     </div>
-    <button @click="timelineStore.showFilterMenu = false">Close</button>
+    <button class="close-button" @click="timelineStore.showFilterMenu = false">Close</button>
   </div>
 </template>
 
@@ -171,6 +171,7 @@ label {
   flex-direction: column;
   left: 50%;
   transform: translate(-50%, 0);
+  color: #eee;
 }
 
 .filter-list-wrapper {
@@ -186,5 +187,10 @@ label {
   padding: 0 3em;
   border-left: 1px solid #777;
   border-right: 1px solid #777;
+}
+
+.close-button {
+  width: 10em;
+  margin: 0 auto 1em auto;
 }
 </style>
