@@ -118,7 +118,7 @@ const handleSelectAllPeople = () => {
         </ul>
       </div>
     </div>
-    <button @click="handleFilterClick()">Close</button>
+    <button @click="timelineStore.showFilterMenu = false">Close</button>
   </div>
 </template>
 
