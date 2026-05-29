@@ -280,7 +280,18 @@ export const useTimelineStore = defineStore('timelineItems', {
           itemTypes.push(item.type)
         }
       })
-      return itemTypes
+      return itemTypes.sort()
+    },
+    people(state) {
+      const peopleList: string[] = []
+      state.timelineItems.forEach((item) => {
+        item?.poi?.forEach((person) => {
+          if (!peopleList.includes(person)) {
+            peopleList.push(person)
+          }
+        })
+      })
+      return peopleList.sort()
     },
   },
   actions: {
@@ -328,6 +339,13 @@ export const useTimelineStore = defineStore('timelineItems', {
         this.selectedCompanies.push(company)
       } else {
         this.selectedCompanies = this.selectedCompanies.filter((item) => item !== company)
+      }
+    },
+    toggleSelectedPeople(person: string) {
+      if (!this.selectedPeople.includes(person)) {
+        this.selectedPeople.push(person)
+      } else {
+        this.selectedPeople = this.selectedPeople.filter((item) => item !== person)
       }
     },
     selectAllCategories() {
