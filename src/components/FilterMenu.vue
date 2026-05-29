@@ -3,10 +3,6 @@ import { useTimelineStore } from '@/stores/timeline'
 
 const timelineStore = useTimelineStore()
 
-const handleFilterClick = () => {
-  timelineStore.showFilterMenu = false
-}
-
 const handleCategoryCheck = (index: number) => {
   const selectedCategory = timelineStore.itemTypes[index]?.name
   if (selectedCategory) {
