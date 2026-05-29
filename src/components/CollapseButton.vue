@@ -5,14 +5,14 @@ const timelineStore = useTimelineStore()
 </script>
 
 <template>
-  <button class="collapse-button control-button" @click="timelineStore.extendMonths = false">
+  <button class="collapse-button" @click="timelineStore.extendMonths = false">
     <svg
       width="16px"
       height="16px"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
-      fill="#222"
-      stroke="#222"
+      fill="#eee"
+      stroke="#eee"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -38,7 +38,8 @@ const timelineStore = useTimelineStore()
 </template>
 
 <style scoped>
-.control-button {
-  background-color: #eee;
+.collapse-button {
+  background-color: #555;
+  border: 2px solid #555;
 }
 </style>

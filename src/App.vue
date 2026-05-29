@@ -45,6 +45,11 @@ header {
   align-items: flex-end;
 }
 
+.wrapper {
+  scrollbar-width: thin;
+  scrollbar-color: #555 #222;
+}
+
 @media (min-width: 1024px) {
 }
 </style>

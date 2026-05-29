@@ -56,8 +56,6 @@ li {
   justify-content: flex-start;
   padding-bottom: 40px;
   padding-left: 0;
-  scrollbar-width: thin;
-  scrollbar-color: #555 #222;
 }
 
 .year-block {

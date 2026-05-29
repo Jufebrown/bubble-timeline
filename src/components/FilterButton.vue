@@ -5,7 +5,7 @@ const timelineStore = useTimelineStore()
 </script>
 
 <template>
-  <button class="filter-button control-button" @click="timelineStore.showFilterMenu = true">
+  <button class="filter-button" @click="timelineStore.showFilterMenu = true">
     <svg
       width="16px"
       height="16px"
@@ -13,8 +13,8 @@ const timelineStore = useTimelineStore()
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
-      fill="#222"
-      stroke="#222"
+      fill="#eee"
+      stroke="#eee"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -29,7 +29,7 @@ const timelineStore = useTimelineStore()
               x2="16"
               y2="5"
               id="Path"
-              stroke="#0C0310"
+              stroke="#eee"
               stroke-width="2"
               stroke-linecap="round"
             ></line>
@@ -39,7 +39,7 @@ const timelineStore = useTimelineStore()
               x2="10"
               y2="12"
               id="Path"
-              stroke="#0C0310"
+              stroke="#eee"
               stroke-width="2"
               stroke-linecap="round"
             ></line>
@@ -49,7 +49,7 @@ const timelineStore = useTimelineStore()
               x2="20"
               y2="12"
               id="Path"
-              stroke="#0C0310"
+              stroke="#eee"
               stroke-width="2"
               stroke-linecap="round"
             ></line>
@@ -59,13 +59,13 @@ const timelineStore = useTimelineStore()
               x2="20"
               y2="19"
               id="Path"
-              stroke="#0C0310"
+              stroke="#eee"
               stroke-width="2"
               stroke-linecap="round"
             ></line>
             <circle
               id="Oval"
-              stroke="#0C0310"
+              stroke="#eee"
               stroke-width="2"
               stroke-linecap="round"
               cx="18"
@@ -74,7 +74,7 @@ const timelineStore = useTimelineStore()
             ></circle>
             <circle
               id="Oval"
-              stroke="#0C0310"
+              stroke="#eee"
               stroke-width="2"
               stroke-linecap="round"
               cx="12"
@@ -83,7 +83,7 @@ const timelineStore = useTimelineStore()
             ></circle>
             <circle
               id="Oval"
-              stroke="#0C0310"
+              stroke="#eee"
               stroke-width="2"
               stroke-linecap="round"
               cx="6"
@@ -101,6 +101,7 @@ const timelineStore = useTimelineStore()
 .filter-button {
   border-radius: 0 5px 5px 0;
   border-left: none;
-  background-color: #eee;
+  background-color: #555;
+  border: 2px solid #555;
 }
 </style>
