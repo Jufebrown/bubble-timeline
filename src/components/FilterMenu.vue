@@ -193,5 +193,10 @@ label {
 .close-button {
   width: 10em;
   margin: 0 auto 1em auto;
+  background-color: #777;
+  color: #eee;
+  border: none;
+  font-size: 0.8em;
+  cursor: pointer;
 }
 </style>
