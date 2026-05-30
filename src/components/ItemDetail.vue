@@ -77,10 +77,9 @@ a {
 
 .detail-sidebar {
   position: fixed;
-  top: 9vh;
+  top: 8.5vh;
   width: 25vw;
-  /* height: 85.5vh; */
-  height: 100vh;
+  height: 85.5vh;
   background-color: #1c1c1c;
   color: #eee;
   padding: 2em;
