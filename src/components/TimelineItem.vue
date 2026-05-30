@@ -22,39 +22,10 @@ const showDetail = (event: MouseEvent) => {
 }
 
 const determineIcon = (itemType: string) => {
-  switch (itemType) {
-    case 'Doom':
-      return '💀'
-
-    case 'Launch':
-      return '🚀'
-
-    case 'Funding':
-      return '💲'
-
-    case 'Product Release':
-      return '🔖'
-
-    case 'Fail':
-      return '💩'
-
-    case 'WTF':
-      return '⁉️'
-
-    case 'Circle Jerk':
-      return '🦑'
-
-    case 'Data Centers':
-      return '🏭'
-
-    case 'Environment':
-      return '🌱'
-
-    case 'Resistance':
-      return '✊'
-
-    default:
-      return ''
+  for (let i = 0; i < timelineStore.categoryIcons.length; i++) {
+    if (timelineStore?.categoryIcons[i]?.name === itemType) {
+      return timelineStore.categoryIcons[i]?.icon
+    }
   }
 }
 </script>
