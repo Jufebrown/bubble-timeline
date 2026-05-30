@@ -20,19 +20,11 @@ const showDetail = (event: MouseEvent) => {
   timelineStore.displayDetailSidebar = true
   timelineStore.detailMonthColor = props.monthColor || ''
 }
-
-const determineIcon = (itemType: string) => {
-  for (let i = 0; i < timelineStore.categoryIcons.length; i++) {
-    if (timelineStore?.categoryIcons[i]?.name === itemType) {
-      return timelineStore.categoryIcons[i]?.icon
-    }
-  }
-}
 </script>
 
 <template>
   <div class="item">
-    <span class="icon">{{ determineIcon(itemData.type) }}</span>
+    <span class="icon">{{ timelineStore.determineIcon(itemData.type) }}</span>
     <span class="title" v-if="extendMonth" @click.stop="showDetail"
       >{{ itemData.title }} <span class="more">more...</span></span
     >

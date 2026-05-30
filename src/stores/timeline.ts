@@ -388,5 +388,12 @@ export const useTimelineStore = defineStore('timelineItems', {
     deselectAllPeople() {
       this.selectedPeople = []
     },
+    determineIcon(itemType: string) {
+      for (let i = 0; i < this.categoryIcons.length; i++) {
+        if (this?.categoryIcons[i]?.name === itemType) {
+          return this.categoryIcons[i]?.icon
+        }
+      }
+    },
   },
 })
