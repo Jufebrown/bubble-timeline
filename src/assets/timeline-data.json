@@ -350,6 +350,39 @@
       "type": "Product Release",
       "title": "OpenAI Releases GPT-5.1",
       "details": "OpenAI releases GPT-5.1"
+    },
+    {
+      "year": 2015,
+      "month": 6,
+      "day": "4",
+      "companies": ["Y Combinator", "Airbnb", "OpenAI"],
+      "poi": ["Sam Altman"],
+      "type": "Doom",
+      "title": "Altman:'I think AI will probably, most likely, lead to the end of the world.'",
+      "details": "Sam Altman gave a 'Fireside Chat' interview and said, 'I think AI will probably, most likely, lead to the end of the world, but in the meantime there will be great companies created with serious machine learning.' Too bad he started a company that developed ridiculous machine learning.",
+      "links": ["https://www.youtube.com/watch?v=d6lDZpvHAoo"]
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "day": "",
+      "companies": ["OpenAI"],
+      "poi": ["Jack Clark", "Elon Musk"],
+      "type": "Hype",
+      "title": "OpenAI Claims GPT2 Is Too Dangerous To Release",
+      "details": "OpenAI announced that they were releasing a smaller version of their chatbot because of safety and security concerns. This turned out to be a part of the long pattern of AI companies warning about how dangerous their products are to drive the hype cycle.",
+      "links": ["https://techcrunch.com/2019/02/17/openai-text-generator-dangerous/"]
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "day": "11",
+      "companies": ["General"],
+      "poi": ["Donald Trump"],
+      "type": "Hype",
+      "title": "Trump Signs Executive Order 13859 on Maintaining Leadership in AI",
+      "details": "The official take on the executive order is: 'This initiative identified five key lines of effort, including increasing AI research investment, unleashing Federal AI computing and data resources, setting AI technical standards, building America’s AI workforce, and engaging with international allies.' Looking back now, it just seems like another government handout to the already wealthy.",
+      "links": ["https://trumpwhitehouse.archives.gov/ai/"]
     }
   ]
 }
