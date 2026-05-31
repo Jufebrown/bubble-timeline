@@ -192,6 +192,11 @@ label {
   border-right: 1px solid #777;
 }
 
+.icon {
+  font-size: 1.1em;
+  margin-right: 0.2em;
+}
+
 .close-button {
   width: 10em;
   margin: 0 auto 1em auto;
