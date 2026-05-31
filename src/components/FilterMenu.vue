@@ -75,7 +75,9 @@ const handleSelectAllPeople = () => {
                 :name="itemType"
                 :checked="timelineStore.selectedCategories.includes(itemType)"
                 @change="handleCategoryCheck(index)"
-              />{{ itemType }}</label
+              />
+              <span class="icon">{{ timelineStore.determineIcon(itemType) }}</span>
+              {{ itemType }}</label
             >
           </li>
         </ul>
