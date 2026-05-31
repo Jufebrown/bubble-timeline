@@ -244,6 +244,7 @@ export const useTimelineStore = defineStore('timelineItems', {
         { name: 'Data Centers', icon: '🏭' },
         { name: 'Environment', icon: '🌱' },
         { name: 'Resistance', icon: '✊' },
+        { name: 'Hype', icon: '🎈' },
       ],
       displayDetailSidebar: false,
       timelineItems: timelineData as TimelineItem[],
