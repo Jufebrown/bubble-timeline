@@ -22,7 +22,7 @@ const getMonthName = (monthNumber: number) => {
 
 const getFormattedDate = () => {
   let workingDate = getMonthName(timelineStore.detailData.month)
-  if (timelineStore.detailData.day !== '') {
+  if (timelineStore.detailData.day && timelineStore.detailData.day !== '') {
     workingDate = workingDate + ' ' + timelineStore.detailData.day + ','
   }
   return workingDate + ' ' + timelineStore.detailData.year
