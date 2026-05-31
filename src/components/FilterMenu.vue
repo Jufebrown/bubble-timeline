@@ -54,6 +54,9 @@ const handleSelectAllPeople = () => {
 
 <template>
   <div class="filter-menu">
+    <button class="close-button" @click="timelineStore.showFilterMenu = false">
+      CLOSE<span class="close-x">X</span>
+    </button>
     <div class="filter-list-wrapper">
       <div class="item-type-list filter-list">
         <div class="column-header">
@@ -133,7 +136,6 @@ const handleSelectAllPeople = () => {
         </ul>
       </div>
     </div>
-    <button class="close-button" @click="timelineStore.showFilterMenu = false">Close</button>
   </div>
 </template>
 
@@ -178,6 +180,7 @@ label {
 }
 
 .filter-list-wrapper {
+  margin-top: 2em;
   display: flex;
   flex-direction: row;
 }
@@ -198,12 +201,20 @@ label {
 }
 
 .close-button {
-  width: 10em;
-  margin: 0 auto 1em auto;
-  background-color: #777;
+  position: absolute;
+  top: 1.5em;
+  right: 1.2em;
+  background-color: transparent;
   color: #eee;
   border: none;
   font-size: 0.8em;
   cursor: pointer;
+}
+
+.close-x {
+  border: 1px solid #eee;
+  border-radius: 2px;
+  padding: 1px 2px;
+  margin-left: 3px;
 }
 </style>
