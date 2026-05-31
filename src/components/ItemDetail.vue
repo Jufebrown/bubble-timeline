@@ -46,6 +46,7 @@ const getFormattedDate = () => {
       {{ getFormattedDate() }}
     </h5>
     <h2 class="title-header">
+      <span class="icon">{{ timelineStore.determineIcon(timelineStore.detailData.type) }}</span>
       {{ timelineStore.detailData.title }}
     </h2>
     <p class="details-body">{{ timelineStore.detailData.details }}</p>
@@ -127,6 +128,12 @@ a {
   margin-bottom: 1em;
   font-size: 1.3em;
   font-weight: bold;
+}
+
+.icon {
+  font-size: 1.1em;
+  border-radius: 50%;
+  text-align: center;
 }
 
 .details-body {
