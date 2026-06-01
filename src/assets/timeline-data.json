@@ -493,6 +493,91 @@
         "https://news.ycombinator.com/item?id=16794194",
         "https://thenextweb.com/news/the-ai-company-elon-musk-co-founded-is-trying-to-create-sentient-machines"
       ]
+    },
+    {
+      "year": 2018,
+      "month": 7,
+      "day": "18",
+      "companies": ["Future of Life Institute", "Google DeepMind"],
+      "poi": ["Elon Musk", "Demis Hassabis", "Shane Legg", "Mustafa Suleyman"],
+      "type": "Doom",
+      "title": "Tech Leaders Sign Pledge Against Making Autonomous AI Weapons",
+      "details": "2400 people signed a pledge not to make autonomous AI weapons. What an incredible display of courage. They must have remembered that ED-209's first victim was an executive.",
+      "links": [
+        "https://www.theverge.com/2018/7/18/17582570/ai-weapons-pledge-elon-musk-deepmind-founders-future-of-life-institute",
+        "https://www.engadget.com/2018-07-18-deepmind-elon-musk-pledge-autonomous-ai-weapons.html"
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "day": "9",
+      "companies": ["OpenAI"],
+      "poi": ["Ilya Sutskever"],
+      "type": "Hype",
+      "title": "Ilya Sutskever Claims Short-Term AGI Is a Serious Possibility",
+      "details": "At the AI Frontiers Conference, Ilya Sutskever said, 'We (OpenAI) have reviewed progress in the field over the past six years. Our conclusion is near term AGI should be taken as a serious possibility.' Looking back, this just seems like another instance of an AI bro saying 'AGI Soon'.",
+      "links": [
+        "https://syncedreview.com/2018/11/13/OpenAI-founder-short-term-agi-is-a-serious-possibility/"
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 3,
+      "day": "11",
+      "companies": ["OpenAI"],
+      "poi": ["Sam Altman", "Ilya Sutskever", "Greg Brockman", "Reid Hoffman"],
+      "type": "Red Flag",
+      "title": "OpenAI Creates For-Profit OpenAI LP",
+      "details": "The for-profit OpenAI LP is created to pursue AGI. The new company is owned and controlled by the non-profit OpenAI board. Reid Hoffman is an initial funder.",
+      "links": [
+        "https://openai.com/index/openai-lp/",
+        "https://techcrunch.com/2019/03/11/openai-shifts-from-nonprofit-to-capped-profit-to-attract-capital/",
+        "https://www.openaifiles.org/restructuring",
+        "https://medium.com/@MichaelTrazzi/considerateness-in-openai-lp-debate-6eb3bf4c5341"
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 3,
+      "day": "",
+      "companies": ["OpenAI", "Y Combinator"],
+      "poi": ["Sam Altman"],
+      "type": "Red Flag",
+      "title": "Sam Altman Steps Down As President of Y Combinator",
+      "details": "Altman leaves his position as president of Y Combinator to become CEO of OpenAI LP.",
+      "links": [
+        "https://www.ycombinator.com/blog/updates-from-yc/",
+        "https://techcrunch.com/2019/03/08/y-combinator-president-sam-altman-is-stepping-down-amid-a-series-of-changes-at-the-accelerator/",
+        "https://techcrunch.com/2019/05/18/sam-altmans-leap-of-faith/",
+        "https://www.reuters.com/article/business/sam-altman-steps-down-as-president-of-startup-program-y-combinator-idUSKBN1QP2GU/"
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "day": "13",
+      "companies": ["OpenAI"],
+      "poi": ["Jack Clark"],
+      "type": "Doom",
+      "title": "House Intelligence Committee Holds Hearing On National Security Challenges of AI",
+      "details": "The House Permanent Select Committee on Intelligence held a hearing on AI deepfakes and invited 'experts' including Jack Clark from OpenAI.",
+      "links": ["https://www.youtube.com/watch?v=tdLS9MlIWOk"]
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "day": "17",
+      "companies": ["OpenAI"],
+      "poi": ["Karen Hao", "Elon Musk", "Dario Amodei", "Greg Brockman"],
+      "type": "Red Flag",
+      "title": "Karen Hao With The MIT Technology Review Writes 'The messy, secretive reality behind OpenAI’s bid to save the world'",
+      "details": "OpenAI gave MIT Technology Review's Karen Hao access to their people and facilities. Hao reported on the contradictions and ridiculousness that she saw. After the article came out, Elon Musk attempted to distance himself from OpenAI. She would go on to write the book, 'Empire of AI'.",
+      "links": [
+        "https://www.technologyreview.com/2020/02/17/844721/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/",
+        "https://x.com/elonmusk/status/1229546206948462597",
+        "https://www.youtube.com/watch?v=Z1B__Efqacc"
+      ]
     }
   ]
 }
