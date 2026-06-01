@@ -8,9 +8,10 @@
       "companies": ["OpenAI"],
       "type": "Doom",
       "title": "Elon Musk Calls AI Humanity's Biggest Existential Threat",
-      "details": "During an interview at the MIT Aeronautics and Astronautics department’s Centennial Symposium, Elon Musk called AI humanity's biggest existential threat",
+      "details": "During an interview at the MIT Aeronautics and Astronautics department’s Centennial Symposium, Elon Musk called AI humanity's biggest existential threat. 'We are summoning the demon.'",
       "links": [
-        "https://www.washingtonpost.com/video/business/technology/elon-musk-warns-that-artificial-intelligence-could-be-our-biggest-existential-threat/2014/10/24/1bcbe084-5bbd-11e4-9d6c-756a229d8b18_video.html"
+        "https://www.washingtonpost.com/video/business/technology/elon-musk-warns-that-artificial-intelligence-could-be-our-biggest-existential-threat/2014/10/24/1bcbe084-5bbd-11e4-9d6c-756a229d8b18_video.html",
+        "https://www.youtube.com/watch?v=Tzb_CSRO-0g"
       ]
     },
     {
@@ -331,7 +332,8 @@
       "companies": ["OpenAI"],
       "type": "Product Release",
       "title": "OpenAI Releases GPT-2",
-      "details": "OpenAI releases GPT-2"
+      "details": "OpenAI releases the full version of GPT-2. World doesn't end.",
+      "links": ["https://openai.com/index/gpt-2-1-5b-release/"]
     },
     {
       "year": 2023,
@@ -369,7 +371,7 @@
       "companies": ["OpenAI"],
       "poi": ["Jack Clark", "Elon Musk"],
       "type": "Hype",
-      "title": "OpenAI Claims GPT2 Is Too Dangerous To Release",
+      "title": "OpenAI Claims GPT-2 Is Too Dangerous To Release",
       "details": "OpenAI announced that they were releasing a smaller version of their chatbot because of safety and security concerns. This turned out to be a part of the long pattern of AI companies warning about how dangerous their products are to drive the hype cycle.",
       "links": ["https://techcrunch.com/2019/02/17/openai-text-generator-dangerous/"]
     },
@@ -383,6 +385,114 @@
       "title": "Trump Signs Executive Order 13859 on Maintaining Leadership in AI",
       "details": "The official take on the executive order is: 'This initiative identified five key lines of effort, including increasing AI research investment, unleashing Federal AI computing and data resources, setting AI technical standards, building America’s AI workforce, and engaging with international allies.' Looking back now, it just seems like another government handout to the already wealthy.",
       "links": ["https://trumpwhitehouse.archives.gov/ai/"]
+    },
+    {
+      "year": 2016,
+      "month": 4,
+      "day": "27",
+      "companies": ["OpenAI"],
+      "poi": ["Greg Brockman"],
+      "type": "Product Release",
+      "title": "OpenAI Releases OpenAI Gym",
+      "details": "OpenAI's first public software release was an open source 'gym' for developers to use to train models.",
+      "links": [
+        "https://www.businessinsider.com/openai-has-launched-a-gym-where-developers-can-train-their-computers-2016-4",
+        "https://arxiv.org/abs/1606.01540"
+      ]
+    },
+    {
+      "year": 2016,
+      "month": 1,
+      "day": "",
+      "companies": ["Facebook", "Meta"],
+      "poi": ["Elon Musk", "Mark Zuckerberg"],
+      "type": "Beef",
+      "title": "Zuckerberg Says He's Against Fear Monger Statements",
+      "details": "Mark Zuckerberg announced plans to make an AI butler and calls 'fear-monger' statements about AI, 'far-fetched'. This was a couple of years before people really started noticing how robotic he is.",
+      "links": [
+        "https://venturebeat.com/ai/mark-zuckerbergs-personal-challenge-for-2016-is-building-an-ai-for-his-home",
+        "https://www.businessinsider.com/mark-zuckerberg-says-theres-no-reason-to-fear-evil-ai-2016-1"
+      ]
+    },
+    {
+      "year": 2016,
+      "month": 7,
+      "day": "25",
+      "companies": ["Google", "OpenAI", "Stanford University", "UC Berkley"],
+      "poi": ["Dario Amodei", "John Schulman", "Chris Olah", "Dan Mane"],
+      "type": "Doom",
+      "title": "Google Deepmind and OpenAI Release Paper on 'Concrete Problems in AI Safety'",
+      "details": "Dario Amodei is one of the paper authors. The problems outlined in the paper are rather tame compared to Amodei's later dire warnings. 'The cleaning robot might put a mop in an electrical socket' is a far cry from 'Half of all white collar jobs will disappear.'",
+      "links": ["https://arxiv.org/pdf/1606.06565"]
+    },
+    {
+      "year": 2017,
+      "month": 1,
+      "day": "",
+      "companies": ["OpenAI"],
+      "poi": ["Elon Musk", "Sam Altman", "Greg Brockman"],
+      "type": "Fail",
+      "title": "OpenAI Realizes AGI Will Be Expensive",
+      "details": "'We spent a lot of time trying to envision a plausible path to AGI. In early 2017, we came to the realization that building AGI will require vast quantities of compute. We began calculating how much compute an AGI might plausibly require. We all understood we were going to need a lot more capital to succeed at our mission—billions of dollars per year, which was far more than any of us, especially Elon, thought we’d be able to raise as the non-profit.'",
+      "links": ["https://openai.com/index/openai-elon-musk/"]
+    },
+    {
+      "year": 2017,
+      "month": 3,
+      "day": "",
+      "companies": ["OpenAI", "Open Philanthropy Project"],
+      "type": "Funding",
+      "title": "Open Philanthropy Project Gives OpenAI $30 Million",
+      "details": "The award wasn't entirely altruistic. The Open Philanthropy Project received a board seat on OpenAI.",
+      "links": [
+        "https://benjaminrosshoffman.com/an-openai-board-seat-is-surprisingly-expensive/",
+        "https://www.politico.com/news/2023/10/13/open-philanthropy-funding-ai-policy-00121362",
+        "https://news.ycombinator.com/item?id=14008569"
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "day": "",
+      "companies": [
+        "OpenAI",
+        "Open Philanthropy Project",
+        "Future of Humanity Institute",
+        "Stanford University"
+      ],
+      "poi": ["Roman Yampolskiy", "Dario Amodei"],
+      "type": "Doom",
+      "title": "Paper Released: The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation",
+      "details": "Yet another doomer paper with involvement from Dario Amodei. This one is about malicious actors using AI to cause harm. Oddly enough, it doesn't mention using next token guessers to run a multi-trillion dollar con on the world. Nowhere in these 100 pages does one of the 26 authors imagine that a malicious actor might stoke fear in the public and take advantage of ignorance to erode democratic processes and sneak through data center build projects that will ravage the environment. The paper also doesn't talk about tricking people into believing an LLM is human in order to drive engagement and not caring about instilling AI psychosis or allegedly talking depressed teens into suicide.",
+      "links": ["https://arxiv.org/pdf/1802.07228"]
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "day": "",
+      "companies": ["OpenAI", "Tesla"],
+      "poi": ["Elon Musk", "Sam Altman", "Greg Brockman"],
+      "type": "Fail",
+      "title": "Elon Musk Leaves OpenAI Board",
+      "details": "Musk claims that he is trying to avoid a conflict of insterest with Tesla, but there had been tension between him and the other board members over the governance of OpenAI.",
+      "links": [
+        "https://www.theverge.com/2018/2/21/17036214/elon-musk-openai-ai-safety-leaves-board",
+        "https://openai.com/index/openai-elon-musk/"
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 4,
+      "day": "9",
+      "companies": ["OpenAI"],
+      "type": "Doom",
+      "title": "OpenAI Releases Charter",
+      "details": "I'm putting this under 'Doom' for the few quotes from the charter that I've been able to find. It's a toss-up between that and 'Fail' since the original blog post has been taken down. The link to it is at the top of the list below so you can see for yourself. It looks like it may have been taken down when the company restructured to be less of a non-profit.",
+      "links": [
+        "https://blog.openai.com/OpenAI-charter/",
+        "https://news.ycombinator.com/item?id=16794194",
+        "https://thenextweb.com/news/the-ai-company-elon-musk-co-founded-is-trying-to-create-sentient-machines"
+      ]
     }
   ]
 }
