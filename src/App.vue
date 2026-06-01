@@ -16,7 +16,7 @@ onMounted(() => {
 <template>
   <div class="wrapper">
     <header class="header">
-      <h1>Timeline of the AI Bubble</h1>
+      <h1>Timeline of the LLM (AI) Bubble</h1>
       <TimelineControls />
     </header>
 
