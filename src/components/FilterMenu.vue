@@ -94,7 +94,7 @@ const handleSelectAllPeople = () => {
               :checked="timelineStore.allCompaniesSelected"
               @change="handleSelectAllCompanies()"
             />
-            <h4>Companies:</h4></label
+            <h4>Companies/Organizations:</h4></label
           >
         </div>
         <ul>
