@@ -42,11 +42,14 @@ const getFormattedDate = () => {
       CLOSE<span class="close-x">X</span>
     </button>
 
+    <div>
+      <span class="icon">{{ timelineStore.determineIcon(timelineStore.detailData.type) }}</span
+      ><span>{{ timelineStore.detailData.type }}</span>
+    </div>
     <h5 class="date-header">
       {{ getFormattedDate() }}
     </h5>
     <h2 class="title-header">
-      <span class="icon">{{ timelineStore.determineIcon(timelineStore.detailData.type) }}</span>
       {{ timelineStore.detailData.title }}
     </h2>
     <p class="details-body">{{ timelineStore.detailData.details }}</p>
@@ -131,7 +134,7 @@ a {
 }
 
 .icon {
-  font-size: 1.1em;
+  font-size: 1.5em;
   border-radius: 50%;
   text-align: center;
 }
