@@ -320,8 +320,9 @@ export const useTimelineStore = defineStore('timelineItems', {
         const element = this.timelineItems[i]
         if (element !== undefined && element.year.toString() == year && element.month == month) {
           if (
-            this.selectedCategories.includes(element.type) &&
-            this.determineIfCompaniesSelected(element)
+            this.selectedCategories.includes(element.type) ||
+            this.areCompaniesSelected(element) ||
+            this.arePeopleSelected(element)
           ) {
             monthItems.push(element)
           } else {
@@ -331,16 +332,25 @@ export const useTimelineStore = defineStore('timelineItems', {
       }
       return monthItems
     },
-    determineIfCompaniesSelected(timelineItem: TimelineItem) {
-      let result = false
-      timelineItem.companies.forEach((company) => {
-        if (this.selectedCompanies.includes(company)) {
-          result = true
-        } else {
-          result = false
+    areCompaniesSelected(timelineItem: TimelineItem) {
+      for (let i = 0; i < timelineItem.companies.length; i++) {
+        const company = timelineItem.companies[i]
+        if (company && this.selectedCompanies.includes(company)) {
+          return true
         }
-      })
-      return result
+      }
+      return false
+    },
+    arePeopleSelected(timelineItem: TimelineItem) {
+      if (timelineItem.poi) {
+        for (let i = 0; i < timelineItem?.poi.length; i++) {
+          const person = timelineItem?.poi[i]
+          if (person && this.selectedPeople.includes(person)) {
+            return true
+          }
+        }
+      }
+      return false
     },
     toggleSelectedCategories(category: string) {
       if (!this.selectedCategories.includes(category)) {
