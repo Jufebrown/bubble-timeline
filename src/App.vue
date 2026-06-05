@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
+import { RouterView } from 'vue-router'
 import { useTimelineStore } from '@/stores/timeline'
-import TimeLine from './components/TimeLine.vue'
-import TimelineControls from './components/TimelineControls.vue'
+import TimelineControls from '@/components/TimelineControls.vue'
 
 const timelineStore = useTimelineStore()
 
@@ -19,8 +19,7 @@ onMounted(() => {
       <h1>Timeline of the LLM (AI) Bubble</h1>
       <TimelineControls />
     </header>
-
-    <TimeLine />
+    <RouterView />
   </div>
 </template>
 
