@@ -177,6 +177,8 @@ label {
   transform: translate(-50%, 0);
   color: #eee;
   border-radius: 8px;
+  height: 80vh;
+  overflow-y: auto;
 }
 
 .filter-list-wrapper {
