@@ -118,7 +118,7 @@ const router = useRouter()
         <p>
           So I went from thinking AI was pretty cool, to fearing it, to feeling nothing but disdain
           for it and the people that are promoting it. What a great product. I can't wait for the
-          the bubble to burst.
+          bubble to burst.
         </p>
       </div>
     </div>
@@ -198,6 +198,27 @@ a {
   margin: 5em 0;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 992px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .donate-text {
+    text-align: left;
+  }
+
+  .paypal {
+    width: 15em;
+    height: 15em;
+  }
+
+  .venmo {
+    width: 15em;
+  }
+
+  .about-text {
+    padding: 0;
+    margin: 3em 0;
+  }
 }
 </style>

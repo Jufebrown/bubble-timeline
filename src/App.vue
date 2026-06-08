@@ -65,6 +65,6 @@ header {
   scrollbar-color: #555 #222;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 420px) {
 }
 </style>
