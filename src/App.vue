@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
-import { RouterView } from 'vue-router'
+import { useRouter } from 'vue-router'
 import { useTimelineStore } from '@/stores/timeline'
 import TimelineControls from '@/components/TimelineControls.vue'
 
 const timelineStore = useTimelineStore()
+
+const router = useRouter()
 
 onMounted(() => {
   timelineStore.selectAllCategories()
@@ -16,7 +18,9 @@ onMounted(() => {
 <template>
   <div class="wrapper">
     <header class="header">
-      <h1>Timeline of the LLM (AI) Bubble</h1>
+      <button class="home-button" @click="router.push({ path: '/' })">
+        <h1>Timeline of the LLM (AI) Bubble</h1>
+      </button>
       <TimelineControls />
     </header>
     <RouterView />
