@@ -50,6 +50,14 @@ header {
   justify-content: space-between;
   height: 5.5em;
   align-items: flex-end;
+  background-color: #181818;
+}
+
+.home-button {
+  border: none;
+  background: none;
+  box-shadow: none;
+  cursor: pointer;
 }
 
 .wrapper {
