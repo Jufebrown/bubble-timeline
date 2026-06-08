@@ -106,5 +106,6 @@ const timelineStore = useTimelineStore()
   border-left: none;
   background-color: #555;
   border: 2px solid #555;
+  cursor: pointer;
 }
 </style>

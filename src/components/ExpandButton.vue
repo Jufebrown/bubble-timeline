@@ -40,5 +40,6 @@ const timelineStore = useTimelineStore()
   border-radius: 5px 0 0 5px;
   border-right-width: 0;
   border: 2px solid #555;
+  cursor: pointer;
 }
 </style>

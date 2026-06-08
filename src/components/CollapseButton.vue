@@ -41,5 +41,6 @@ const timelineStore = useTimelineStore()
 .collapse-button {
   background-color: #555;
   border: 2px solid #555;
+  cursor: pointer;
 }
 </style>
