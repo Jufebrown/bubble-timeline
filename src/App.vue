@@ -28,6 +28,10 @@ onMounted(() => {
 </template>
 
 <style scoped>
+a {
+  text-decoration: none;
+}
+
 h1 {
   margin: 0;
   padding: 0 0 0.5em 1em;
