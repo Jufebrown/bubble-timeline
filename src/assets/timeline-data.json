@@ -578,6 +578,302 @@
         "https://x.com/elonmusk/status/1229546206948462597",
         "https://www.youtube.com/watch?v=Z1B__Efqacc"
       ]
+    },
+    {
+      "year": 2020,
+      "month": 6,
+      "day": "11",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "OpenAI Releases API",
+      "details": "OpenAI releases API",
+      "links": ["https://openai.com/index/openai-api/"]
+    },
+    {
+      "year": 2020,
+      "month": 9,
+      "day": "22",
+      "companies": ["OpenAI", "Microsoft"],
+      "type": "Circle Jerk",
+      "title": "Microsoft Exclusively Licenses GPT-3",
+      "details": "Microsoft and OpenAI enter into a partnership.",
+      "links": [
+        "https://blogs.microsoft.com/blog/2020/09/22/microsoft-teams-up-with-openai-to-exclusively-license-gpt-3-language-model/"
+      ]
+    },
+    {
+      "year": 2020,
+      "month": 12,
+      "day": "29",
+      "companies": ["OpenAI", "Anthropic"],
+      "poi": ["Dario Amodei", "Jack Clark"],
+      "type": "Red Flag",
+      "title": "OpenAI Staff Leaves in Mass Exodus",
+      "details": "OpenAI team members leave to found Anthropic. They voice concerns about safety at OpenAI. Notable figures are Dario Amodei and Jack Clark.",
+      "links": [
+        "https://openai.com/index/organizational-update/",
+        "https://finance.yahoo.com/news/anthropic-ceo-says-why-quit-194409797.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAALuPLF_t0goaIakihWGoHc3V6cTsaWlR0OO7TiZYZ63VcAGo7xRC4_JB0iJXXbdqgDujfMfnAd_RrZ0ZROZivd1YjqbLDX9SyT9fj7c_4qZjslr-3Hn5Egz31wSNruTldshxfG0G2cSAL9Kic82US_RNbPV_KY1tBKBzhYGcJhjf"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 1,
+      "day": "",
+      "companies": ["Anthropic"],
+      "poi": ["Dario Amodei", "Daniela Amodei", "Jack Clark"],
+      "type": "Launch",
+      "title": "Anthropic Is Founded",
+      "details": "Dario Amodei and Daniela Amodei found Anthropic.",
+      "links": [
+        "https://www.theverge.com/2023/2/3/23584540/google-anthropic-investment-300-million-openai-chatgpt-rival-claude",
+        "https://research.contrary.com/company/anthropic"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 1,
+      "day": "5",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "OpenAI Releases DALL-E",
+      "details": "OpenAI releases DALL-E.",
+      "links": ["https://openai.com/index/dall-e/"]
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "day": "29",
+      "companies": ["OpenAI", "Github", "Microsoft"],
+      "type": "Product Release",
+      "title": "Github Copilot Released",
+      "details": "Github Copilot released.",
+      "links": [
+        "https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/",
+        "https://techcrunch.com/2021/06/29/github-previews-new-ai-tool-that-makes-coding-suggestions/"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 4,
+      "day": "6",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "DALL-E2 Released",
+      "details": "DALL-E2 released.",
+      "links": [
+        "https://www.theverge.com/2022/4/6/23012123/openai-clip-dalle-2-ai-text-to-image-generator-testing",
+        "https://techcrunch.com/2022/04/06/openais-new-dall-e-model-draws-anything-but-bigger-better-and-faster-than-before/",
+        "https://interestingengineering.com/innovation/openai-ai-dall-e-2-images-text"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 11,
+      "day": "30",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "ChatGPT Released",
+      "details": "ChatGPT released.",
+      "links": ["https://openai.com/index/chatgpt/"]
+    },
+    {
+      "year": 2023,
+      "month": 1,
+      "day": "11",
+      "companies": ["OpenAI", "Georgetown University", "Stanford Internet Observatory"],
+      "type": "Doom",
+      "title": "OpenAI, Georgetown University and Stanford Internet Observatory Publish Paper On Using AI In Disinformation",
+      "details": "OpenAI, Georgetown University and Stanford Internet Observatory Publish Paper On Using AI In Disinformation",
+      "links": ["https://openai.com/index/forecasting-misuse/"]
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "day": "1",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "OpenAI Introduces ChatGPT Plus",
+      "details": "OpenAI starts its subscription service for ChatGPT. It charges $20/month. Users are able to burn hundreds or even thousands of dollars worth of tokens.",
+      "links": [
+        "https://openai.com/index/chatgpt-plus/",
+        "https://www.wheresyoured.at/why-everybody-is-losing-money-on-ai/"
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 6,
+      "day": "11",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "GPT-1 Released",
+      "details": "",
+      "links": [
+        "https://en.wikipedia.org/wiki/GPT-1",
+        "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "day": "24",
+      "companies": ["OpenAI"],
+      "type": "Doom",
+      "title": "OpenAI Publishes A Blog About Benefits And Risks Of AGI",
+      "details": "",
+      "links": ["https://openai.com/index/planning-for-agi-and-beyond/"]
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "day": "9",
+      "companies": ["OpenAI", "Salesforce"],
+      "type": "Circle Jerk",
+      "title": "OpenAI and Salesforce Partner to Develop Einstein GPT",
+      "details": "",
+      "links": [
+        "https://www.salesforce.com/news/press-releases/2023/03/07/einstein-generative-ai/",
+        "https://aibusiness.com/nlp/salesforce-openai-partner-to-launch-chatgpt-like-tool-for-enterprise"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "day": "15",
+      "companies": ["OpenAI"],
+      "type": "Doom",
+      "title": "OpenAI Conducts Safety Testing On GPT-4",
+      "details": "",
+      "links": [
+        "https://arstechnica.com/information-technology/2023/03/openai-checked-to-see-whether-gpt-4-could-take-over-the-world/"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "day": "16",
+      "companies": ["OpenAI"],
+      "poi": ["Sam Altman"],
+      "type": "Doom",
+      "title": "Sam Altman Says AI Comes With Real Dangers",
+      "details": "",
+      "links": [
+        "https://abcnews.com/Technology/openai-ceo-sam-altman-ai-reshape-society-acknowledges/story?id=97897122"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "day": "25",
+      "companies": ["OpenAI"],
+      "poi": ["Sam Altman"],
+      "type": "Doom",
+      "title": "Sam Altman Gives Interview To Lex Fridman",
+      "details": "This one is hard to watch. I really dislike Altman. He's asked about the different ways that AGI could go wrong and talks about his fear and worries. He mentions disinformation with a straight face while not admitting that LLMs aren't capable of AGI. I hope he goes to prison someday.",
+      "links": ["https://www.youtube.com/watch?v=L_Guz73e6fw"]
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "day": "19",
+      "companies": ["OpenAI", "Atlassian"],
+      "type": "Circle Jerk",
+      "title": "OpenAI and Atlassian Partner To Create Atlassian Intelligence",
+      "details": "Atlassian will use GPT-4 in its products like Jira and Confluence. They must have thought that people didn't hate their products enough.",
+      "links": [
+        "https://www.cnbc.com/2023/04/19/atlassian-taps-openai-for-atlassian-intelligence-generative-ai-launch.html"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "day": "16",
+      "companies": ["OpenAI"],
+      "poi": ["Sam Altman"],
+      "type": "Doom",
+      "title": "Sam Altman Testifies To Senate About Need For Regulating AI",
+      "details": "",
+      "links": ["https://www.youtube.com/watch?v=TO0J2Yw7usM"]
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "day": "22",
+      "companies": ["OpenAI"],
+      "type": "Doom",
+      "title": "OpenAI Publishes Blog Post About Governing SuperIntelligence",
+      "details": "",
+      "links": ["https://openai.com/index/governance-of-superintelligence/"]
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "day": "12",
+      "companies": ["OpenAI", "Google DeepMind"],
+      "type": "Doom",
+      "title": "OpenAI and Google Agree To Share Models With UK Govt",
+      "details": "",
+      "links": [
+        "https://www.engadget.com/google-openai-will-share-ai-models-with-the-uk-government-134318263.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAA_deDjNh9IokDYAoVXIGkvm_OYf8uRbupS85EgTY234vlgP2_HrWlx8LRvFhI_uqWUF1u85DDGTjPMDa_Y4IsCcU8ASo_9uFUf9h25l4ZgYlNNTMX99TGAlWAcM0Gh-egCfel6imrFpf20e3j1Z2J9Uu83Fm9hV2Y4-t7myJfFf"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "day": "14",
+      "companies": ["OpenAI"],
+      "type": "Fail",
+      "title": "Mark Walters Files Lawsuit Against OpenAI After ChatGPT Accuses Him Of Theft and Fraud",
+      "details": "",
+      "links": [
+        "https://www.ndtv.com/feature/radio-host-sues-openai-after-chatgpt-generates-fake-complaint-against-him-4119121"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "day": "20",
+      "companies": ["OpenAI"],
+      "poi": ["Sam Altman"],
+      "type": "Fail",
+      "title": "Time Magazine Reports That OpenAI Lobbied To Water Down AI Regulation",
+      "details": "This is occurring at the same time that Sam Altman is telling everyone who will listen that AI should be heavily regulated.",
+      "links": ["https://time.com/6288245/openai-eu-lobbying-ai-act/"]
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "day": "29",
+      "companies": ["OpenAI"],
+      "type": "Resistance",
+      "title": "Paul Tremblay And Mona Awad Sue OpenAI For Copyright Infringement",
+      "details": "",
+      "links": [
+        "https://www.reuters.com/legal/lawsuit-says-openai-violated-us-authors-copyrights-train-ai-chatbot-2023-06-29/"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "day": "12",
+      "companies": ["OpenAI", "Meta"],
+      "type": "Resistance",
+      "title": "Sarah Silverman Sues OpenAI And Meta For Copyright Infringement",
+      "details": "",
+      "links": ["https://www.bbc.com/news/technology-66164228"]
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "day": "12",
+      "companies": ["xAI"],
+      "poi": ["Elon Musk"],
+      "type": "Launch",
+      "title": "Elon Musk Launches xAI",
+      "details": "",
+      "links": [
+        "https://www.reuters.com/technology/elon-musks-ai-firm-xai-launches-website-2023-07-12/",
+        "https://www.cnbc.com/2023/07/12/elon-musk-launches-his-new-company-xai.html"
+      ]
     }
   ]
 }
