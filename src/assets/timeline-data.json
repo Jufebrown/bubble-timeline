@@ -874,6 +874,90 @@
         "https://www.reuters.com/technology/elon-musks-ai-firm-xai-launches-website-2023-07-12/",
         "https://www.cnbc.com/2023/07/12/elon-musk-launches-his-new-company-xai.html"
       ]
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "day": "13",
+      "companies": ["OpenAI", "Associated Press"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With AP",
+      "details": "",
+      "links": [
+        "https://www.theverge.com/2023/7/13/23793810/openai-associated-press-ai-models",
+        "https://www.ap.org/media-center/press-releases/2023/ap-open-ai-agree-to-share-select-news-content-and-technology-in-new-collaboration/"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "day": "18",
+      "companies": ["OpenAI", "American Journalism Project"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With American Journalism Project",
+      "details": "",
+      "links": [
+        "https://openai.com/index/partnership-with-american-journalism-project-to-support-local-news/",
+        "https://www.reuters.com/business/media-telecom/openai-partners-with-american-journalism-project-support-local-news-2023-07-18/"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "day": "31",
+      "companies": ["OpenAI", "Upwork"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With Upwork",
+      "details": "",
+      "links": [
+        "https://investors.upwork.com/news-releases/news-release-details/upwork-and-openai-partner-connect-businesses-openai-experts",
+        "https://www.foxbusiness.com/technology/openai-upwork-partner-help-companies-hire-ai-specialists"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "day": "16",
+      "companies": ["OpenAI", "Global Illumination"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Acquires Global Illumination",
+      "details": "",
+      "links": [
+        "https://techcrunch.com/2023/08/16/openai-acquires-ai-design-studio-global-illumination/",
+        "https://economictimes.indiatimes.com/tech/technology/openai-acquires-global-illumination-to-work-on-core-products-chatgpt/articleshow/102789328.cms?from=mdr",
+        "https://www.reuters.com/markets/deals/openai-acquires-start-up-global-illumination-work-core-products-chatgpt-2023-08-16/",
+        "https://openai.com/index/openai-acquires-global-illumination/"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "day": "21",
+      "companies": ["OpenAI", "New York Times"],
+      "type": "Resistance",
+      "title": "New York Times Blocks OpenAI's Web Crawler",
+      "details": "",
+      "links": [
+        "https://www.theverge.com/2023/8/21/23840705/new-york-times-openai-web-crawler-ai-gpt",
+        "https://www.theguardian.com/technology/2023/aug/25/new-york-times-cnn-and-abc-block-openais-gptbot-web-crawler-from-scraping-content",
+        "https://www.popsci.com/technology/nyt-generative-ai/"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "day": "18",
+      "companies": ["OpenAI"],
+      "poi": ["Sam Altman", "Mira Murati"],
+      "type": "Fail",
+      "title": "Sam Altman Is Fired From OpenAI",
+      "details": "",
+      "links": [
+        "https://www.aljazeera.com/news/2023/11/18/sam-altman-fired-as-ceo-of-chatgpt-maker-open-ai",
+        "https://www.reuters.com/technology/openai-ceo-sam-altman-step-down-2023-11-17/",
+        "https://www.wsj.com/tech/sam-altman-departs-open-ai-mira-murati-interim-ceo-41f6d51e",
+        "https://openai.com/index/openai-announces-leadership-transition/"
+      ]
     }
   ]
 }
