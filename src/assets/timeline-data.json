@@ -958,6 +958,176 @@
         "https://www.wsj.com/tech/sam-altman-departs-open-ai-mira-murati-interim-ceo-41f6d51e",
         "https://openai.com/index/openai-announces-leadership-transition/"
       ]
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "day": "22",
+      "companies": ["OpenAI"],
+      "poi": ["Sam Altman"],
+      "type": "Fail",
+      "title": "Sam Altman Is Reinstated",
+      "details": "",
+      "links": [
+        "https://www.nytimes.com/2023/11/22/technology/openai-sam-altman-returns.html",
+        "https://www.npr.org/2023/11/22/1214621010/openai-reinstates-sam-altman-as-its-chief-executive",
+        "https://www.theguardian.com/technology/2024/mar/08/openai-sam-altman-reinstated",
+        "https://www.theguardian.com/technology/2023/nov/30/microsoft-join-openai-board-altman",
+        "https://www.emarketer.com/content/microsoft-s-strategic-gain-unexpected-shake-up-openai"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "day": "27",
+      "companies": ["OpenAI"],
+      "type": "Resistance",
+      "title": "The New York Times Sues OpenAI For Copyright Infringement",
+      "details": "",
+      "links": [
+        "https://www.theguardian.com/media/2023/dec/27/new-york-times-openai-microsoft-lawsuit",
+        "https://www.reuters.com/legal/transactional/ny-times-sues-openai-microsoft-infringing-copyrighted-work-2023-12-27/",
+        "https://www.nytimes.com/2023/12/27/business/media/new-york-times-open-ai-microsoft-lawsuit.html"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "day": "18",
+      "companies": ["OpenAI", "Arizona State University"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With Arizona State University",
+      "details": "",
+      "links": [
+        "https://ai.asu.edu/openAI",
+        "https://openai.com/index/asu/",
+        "https://www.reuters.com/technology/openai-arizona-state-university-partner-expand-ai-academia-2024-01-18/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "day": "15",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "OpenAI Previews Sora",
+      "details": "",
+      "links": [
+        "https://openai.com/index/video-generation-models-as-world-simulators/",
+        "https://techcrunch.com/2024/02/15/openais-newest-model-can-generate-videos-and-they-look-decent/",
+        "https://www.nytimes.com/2024/02/15/technology/openai-sora-videos.html"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "day": "9",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "OpenAI Releases Sora",
+      "details": "",
+      "links": [
+        "https://www.cnbc.com/2024/12/09/openai-releases-sora-its-buzzy-ai-video-generation-tool.html",
+        "https://openai.com/index/sora-is-here/",
+        "https://techcrunch.com/2024/12/09/openais-sora-is-launching-today-heres-highlights-from-the-first-review/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "day": "29",
+      "companies": ["OpenAI", "xAI"],
+      "poi": ["Elon Musk"],
+      "type": "Beef",
+      "title": "Elon Musk Sues OpenAI For Breach of Contract",
+      "details": "",
+      "links": [
+        "https://www.reuters.com/legal/elon-musk-sues-openai-ceo-sam-altman-breach-contract-2024-03-01/",
+        "https://www.npr.org/2024/03/01/1235159084/elon-musk-openai-suit-chatgpt-sam-altman-greg-brockman"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "day": "13",
+      "companies": ["OpenAI", "Le Monde", "Prisa Media"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With Le Monde And Prisa Media",
+      "details": "",
+      "links": [
+        "https://www.lemonde.fr/en/about-us/article/2024/03/13/le-monde-signs-artificial-intelligence-partnership-agreement-with-open-ai_6615418_115.html#",
+        "https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media/",
+        "https://aiexpert.network/le-mondes-partnership-with-openai/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "day": "13",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "OpenAI Releases GPT-4o",
+      "details": "",
+      "links": [
+        "https://openai.com/index/hello-gpt-4o/",
+        "https://techcrunch.com/2024/05/13/openais-newest-model-is-gpt-4o/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "day": "22",
+      "companies": ["OpenAI", "News Corp"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With News Corp",
+      "details": "",
+      "links": [
+        "https://openai.com/index/news-corp-and-openai-sign-landmark-multi-year-global-partnership/",
+        "https://www.wsj.com/business/media/openai-news-corp-strike-deal-23f186ba",
+        "https://newscorp.com/2024/05/22/news-corp-and-openai-sign-landmark-multi-year-global-partnership/",
+        "https://www.nytimes.com/2024/05/22/business/media/openai-news-corp-content-deal.html",
+        "https://www.cnbc.com/2024/05/22/newscorp-and-openai-strike-multi-year-partnership-deal-to-use-journalistic-content-to-improve-chatgpt.html"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "day": "24",
+      "companies": ["OpenAI", "Moderna"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With Moderna",
+      "details": "",
+      "links": [
+        "https://openai.com/index/moderna/",
+        "https://www.modernatx.com/media-center/all-media/blogs/collaboration-with-openai",
+        "https://www.wsj.com/articles/at-moderna-openais-gpts-are-changing-almost-everything-6ff4c4a5"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "day": "29",
+      "companies": ["OpenAI", "Financial Times"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With Financial Times",
+      "details": "",
+      "links": [
+        "http://aboutus.ft.com/press_release/openai",
+        "https://www.reuters.com/technology/financial-times-openai-sign-content-licensing-partnership-2024-04-29/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "day": "6",
+      "companies": ["OpenAI", "Stack Overflow"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With Stack OverFlow",
+      "details": "",
+      "links": [
+        "https://openai.com/index/api-partnership-with-stack-overflow/",
+        "https://techcrunch.com/2024/05/06/stack-overflow-signs-deal-with-openai-to-supply-data-to-its-models/"
+      ]
     }
   ]
 }
