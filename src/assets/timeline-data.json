@@ -1128,6 +1128,193 @@
         "https://openai.com/index/api-partnership-with-stack-overflow/",
         "https://techcrunch.com/2024/05/06/stack-overflow-signs-deal-with-openai-to-supply-data-to-its-models/"
       ]
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "day": "14",
+      "companies": ["OpenAI"],
+      "poi": ["Ilya Sutskever"],
+      "type": "Red Flag",
+      "title": "Ilya Sutskever Leaves OpenAI",
+      "details": "",
+      "links": [
+        "https://openai.com/index/jakub-pachocki-announced-as-chief-scientist/",
+        "https://www.nytimes.com/2024/05/14/technology/ilya-sutskever-leaving-openai.html",
+        "https://x.com/ilyasut/status/1790517455628198322?lang=en",
+        "https://time.com/6978195/ilya-sutskever-leaves-open-ai/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "day": "17",
+      "companies": ["OpenAI"],
+      "poi": ["Jan Leike"],
+      "type": "Red Flag",
+      "title": "Jan Leike Leaves OpenAI",
+      "details": "",
+      "links": [
+        "https://www.cnn.com/2024/05/17/tech/openai-exec-exits-safety-concerns",
+        "https://x.com/janleike/status/1791498174659715494",
+        "https://www.theverge.com/2024/5/17/24159095/openai-jan-leike-superalignment-sam-altman-ai-safety"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "day": "16",
+      "companies": ["OpenAI", "Reddit"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With Reddit",
+      "details": "",
+      "links": [
+        "https://openai.com/index/openai-and-reddit-partnership/",
+        "https://www.theverge.com/2024/5/16/24158529/reddit-openai-chatgpt-api-access-advertising",
+        "https://techcrunch.com/2024/05/16/openai-inks-deal-to-train-ai-on-reddit-data/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "day": "29",
+      "companies": ["OpenAI", "Vox Media", "The Atlantic"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With Vox Media and The Atlantic",
+      "details": "",
+      "links": [
+        "https://openai.com/index/a-content-and-product-partnership-with-vox-media/",
+        "https://www.reuters.com/business/media-telecom/openai-signs-content-deals-with-atlantic-vox-media-2024-05-29/",
+        "https://www.theverge.com/2024/5/29/24167072/openai-content-copyright-vox-media-the-atlantic"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "day": "10",
+      "companies": ["OpenAI", "Apple"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With Apple",
+      "details": "",
+      "links": [
+        "https://openai.com/index/openai-and-apple-announce-partnership/",
+        "https://www.npr.org/2024/06/10/nx-s1-4999051/apple-artificial-intelligence-partnership-openai-chatgpt-siri-iphone"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "day": "18",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "OpenAI Partners Releases GPT-4o mini",
+      "details": "",
+      "links": [
+        "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+        "https://techcrunch.com/2024/07/18/openai-unveils-gpt-4o-mini-a-small-ai-model-powering-chatgpt/",
+        "https://www.cnbc.com/2024/07/18/openai-4o-mini-model-announced.html"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "day": "5",
+      "companies": ["OpenAI"],
+      "poi": ["John Schulman"],
+      "type": "Red Flag",
+      "title": "John Schulman Leaves OpenAI For Anthropic",
+      "details": "",
+      "links": [
+        "https://x.com/johnschulman2/status/1820610863499509855?lang=en",
+        "https://www.wsj.com/tech/ai/openai-co-founder-leaves-for-amazon-backed-rival-anthropic-4f34ebac",
+        "https://techcrunch.com/2024/08/05/openai-co-founder-leaves-for-anthropic/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "day": "20",
+      "companies": ["OpenAI"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With Conde Nast",
+      "details": "",
+      "links": [
+        "https://openai.com/index/conde-nast/",
+        "https://www.condenast.com/news/conde-nast-openai-partnership",
+        "https://www.theguardian.com/technology/article/2024/aug/20/conde-nast-open-ai-deal",
+        "https://www.theverge.com/2024/8/20/24224599/openai-partners-with-conde-nast"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "day": "12",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "OpenAI Releases O1",
+      "details": "",
+      "links": [
+        "https://openai.com/o1/",
+        "https://techcrunch.com/2024/09/12/openai-unveils-a-model-that-can-fact-check-itself/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "day": "25",
+      "companies": ["OpenAI"],
+      "poi": ["Mira Murati"],
+      "type": "Red Flag",
+      "title": "Mira Murati Resigns As CTO Of OpenAI",
+      "details": "",
+      "links": [
+        "https://x.com/miramurati/status/1839025700009030027?lang=en",
+        "https://www.theguardian.com/technology/2024/sep/25/openai-cto-mira-murati-resigns",
+        "https://www.nytimes.com/2024/09/25/technology/mira-murati-openai.html"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "day": "26",
+      "companies": ["OpenAI", "GEDI"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With GEDI",
+      "details": "",
+      "links": [
+        "https://openai.com/index/gedi/",
+        "https://www.reuters.com/technology/italian-watchdog-warns-publisher-gedi-against-sharing-data-with-openai-2024-11-29/",
+        "https://breakingthenews.net/Article/OpenAI-GEDI-team-up-to-bring-content-to-ChatGPT-users/62785421"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "day": "8",
+      "companies": ["OpenAI", "Hearst"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With Hearst",
+      "details": "",
+      "links": [
+        "https://openai.com/index/hearst/",
+        "https://www.hearst.com/-/hearst-and-openai-announce-strategic-content-partnership",
+        "https://www.cnbc.com/2024/10/08/openai-announces-content-deal-with-hearst-cosmopolitan-elle-womens-health-san-francisco-chronicle.html",
+        "https://www.wsj.com/business/media/openai-hearst-strike-deal-for-newspaper-magazine-content-integration-36153be7"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "day": "13",
+      "companies": ["OpenAI"],
+      "type": "Funding",
+      "title": "OpenAI Raises $6.6 Billion Funding Round",
+      "details": "",
+      "links": [
+        "https://techcrunch.com/2024/10/02/openai-raises-6-6b-and-is-now-valued-at-157b/",
+        "https://fintechmagazine.com/articles/openai-the-startup-that-secured-6-6bn-in-funding",
+        "https://www.reuters.com/technology/artificial-intelligence/openai-closes-66-billion-funding-haul-valuation-157-billion-with-investment-2024-10-02/"
+      ]
     }
   ]
 }
