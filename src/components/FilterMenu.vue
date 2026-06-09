@@ -170,15 +170,16 @@ label {
 .filter-menu {
   position: fixed;
   top: 5.5em;
+  left: 0;
   background-color: #222;
   display: flex;
   flex-direction: column;
-  left: 50%;
-  transform: translate(-50%, 0);
+  align-items: center;
   color: #eee;
-  border-radius: 8px;
-  height: 80vh;
+  height: 85vh;
+  width: 100%;
   overflow-y: auto;
+  z-index: 100;
 }
 
 .filter-list-wrapper {

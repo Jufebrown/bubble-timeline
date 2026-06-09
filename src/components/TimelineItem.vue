@@ -60,10 +60,10 @@ const showDetail = (event: MouseEvent) => {
   flex-direction: row;
   flex-wrap: nowrap;
   width: max-content;
-  z-index: 10;
   text-align: center;
   margin: 0 0 0 0.35em;
   align-items: center;
+  z-index: 40;
 }
 
 .title::after {

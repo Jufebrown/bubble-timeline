@@ -253,6 +253,7 @@ export const useTimelineStore = defineStore('timelineItems', {
       detailData: {} as TimelineItem,
       detailMonthColor: '',
       extendMonths: false,
+      collapseMonths: false,
       showFilterMenu: false,
       selectedCategories: [] as string[],
       selectedCompanies: [] as string[],

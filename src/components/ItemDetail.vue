@@ -87,7 +87,7 @@ a {
   background-color: #1c1c1c;
   color: #eee;
   padding: 2em;
-  z-index: 200;
+  z-index: 50;
   transition: all 0.3s ease;
   right: 0;
   overflow-y: auto;
