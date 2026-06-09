@@ -370,7 +370,7 @@
       "day": "",
       "companies": ["OpenAI"],
       "poi": ["Jack Clark", "Elon Musk"],
-      "type": "Hype",
+      "type": "Doom",
       "title": "OpenAI Claims GPT-2 Is Too Dangerous To Release",
       "details": "OpenAI announced that they were releasing a smaller version of their chatbot because of safety and security concerns. This turned out to be a part of the long pattern of AI companies warning about how dangerous their products are to drive the hype cycle.",
       "links": ["https://techcrunch.com/2019/02/17/openai-text-generator-dangerous/"]
