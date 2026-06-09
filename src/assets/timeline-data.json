@@ -1315,6 +1315,61 @@
         "https://fintechmagazine.com/articles/openai-the-startup-that-secured-6-6bn-in-funding",
         "https://www.reuters.com/technology/artificial-intelligence/openai-closes-66-billion-funding-haul-valuation-157-billion-with-investment-2024-10-02/"
       ]
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "day": "13",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "OpenAI Releases Swarm Framework",
+      "details": "",
+      "links": [
+        "https://www.forbes.com/sites/lanceeliot/2024/10/15/openai-newly-released-ai-product-swarm-swiftly-brings-agentic-ai-into-the-real-world/",
+        "https://campustechnology.com/articles/2024/10/29/new-openai-swarm-framework-offers-experimental-tool-for-multi-agent-ai-networks.aspx"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "day": "15",
+      "companies": ["OpenAI", "xAI", "Microsoft", "LinkedIn"],
+      "poi": ["Elon Musk", "Reid Hoffman"],
+      "type": "Beef",
+      "title": "Elon Musk Expands Lawsuit Against OpenAI To Include Microsoft And Reid Hoffman",
+      "details": "",
+      "links": [
+        "https://www.reuters.com/technology/musk-expands-lawsuit-against-openai-adding-microsoft-antitrust-claims-2024-11-15/",
+        "https://www.washingtonpost.com/technology/2024/11/15/elon-musk-expands-lawsuit-openai-microsoft/",
+        "https://finance.yahoo.com/news/teslas-musk-expands-lawsuit-against-174022006.html"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "day": "19",
+      "companies": ["OpenAI", "Asian News International"],
+      "type": "Resistance",
+      "title": "Asian News International Sues OpenAI For Copyright Violations",
+      "details": "",
+      "links": [
+        "https://www.reuters.com/technology/artificial-intelligence/indian-news-agency-ani-sues-openai-unsanctioned-content-use-ai-training-2024-11-19/",
+        "https://techcrunch.com/2024/11/18/indian-news-agency-sues-openai-alleging-copyright-infringement/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "day": "4",
+      "companies": ["OpenAI"],
+      "poi": ["Sam Altman"],
+      "type": "Red Flag",
+      "title": "Sam Altman Revises AGI Timeline/Impact",
+      "details": "",
+      "links": [
+        "https://www.theverge.com/2024/12/4/24313130/sam-altman-openai-agi-lower-the-bar",
+        "https://www.cnbc.com/2024/01/16/openais-sam-altman-agi-coming-but-is-less-impactful-than-we-think.html"
+      ]
     }
   ]
 }
