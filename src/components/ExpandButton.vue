@@ -5,7 +5,7 @@ const timelineStore = useTimelineStore()
 </script>
 
 <template>
-  <button class="expand-button" @click="timelineStore.extendMonths = true">
+  <button class="expand-button" @click="timelineStore.extendMonths = !timelineStore.extendMonths">
     <svg
       width="16px"
       height="16px"

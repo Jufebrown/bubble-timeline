@@ -47,12 +47,15 @@ const determineShortOrLongMonthLabel = (
 
 watch(
   () => timelineStore.extendMonths,
-  (newValue) => {
-    if (newValue) {
-      extendMonth.value = true
-    } else if (!newValue) {
-      extendMonth.value = false
-    }
+  () => {
+    extendMonth.value = true
+  },
+)
+
+watch(
+  () => timelineStore.collapseMonths,
+  () => {
+    extendMonth.value = false
   },
 )
 </script>
