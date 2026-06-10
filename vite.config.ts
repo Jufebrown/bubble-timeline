@@ -13,5 +13,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
-  base: '/jufebrown.github.io/bubble-timeline/',
+  base: '/bubble-timeline/',
 })
