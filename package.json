@@ -1,5 +1,6 @@
 {
   "name": "bubble-timeline",
+  "homepage": "https://jufebrown.github.io/bubble-timeline/",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -13,7 +14,9 @@
     "lint": "run-s lint:*",
     "lint:oxlint": "oxlint . --fix",
     "lint:eslint": "eslint . --fix --cache",
-    "format": "prettier --write --experimental-cli src/"
+    "format": "prettier --write --experimental-cli src/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "pinia": "^3.0.4",
