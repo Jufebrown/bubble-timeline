@@ -168,7 +168,7 @@
       "poi": ["Jensen Huang"],
       "type": "Fail",
       "title": "Jensen Huang Walks Back Nvidia's $100 Billion OpenAI Commitment",
-      "details": "Jensen Huang walks back Nvidia's $100 billion OpenAI commitment. Turns out a letter of intent is not a legally binding contract. Good job skirting fraud regulations, scumbags.",
+      "details": "Jensen Huang walks back Nvidia's $100 billion OpenAI commitment. Turns out a letter of intent is not a legally binding contract. Good job skirting fraud regulations.",
       "links": [
         "https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/",
         "https://www.youtube.com/watch?v=ITxy2K-fhDU&t=771s"
@@ -275,7 +275,7 @@
       "year": 2026,
       "month": 5,
       "day": "17",
-      "companies": ["All"],
+      "companies": ["General"],
       "type": "Resistance",
       "title": "60+ Groups Call For Moratorium On NJ Data Centers",
       "details": "Environmental, labor and community groups called on New Jersey's Governor to pause new AI data center construction. It seems that people don't want subsidize this boondoggle with higher electric bills and loss of drinking water.",
@@ -1369,6 +1369,109 @@
       "links": [
         "https://www.theverge.com/2024/12/4/24313130/sam-altman-openai-agi-lower-the-bar",
         "https://www.cnbc.com/2024/01/16/openais-sam-altman-agi-coming-but-is-less-impactful-than-we-think.html"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "day": "10",
+      "companies": ["Samsung", "Supermicro", "Capital Clean Energy Carriers"],
+      "type": "Data Centers",
+      "title": "Samsung Partners With Supermicro To Make Floating Data Centers",
+      "details": "",
+      "links": [
+        "https://www.tomshardware.com/tech-industry/samsung-heavy-industries-recruits-greek-shipowner-and-supermicro-to-bring-50mw-floating-ai-data-centers-to-market"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "day": "10",
+      "companies": ["SoftBank", "OpenAI"],
+      "type": "Fail",
+      "title": "SoftBank Fails To Raise $6 Billion Margin Loan",
+      "details": "This is one of Ed Zitron's horsmen of the AI Apocalypse. We may be seeing the beginning of the end. They were trying to get the loan with their stake in OpenAI as the backing asset.",
+      "links": [
+        "https://www.tekedia.com/softbanks-6-billion-margin-loan-talks-for-openai-stake-reportedly-stall/",
+        "https://www.cnbc.com/2026/06/10/softbank-samsung-skhynix-asia-tech-stocks-ai-ipo.html",
+        "https://finance.yahoo.com/markets/stocks/articles/softbank-attempt-6-billion-openai-042525869.html"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "day": "28",
+      "companies": ["General"],
+      "type": "Resistance",
+      "title": "Nashville Looks To Regulate Data Centers",
+      "details": "The fuckers are trying to build a data center right next to the zoo and another one next to Fisk University. The people and animals don't need the noise and pollution. It's not profitable to run these things. OpenAI and Anthropic probably won't even be around when these things would be finished.",
+      "links": [
+        "https://wpln.org/post/as-elon-musks-xai-supercomputer-rankles-memphis-nashville-looks-to-regulate-data-centers/",
+        "https://www.wsmv.com/2026/06/09/data-center-proposal-near-nashville-zoo-includes-second-building-three-times-larger-than-first/",
+        "https://www.nashvillescene.com/news/pithinthewind/fisk-university-alumni-protest-data-center/article_c52600f9-aba6-45a4-9bc2-8d207779963c.html",
+        "https://www.wsmv.com/2026/06/10/fisk-university-data-center-proposal-draws-opposition-community-leaders-students/"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "day": "8",
+      "companies": ["General"],
+      "type": "Resistance",
+      "title": "Graduates At The University of Central Florida Boo Speaker For Praising AI",
+      "details": "AI Sucks!",
+      "links": [
+        "https://www.theguardian.com/technology/2026/may/12/florida-students-boo-graduation-speaker-ai",
+        "https://www.youtube.com/watch?v=I6s_9glYffI"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "day": "15",
+      "companies": ["General", "Google"],
+      "type": "Resistance",
+      "title": "Graduates At The University of Arizona Boo Ex Google CEO For Praising AI",
+      "details": "",
+      "links": [
+        "https://www.youtube.com/watch?v=tNH43a1EI7s",
+        "https://www.theguardian.com/us-news/2026/may/18/eric-schmidt-ai-university-commencement-speech-booed"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "day": "9",
+      "companies": ["General"],
+      "type": "Resistance",
+      "title": "Graduates At Middle Tennessee State University Boo Tool For Praising AI",
+      "details": "",
+      "links": ["https://www.youtube.com/watch?v=E14Ls653RVM"]
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "day": "8",
+      "companies": ["OpenAI"],
+      "type": "Red Flag",
+      "title": "OpenAI Confidentially Files For IPO",
+      "details": "",
+      "links": [
+        "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+        "https://www.reuters.com/technology/openai-files-us-ipo-after-anthropic-ai-giants-head-public-markets-2026-06-08/"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "day": "1",
+      "companies": ["Anthropic"],
+      "type": "Red Flag",
+      "title": "Anthropic Confidentially Files For IPO",
+      "details": "",
+      "links": [
+        "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html",
+        "https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html"
       ]
     }
   ]
