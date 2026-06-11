@@ -1553,6 +1553,16 @@
         "https://openai.com/index/introducing-4o-image-generation/",
         "https://azure.microsoft.com/en-us/blog/unveiling-gpt-image-1-rising-to-new-heights-with-image-generation-in-azure-ai-foundry/"
       ]
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "day": "16",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "OpenAI Releases Codex",
+      "details": "",
+      "links": ["https://openai.com/index/introducing-codex/"]
     }
   ]
 }
