@@ -1473,6 +1473,86 @@
         "https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html",
         "https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html"
       ]
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "day": "5",
+      "companies": ["OpenAI", "Anduril"],
+      "type": "Circle Jerk",
+      "title": "OpenAI Partners With Anduril",
+      "details": "Anduril is making systems to track drone threats. Hallucinations shouldn't be a problem, right?",
+      "links": [
+        "https://www.anduril.com/news/anduril-partners-with-openai-to-advance-u-s-artificial-intelligence-leadership-and-protect-u-s",
+        "https://www.reuters.com/technology/artificial-intelligence/defense-firm-anduril-partners-with-openai-use-ai-national-security-missions-2024-12-04/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "day": "5",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "OpenAI Starts Offering ChatGPT Pro",
+      "details": "",
+      "links": [
+        "https://openai.com/index/introducing-chatgpt-pro/",
+        "https://techcrunch.com/2023/01/11/openai-begins-piloting-chatgpt-professional-a-premium-version-of-its-viral-chatbot/"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "day": "31",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "OpenAI Releases o3-mini",
+      "details": "",
+      "links": [
+        "https://openai.com/index/openai-o3-mini/",
+        "https://techcrunch.com/2025/01/31/openai-launches-o3-mini-its-latest-reasoning-model/"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "day": "7",
+      "companies": ["OpenAI", "SoftBank"],
+      "poi": ["Masayoshi Son"],
+      "type": "Funding",
+      "title": "SoftBank Pledges $40 Billion To OpenAI",
+      "details": "",
+      "links": [
+        "https://www.rdworldonline.com/softbank-reportedly-wrapping-up-40b-investment-in-openai/",
+        "https://www.cryptopolitan.com/softbank-to-invest-40b-in-openai/"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "day": "11",
+      "companies": ["OpenAI"],
+      "poi": ["Elon Musk"],
+      "type": "Beef",
+      "title": "Elon Musk Attempts $94.7 Billion Takeover of OpenAI",
+      "details": "",
+      "links": [
+        "https://www.investopedia.com/elon-musk-led-group-reportedly-makes-usd97-4-billion-bid-for-control-of-openai-8789639",
+        "https://coingape.com/elon-musk-led-group-makes-97-4-billion-bid-to-take-over-openai-wsj/"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "day": "25",
+      "companies": ["OpenAI"],
+      "type": "Product Release",
+      "title": "OpenAI Releases GPT Image 1",
+      "details": "",
+      "links": [
+        "https://openai.com/index/introducing-4o-image-generation/",
+        "https://azure.microsoft.com/en-us/blog/unveiling-gpt-image-1-rising-to-new-heights-with-image-generation-in-azure-ai-foundry/"
+      ]
     }
   ]
 }
