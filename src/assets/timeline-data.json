@@ -1563,6 +1563,31 @@
       "title": "OpenAI Releases Codex",
       "details": "",
       "links": ["https://openai.com/index/introducing-codex/"]
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "day": "5",
+      "companies": ["Anthropic"],
+      "type": "Doom",
+      "title": "Anthropic Releases 'When AI Builds Itself' Paper",
+      "details": "We should slow down, but we won't. Somehow it isn't fraud for them to repeatedly predict AGI when they know full well that LLMs can't achieve AGI.",
+      "links": [
+        "https://www.anthropic.com/institute/recursive-self-improvement",
+        "https://www.youtube.com/watch?v=mbxuS6wlVR0"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "day": "27",
+      "companies": ["General"],
+      "type": "Resistance",
+      "title": "Ohio Pauses Data Center Tax Exemption",
+      "details": "",
+      "links": [
+        "https://governor.ohio.gov/media/news-and-media/governor-dewine-announces-pause-of-data-center-tax-exemption"
+      ]
     }
   ]
 }
