@@ -321,9 +321,8 @@ export const useTimelineStore = defineStore('timelineItems', {
         const element = this.timelineItems[i]
         if (element !== undefined && element.year.toString() == year && element.month == month) {
           if (
-            this.selectedCategories.includes(element.type) ||
-            this.areCompaniesSelected(element) ||
-            this.arePeopleSelected(element)
+            this.selectedCategories.includes(element.type) &&
+            (this.areCompaniesSelected(element) || this.arePeopleSelected(element))
           ) {
             monthItems.push(element)
           } else {
