@@ -83,7 +83,7 @@ a {
   position: fixed;
   top: 8.5vh;
   width: 25vw;
-  height: 85.5vh;
+  height: 90vh;
   background-color: #1c1c1c;
   color: #eee;
   padding: 2em;
