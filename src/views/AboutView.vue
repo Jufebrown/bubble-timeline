@@ -86,6 +86,10 @@ const router = useRouter()
           >
         </p>
         <p>
+          The AI Incident Database also provided a wealth of material.
+          <a href="https://incidentdatabase.ai/">https://incidentdatabase.ai/</a>
+        </p>
+        <p>
           All of the svg images used in the navigation are from
           <a href="https://www.svgrepo.com/">https://www.svgrepo.com/</a>
         </p>
