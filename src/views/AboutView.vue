@@ -32,7 +32,7 @@ const router = useRouter()
     <div class="money">
       <p class="donate-text">
         If you'd like to donate to support continued development of this project please click one of
-        these links or follow the qr code on your phone:
+        these QR code links or follow the qr code on your phone:
       </p>
       <a href="https://www.paypal.com/paypalme/jufebrown" target="_blank"
         ><img class="paypal" src="../assets/qrcode.png" alt="paypal.me/jufebrown"
