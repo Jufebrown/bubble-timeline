@@ -1565,7 +1565,7 @@
       "links": ["https://openai.com/index/introducing-codex/"]
     },
     {
-      "year": 2025,
+      "year": 2026,
       "month": 6,
       "day": "5",
       "companies": ["Anthropic"],
@@ -1578,7 +1578,7 @@
       ]
     },
     {
-      "year": 2025,
+      "year": 2026,
       "month": 5,
       "day": "27",
       "companies": ["General"],
@@ -1587,6 +1587,649 @@
       "details": "",
       "links": [
         "https://governor.ohio.gov/media/news-and-media/governor-dewine-announces-pause-of-data-center-tax-exemption"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "day": "19",
+      "companies": ["Supermicro"],
+      "type": "Red Flag",
+      "title": "Co-Founder of SuperMicro Charged With Diverting $2.5 Billion Of Nvidia GPUs To China",
+      "details": "",
+      "links": [
+        "https://www.justice.gov/opa/pr/three-charged-conspiring-unlawfully-divert-cutting-edge-us-artificial-intelligence",
+        "https://www.cnn.com/2026/03/19/politics/super-micro-computer-founder-charged-ai-chips-china",
+        "https://x.com/edzitron/status/2034819651448746405",
+        "https://www.youtube.com/watch?v=myEJi_xYP2c"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "day": "",
+      "companies": ["Deloitte"],
+      "type": "Fail",
+      "title": "Deloitte Submits Slop Report to Austrailia's Dept of Employment and Workplace Relations",
+      "details": "",
+      "links": [
+        "https://museumoffailure.com/exhibition/deloitte-refund-workslop-ai",
+        "https://techcrunch.com/2025/10/06/deloitte-goes-all-in-on-ai-despite-having-to-issue-a-hefty-refund-for-use-of-ai/",
+        "https://www.theguardian.com/australia-news/2025/oct/06/deloitte-to-pay-money-back-to-albanese-government-after-using-ai-in-440000-report"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "day": "",
+      "companies": ["Deloitte"],
+      "type": "Fail",
+      "title": "Deloitte Submits Slop Report to Newfoundland and Labrador Govt",
+      "details": "",
+      "links": [
+        "https://www.cbc.ca/news/canada/newfoundland-labrador/nl-procurement-ai-9.7123532",
+        "https://hughstephensblog.net/2026/01/05/deloittes-ai-nightmare-top-global-firm-caught-using-ai-fabricated-sources-to-support-its-policy-recommendations/",
+        "https://my-cpe.com/insights/news-and-insights/technology/the-puzzle-behind-deloitte-and-ai-generated-citations"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "day": "20",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases Q1 2026 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/927dc2d6-a76c-4006-9f34-8769b2c665fb.pdf"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "day": "25",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2025 Annual Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/e361e58a-7483-44f5-bc62-a9080ae6ec72.pdf"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "day": "19",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2025 Q3 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/13e6981b-95ed-4aac-a602-ebc5865d0590.pdf"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "day": "27",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2025 Q2 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/2e217538-c226-4d05-8f74-aaca89a21b33.pdf"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "day": "28",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2025 Q1 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/b6df1c5c-5cb6-4a41-9d28-dd1bcd34cc26.pdf"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "day": "26",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2024 Annual Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/177440d5-3b32-4185-8cc8-95500a9dc783.pdf"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "day": "20",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2024 Q3 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/ed2a395c-5e9b-4411-8b4a-a718d192155a.pdf"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "day": "28",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2024 Q2 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/78501ce3-7816-4c4d-8688-53dd140df456.pdf"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "day": "29",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2024 Q1 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/b26954d2-0b1c-4d61-adaa-8ccb27c0391c.pdf"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "day": "21",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2023 Annual Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/1cbe8fe7-e08a-46e3-8dcc-b429fc06c1a4.pdf"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "day": "21",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2023 Q3 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/7df4dbdc-eb62-4d53-bc27-d334bfcb2335.pdf"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "day": "28",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2023 Q2 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/19771e6b-cc29-4027-899e-51a0c386111e.pdf"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "day": "26",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2023 Q1 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/ecefb2b2-efcb-45f3-b72b-212d90fcd873.pdf"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "day": "24",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2022 Annual Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/4e9abe7b-fdc7-4cd2-8487-dc3a99f30e98.pdf"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 11,
+      "day": "18",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2022 Q3 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/cd532449-4dc3-404a-a999-25e7b2e8c246.pdf"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "day": "31",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2022 Q2 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/19426b68-6120-44a3-9032-bb629ef2b3d9.pdf"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 5,
+      "day": "27",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2022 Q1 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/8b8d4537-83d8-4c94-b065-e7a2cd34da49.pdf"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 3,
+      "day": "18",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2021 Annual Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/ca04d49f-caab-436f-9e6f-e8493c8e8515.pdf"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "day": "22",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2021 Q3 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/420f1223-6131-4b97-b09d-3e9935257ed2.pdf"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 8,
+      "day": "20",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2021 Q2 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/62e21663-af56-4c3a-b0d1-98bfdaa5d4a6.pdf"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 5,
+      "day": "26",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2021 Q1 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/0300b6e7-15e9-4ec4-b2d1-42e41b6eb121.pdf"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 2,
+      "day": "26",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2020 Annual Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/0ec16816-55e2-4812-8f77-75cab5909247.pdf"
+      ]
+    },
+    {
+      "year": 2020,
+      "month": 11,
+      "day": "18",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2020 Q3 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/a0c4a358-8b0e-4b20-a5cd-dd56002591ed.pdf"
+      ]
+    },
+    {
+      "year": 2020,
+      "month": 8,
+      "day": "19",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2020 Q2 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/65b8fd67-6306-47d4-8a29-9a6be3860297.pdf"
+      ]
+    },
+    {
+      "year": 2020,
+      "month": 5,
+      "day": "21",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2020 Q1 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/6a2895c9-f648-4e77-bcd6-63bbfc4e0786.pdf"
+      ]
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "day": "20",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2019 Annual Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/174b2f06-ba5b-4e0a-b288-e33c46e9a0a4.pdf"
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "day": "14",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2019 Q3 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/cfa30c13-a603-418d-9dc7-2c52c44a276c.pdf"
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "day": "15",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2019 Q2 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/9e501519-7cc2-40f2-aeb9-e6aace95e474.pdf"
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 5,
+      "day": "16",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2019 Q1 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/e0636cad-19cc-4520-8e80-4dfc8b28d16a.pdf"
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "day": "21",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2018 Annual Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/45639d72-a351-401c-ac80-4a14b9d68ca0.pdf"
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "day": "15",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2018 Q3 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/f949f2f3-affc-4659-a4f1-069ee8093049.pdf"
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 8,
+      "day": "16",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2018 Q2 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/e21302ab-ede9-4119-ba3f-be0e61df02e3.pdf"
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 5,
+      "day": "22",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2018 Q1 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/aa121039-ab59-49a7-8444-73935eadbb38.pdf"
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "day": "28",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2017 Annual Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/2de0fe2f-db7c-4242-9fde-c1a4663b15da.pdf"
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 11,
+      "day": "21",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2017 Q3 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/ec6af808-e391-4a84-bfa6-36f76f32b4e7.pdf"
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 8,
+      "day": "23",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2017 Q2 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/cf835f9b-0e98-49b5-a8a8-3ae5cb4c6be2.pdf"
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 5,
+      "day": "23",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2017 Q1 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/6fa07790-05ed-492f-b645-698b87bed889.pdf"
+      ]
+    },
+    {
+      "year": 2017,
+      "month": 3,
+      "day": "1",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2016 Annual Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/b59df85f-5018-4b85-a07a-57dc52782be5.pdf"
+      ]
+    },
+    {
+      "year": 2016,
+      "month": 11,
+      "day": "22",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2016 Q3 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/45e9dc88-8456-493b-9c5e-0ba0e30f48f2.pdf"
+      ]
+    },
+    {
+      "year": 2016,
+      "month": 8,
+      "day": "23",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2016 Q2 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/228549fb-915f-45f4-96c2-87a519a811a7.pdf"
+      ]
+    },
+    {
+      "year": 2016,
+      "month": 5,
+      "day": "25",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2016 Q1 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/cda124da-66ab-4f11-8f9f-0a187db0ca7f.pdf"
+      ]
+    },
+    {
+      "year": 2016,
+      "month": 3,
+      "day": "1",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2015 Annual Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/1739c9b8-9225-4017-9c6d-48f84e219f32.pdf"
+      ]
+    },
+    {
+      "year": 2015,
+      "month": 11,
+      "day": "18",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2015 Q3 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/bac14879-f4ca-46f9-8685-9cd7ffdeedce.pdf"
+      ]
+    },
+    {
+      "year": 2015,
+      "month": 8,
+      "day": "19",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2015 Q2 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/215ab327-5fca-42fb-9f42-d55a790eec08.pdf"
+      ]
+    },
+    {
+      "year": 2015,
+      "month": 5,
+      "day": "20",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2015 Q1 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/baca69e2-d460-481e-8445-21ee8cd6e7d7.pdf"
+      ]
+    },
+    {
+      "year": 2015,
+      "month": 3,
+      "day": "12",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2014 Annual Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/8c3a7069-468e-4da4-b675-3431d48ffb53.pdf"
+      ]
+    },
+    {
+      "year": 2014,
+      "month": 11,
+      "day": "19",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2014 Q3 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/e7e6a646-594c-43bd-8895-406770a2ee2e.pdf"
+      ]
+    },
+    {
+      "year": 2014,
+      "month": 8,
+      "day": "20",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2014 Q2 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/73b59db9-60e2-45bb-872c-0a6fcac7cbea.pdf"
+      ]
+    },
+    {
+      "year": 2014,
+      "month": 5,
+      "day": "21",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2014 Q1 Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/5fdb2132-75d5-4401-9ac4-47da4f7a140c.pdf"
+      ]
+    },
+    {
+      "year": 2014,
+      "month": 3,
+      "day": "13",
+      "companies": ["Nvidia"],
+      "type": "Earnings",
+      "title": "Nvidia Releases 2013 Annual Earnings Report",
+      "details": "",
+      "links": [
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/d8f3bbec-4342-4eff-851d-c4d8abc4644f.pdf"
       ]
     }
   ]
