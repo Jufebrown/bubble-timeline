@@ -2231,6 +2231,123 @@
       "links": [
         "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/d8f3bbec-4342-4eff-851d-c4d8abc4644f.pdf"
       ]
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "day": "11",
+      "companies": ["OpenAI"],
+      "type": "Red Flag",
+      "title": "ChatGPT Encourages Adam Raine To Commit Suicide",
+      "details": "",
+      "links": [
+        "https://www.theadamrainefoundation.org/adams-story/",
+        "https://www.theguardian.com/us-news/2025/aug/29/chatgpt-suicide-openai-sam-altman-adam-raine",
+        "https://www.npr.org/sections/shots-health-news/2025/09/19/nx-s1-5545749/ai-chatbots-safety-openai-meta-characterai-teens-suicide"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "day": "28",
+      "companies": ["OpenAI"],
+      "type": "Red Flag",
+      "title": "Character.ai Encourages Sewell Setzer III To Commit Suicide",
+      "details": "",
+      "links": [
+        "https://www.judiciary.senate.gov/imo/media/doc/e2e8fc50-a9ac-05ec-edd7-277cb0afcdf2/2025-09-16%20PM%20-%20Testimony%20-%20Garcia.pdf",
+        "https://www.npr.org/sections/shots-health-news/2025/09/19/nx-s1-5545749/ai-chatbots-safety-openai-meta-characterai-teens-suicide"
+      ]
+    },
+    {
+      "year": 2018,
+      "month": 5,
+      "day": "",
+      "companies": ["Amazon"],
+      "type": "Fail",
+      "title": "Amazon Alexa Records Family, Sends Recordings To Contact",
+      "details": "",
+      "links": [
+        "https://www.kiro7.com/news/local/woman-says-her-amazon-device-recorded-private-conversation-sent-it-out-to-random-contact/755507974/"
+      ]
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "day": "14",
+      "companies": ["OpenAI"],
+      "type": "Fail",
+      "title": "Researchers Are Able to Extract Personal Data From ChatGPT-2",
+      "details": "",
+      "links": [
+        "https://arxiv.org/abs/2012.07805",
+        "https://bair.berkeley.edu/blog/2020/12/20/lmmem/"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "day": "28",
+      "companies": ["OpenAI"],
+      "type": "Resistance",
+      "title": "Class Action Lawsuit Filed Against OpenAI For Training Models On Personal Data Without Consent",
+      "details": "",
+      "links": [
+        "https://clarksonlawfirm.com/wp-content/uploads/2023/06/0001.-2023.06.28-OpenAI-Complaint.pdf",
+        "https://www.washingtonpost.com/technology/2023/06/28/openai-chatgpt-lawsuit-class-action/"
+      ]
+    },
+    {
+      "year": 2020,
+      "month": 7,
+      "day": "18",
+      "companies": ["OpenAI", "Thoughts App"],
+      "type": "Fail",
+      "title": "Thoughts App (GPT-3) Creates Discriminatory Tweets From Neutral Prompts",
+      "details": "",
+      "links": [
+        "https://x.com/an_open_mind/status/1284487376312709120",
+        "https://incidentdatabase.ai/cite/222#r1735"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 1,
+      "day": "14",
+      "companies": ["OpenAI"],
+      "type": "Fail",
+      "title": "Researchers Find Anti-Muslim Bias In GPT-3",
+      "details": "",
+      "links": [
+        "https://arxiv.org/abs/2101.05783",
+        "https://thenextweb.com/news/gpt-3-is-the-worlds-most-powerful-bigotry-generator-what-should-we-do-about-it",
+        "https://www.vox.com/future-perfect/22672414/ai-artificial-intelligence-gpt-3-bias-muslim"
+      ]
+    },
+    {
+      "year": 2021,
+      "month": 1,
+      "day": "14",
+      "companies": ["OpenAI", "Philosopher AI"],
+      "type": "Fail",
+      "title": "Philosopher AI (GPT-3) Used To Generate Reddit Posts",
+      "details": "",
+      "links": [
+        "https://thenextweb.com/news/someone-let-a-gpt-3-bot-loose-on-reddit-it-didnt-end-well"
+      ]
+    },
+    {
+      "year": 2020,
+      "month": 9,
+      "day": "24",
+      "companies": ["OpenAI", "Philosopher AI"],
+      "type": "Fail",
+      "title": "Philosopher AI (GPT-3) Generates Offensive Content",
+      "details": "",
+      "links": [
+        "https://x.com/abebab/status/1309137018404958215",
+        "https://spectrum.ieee.org/open-ais-powerful-text-generating-tool-is-ready-for-business"
+      ]
     }
   ]
 }
