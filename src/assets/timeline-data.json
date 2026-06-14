@@ -2348,6 +2348,105 @@
         "https://x.com/abebab/status/1309137018404958215",
         "https://spectrum.ieee.org/open-ais-powerful-text-generating-tool-is-ready-for-business"
       ]
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "day": "11",
+      "companies": ["xAI"],
+      "poi": ["Elon Musk"],
+      "type": "Resistance",
+      "title": "Protest in Times Square Against Grok/SpaceX IPO",
+      "details": "The tattoo of Musk giving the Nazi salute is a nice touch.",
+      "links": [
+        "https://www.wired.com/story/massive-effigy-of-elon-musk-raised-over-times-square-to-protest-grok/",
+        "https://www.youtube.com/watch?v=ZlVO7Beqtlc"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "day": "16",
+      "companies": ["General"],
+      "poi": ["Eliezer Yudkowsky", "Nate Soares"],
+      "type": "Doom",
+      "title": "If Anyone Builds It, Everyone Dies Published",
+      "details": "It's a compelling book, but there are serious flaws in its assumptions. LLMs are not able to self improve. They have no memory of what they write so they can't learn. The basic assumption of the book is that AI is going to self-improve until it is smarter than humans. That might be possible with some sort of AI someday, but not with LLMs.",
+      "links": [
+        "https://www.youtube.com/watch?v=WdXYQbT6ueo",
+        "https://www.youtube.com/watch?v=y0RI5CnoDvs",
+        "https://www.youtube.com/watch?v=MaFTqjYjADw"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "day": "16",
+      "companies": ["OpenAI"],
+      "poi": ["Sam Altman"],
+      "type": "Doom",
+      "title": "Altman Says We May Need To Geoengineer Earth To Mitigate Climate Disaster From AI Energy Use",
+      "details": "Why would you build something that threatens the life support system of our planet? He says that once we develop AGI, all of our problems will be over, but he must know that LLMs are going to give us superintelligence. ",
+      "links": [
+        "https://www.bloomberg.com/news/videos/2024-01-16/openai-s-atlman-and-makanju-on-global-implications-of-ai?ref=disconnect.blog"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "day": "",
+      "companies": ["OpenAI"],
+      "poi": ["Sam Altman"],
+      "type": "Hype",
+      "title": "Sam Altman Compares AI Energy Usage To The Energy Consumed In A Human Life",
+      "details": "Can this fucking guy go to prison yet?",
+      "links": ["https://www.youtube.com/watch?v=oAN2HoWtUWM"]
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "day": "",
+      "companies": ["OpenAI"],
+      "type": "Red Flag",
+      "title": "Kenyan Workers Hired To Look At Traumatizing Materials For $1/Hour",
+      "details": "Workers in Kenya were hired to flag explicit content to make ChatGPT safer. The images were so horrific that workers suffered PTSD.",
+      "links": [
+        "https://www.cmswire.com/digital-experience/he-helped-train-chatgpt-it-traumatized-him/",
+        "https://www.theguardian.com/technology/2023/aug/02/ai-chatbot-training-human-toll-content-moderator-meta-openai",
+        "https://www.wsj.com/tech/chatgpt-openai-content-abusive-sexually-explicit-harassment-kenya-workers-on-human-workers-cf191483",
+        "https://www.businessinsider.com/openai-kenyan-contract-workers-label-toxic-content-chatgpt-training-report-2023-1",
+        "https://time.com/6247678/openai-chatgpt-kenya-workers/"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "day": "1",
+      "companies": ["OpenAI"],
+      "poi": ["Sam Altman"],
+      "type": "Resistance",
+      "title": "Florida Sues OpenAI And Sam Altman For Being 'A Dangerous Public Nuisance'.",
+      "details": "All 50 states should be doing this. The court filing alleges harms to children and calls out Sam Altman specifically for his dishonest and dangerous practices.",
+      "links": [
+        "https://www.myfloridalegal.com/sites/default/files/openai-filed-stamped-complaint.pdf",
+        "https://www.bbc.com/news/articles/czx2j0v8d2xo",
+        "https://www.cnn.com/2026/06/01/business/florida-sues-chatgpt-openai-sam-altman",
+        "https://www.npr.org/2026/06/01/nx-s1-5843132/openai-florida-lawsuit-safety-chatgpt"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "day": "12",
+      "companies": ["OpenAI"],
+      "poi": ["Sam Altman"],
+      "type": "Resistance",
+      "title": "State Attourneys General Investigating OpenAi",
+      "details": "When I saw the Florida lawsuit against OpenAI, I thought that all 50 states should be doing that. I might not have to wait long for that to happen.",
+      "links": [
+        "https://www.reuters.com/business/openai-under-investigation-by-coalition-state-attorneys-general-wsj-reports-2026-06-12/",
+        "https://www.wsj.com/tech/openai-investigated-by-coalition-of-state-attorneys-general-088a3928"
+      ]
     }
   ]
 }
