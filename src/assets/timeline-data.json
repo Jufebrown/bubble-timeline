@@ -2447,6 +2447,20 @@
         "https://www.reuters.com/business/openai-under-investigation-by-coalition-state-attorneys-general-wsj-reports-2026-06-12/",
         "https://www.wsj.com/tech/openai-investigated-by-coalition-of-state-attorneys-general-088a3928"
       ]
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "day": "12",
+      "companies": ["xAI", "SpaceX"],
+      "poi": ["Elon Musk"],
+      "type": "Funding",
+      "title": "SpaceX IPO",
+      "details": "Elon Musk bundled most of his non-Tesla companies together and had an Initial Public Offering.",
+      "links": [
+        "https://www.youtube.com/watch?v=VFBWfPQpGXc",
+        "https://www.youtube.com/watch?v=R7ehk3hS2xc"
+      ]
     }
   ]
 }
