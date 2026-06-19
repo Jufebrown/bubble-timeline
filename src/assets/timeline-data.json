@@ -2601,10 +2601,25 @@
       "companies": ["Anthropic"],
       "type": "Funding",
       "title": "Anthropic Completes Series B Funding Round For $580 Million",
-      "details": "Sam Bankman-Fried was a big part of the funding round. Birds of a feather?",
+      "details": "Sam Bankman-Fried was a big part of this funding round. Birds of a feather?",
       "links": [
         "https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai",
         "https://apix-drive.com/en/blog/useful/anthropic-pbc-history-development-products"
+      ]
+    },
+    {
+      "year": 2022,
+      "month": 2,
+      "day": "3",
+      "companies": ["Anthropic", "Google"],
+      "type": "Funding",
+      "title": "Google Gives Anthropic $300 Million For A 10% Stake",
+      "details": "",
+      "links": [
+        "https://www.anthropic.com/news/anthropic-partners-with-google-cloud",
+        "https://www.theverge.com/2023/2/3/23584540/google-anthropic-investment-300-million-openai-chatgpt-rival-claude",
+        "https://news.crunchbase.com/ai-robotics/funding-ai-google-anthropic/",
+        "https://venturebeat.com/ai/google-invests-300-million-in-anthropic-as-race-to-compete-with-chatgpt-heats-up"
       ]
     }
   ]
