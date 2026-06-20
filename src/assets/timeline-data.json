@@ -2621,6 +2621,93 @@
         "https://news.crunchbase.com/ai-robotics/funding-ai-google-anthropic/",
         "https://venturebeat.com/ai/google-invests-300-million-in-anthropic-as-race-to-compete-with-chatgpt-heats-up"
       ]
+    },
+    {
+      "year": 2021,
+      "month": 5,
+      "day": "28",
+      "companies": ["Anthropic"],
+      "type": "Funding",
+      "title": "Anthropic Raises $124 Million In First Round Of Funding",
+      "details": "",
+      "links": [
+        "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+        "https://tech.co/news/what-is-claude-ai-anthropic",
+        "https://originality.ai/blog/anthropic-ai-statistics"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "day": "",
+      "companies": ["Anthropic"],
+      "type": "Product Release",
+      "title": "Anthropic Releases Claude",
+      "details": "",
+      "links": [
+        "https://www.anthropic.com/news/introducing-claude",
+        "https://techcrunch.com/2023/03/14/anthropic-launches-claude-a-chatbot-to-rival-openais-chatgpt/"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "day": "26",
+      "companies": ["Anthropic"],
+      "type": "Circle Jerk",
+      "title": "Anthropic Partners With Scale",
+      "details": "",
+      "links": ["https://www.anthropic.com/news/partnering-with-scale"]
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "day": "16",
+      "companies": ["Anthropic"],
+      "type": "Circle Jerk",
+      "title": "Anthropic Partners With Zoom",
+      "details": "",
+      "links": ["https://www.anthropic.com/news/zoom-partnership-and-investment"]
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "day": "23",
+      "companies": ["Anthropic"],
+      "type": "Funding",
+      "title": "Anthropic Raises $450 Million In Series C Funding Round",
+      "details": "",
+      "links": ["https://www.anthropic.com/news/anthropic-series-c"]
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "day": "11",
+      "companies": ["Anthropic"],
+      "type": "Product Release",
+      "title": "Anthropic Releases Claude 2",
+      "details": "",
+      "links": ["https://www.anthropic.com/news/claude-2"]
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "day": "25",
+      "companies": ["Anthropic"],
+      "type": "Hype",
+      "title": "Anthropic Issues Statement On Frontier Model Security",
+      "details": "",
+      "links": ["https://www.anthropic.com/news/frontier-model-security"]
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "day": "26",
+      "companies": ["Anthropic"],
+      "type": "Doom",
+      "title": "Anthropic Writes Post About Red Teaming",
+      "details": "",
+      "links": ["https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety"]
     }
   ]
 }
