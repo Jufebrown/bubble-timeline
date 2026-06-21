@@ -2708,6 +2708,100 @@
       "title": "Anthropic Writes Post About Red Teaming",
       "details": "",
       "links": ["https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety"]
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "day": "15",
+      "companies": ["Anthropic", "SK Telecom"],
+      "type": "Circle Jerk",
+      "title": "SK Telecom Partners With And Invests $100 Million In Anthropic",
+      "details": "",
+      "links": ["https://www.anthropic.com/news/skt-partnership-announcement"]
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "day": "7",
+      "companies": ["Anthropic"],
+      "type": "Product Release",
+      "title": "Anthropic Releases Claude Pro",
+      "details": "",
+      "links": ["https://www.anthropic.com/news/claude-pro"]
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "day": "25",
+      "companies": ["Anthropic", "Amazon"],
+      "type": "Funding",
+      "title": "Amazon Announces Up To $4 Billion Investment In Anthropic",
+      "details": "",
+      "links": [
+        "https://www.theverge.com/2023/9/25/23888841/amazon-4-billion-investment-anthropic-claude-ai-openai-microsoft",
+        "https://techcrunch.com/2023/09/25/amazon-to-invest-up-to-4-billion-in-ai-startup-anthropic/"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "day": "18",
+      "companies": ["Anthropic", "Universal Music Group"],
+      "type": "Resistance",
+      "title": "Anthropic Sued For Using Song Lyrics To Train Claude Without Permission",
+      "details": "",
+      "links": [
+        "https://www.rollingstone.com/music/music-news/umg-concord-abkco-sue-anthropic-ai-company-copyright-infringement-1234856761/",
+        "https://variety.com/2023/music/news/universal-concord-abkco-sue-ai-company-anthropic-copyright-violation-1235761250/"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "day": "27",
+      "companies": ["Anthropic", "Google"],
+      "type": "Funding",
+      "title": "Google Announces Up To $4 Billion Investment In Anthropic",
+      "details": "",
+      "links": [
+        "https://www.wsj.com/tech/ai/google-commits-2-billion-in-funding-to-ai-startup-anthropic-db4d4c50",
+        "https://www.cnbc.com/2023/10/27/google-commits-to-invest-2-billion-in-openai-competitor-anthropic.html",
+        "https://www.forbes.com/sites/qai/2023/10/31/google-invests-in-anthropic-for-2-billion-as-ai-race-heats-up/"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "day": "1",
+      "companies": ["Anthropic"],
+      "type": "Doom",
+      "title": "Dario Amodei Addresses AI Safety Summit, Warns Of AI Constructed Bio Weapons",
+      "details": "",
+      "links": ["https://www.anthropic.com/news/uk-ai-safety-summit"]
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "day": "4",
+      "companies": ["Anthropic"],
+      "type": "Product Release",
+      "title": "Anthropic Releases Claude 3",
+      "details": "",
+      "links": ["https://www.anthropic.com/news/claude-3-haiku"]
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "day": "",
+      "companies": ["Anthropic", "Accenture", "Amazon"],
+      "type": "Circle Jerk",
+      "title": "Anthropic, AWS And Accenture Partner",
+      "details": "",
+      "links": [
+        "https://www.anthropic.com/news/accenture-aws-anthropic",
+        "https://newsroom.accenture.com/news/2024/aws-accenture-and-anthropic-join-forces-to-help-organizations-scale-ai-responsibly",
+        "https://venturebeat.com/ai/exclusive-aws-accenture-and-anthropic-partner-to-accelerate-enterprise-ai-adoption"
+      ]
     }
   ]
 }
