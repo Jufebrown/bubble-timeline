@@ -2802,6 +2802,49 @@
         "https://newsroom.accenture.com/news/2024/aws-accenture-and-anthropic-join-forces-to-help-organizations-scale-ai-responsibly",
         "https://venturebeat.com/ai/exclusive-aws-accenture-and-anthropic-partner-to-accelerate-enterprise-ai-adoption"
       ]
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "day": "21",
+      "companies": ["Anthropic"],
+      "type": "Product Release",
+      "title": "Anthropic Releases Claude 3.5",
+      "details": "",
+      "links": ["https://www.anthropic.com/news/claude-3-5-sonnet"]
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "day": "3",
+      "companies": ["Anthropic", "Salesforce"],
+      "type": "Circle Jerk",
+      "title": "Anthropic Partners With Salesforce",
+      "details": "",
+      "links": ["https://www.anthropic.com/news/salesforce-partnership"]
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "day": "7",
+      "companies": ["Anthropic", "Palantir", "Amazon"],
+      "type": "Circle Jerk",
+      "title": "Anthropic Partners With Palantir and Amazon Web Services",
+      "details": "Anthropic, if you were really moral and worried about safety, you would never partner with Palantir.",
+      "links": [
+        "https://investors.palantir.com/news-details/2024/Anthropic-and-Palantir-Partner-to-Bring-Claude-AI-Models-to-AWS-for-U.S.-Government-Intelligence-and-Defense-Operations/",
+        "https://techcrunch.com/2024/11/07/anthropic-teams-up-with-palantir-and-aws-to-sell-its-ai-to-defense-customers/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "day": "15",
+      "companies": ["Anthropic"],
+      "type": "Doom",
+      "title": "Anthropic Updates Responsible Scaling Policy",
+      "details": "Of course they mention Chemical, Biological, Radiological, and Nuclear Weapons.",
+      "links": ["https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy"]
     }
   ]
 }
