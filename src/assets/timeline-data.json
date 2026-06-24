@@ -2845,6 +2845,70 @@
       "title": "Anthropic Updates Responsible Scaling Policy",
       "details": "Of course they mention Chemical, Biological, Radiological, and Nuclear Weapons.",
       "links": ["https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy"]
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "day": "9",
+      "companies": ["OpenAI"],
+      "type": "Red Flag",
+      "title": "OpenAI Places Ads On ChatGPT",
+      "details": "",
+      "links": [
+        "https://help.openai.com/en/articles/20001047-ads-in-chatgpt",
+        "https://www.youtube.com/watch?v=8DE7NHc4o7s",
+        "https://www.forbes.com/sites/martinadilicosa/2026/01/16/openai-will-test-ads-on-chatgpt/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "day": "22",
+      "companies": ["Anthropic"],
+      "type": "Red Flag",
+      "title": "Anthropic Hires AI Welfare Researcher To Study Ethical Implications of Sentient AI",
+      "details": "",
+      "links": [
+        "https://www.311institute.com/ai-developer-anthropic-hires-a-welfare-officer-for-its-ai/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "day": "22",
+      "companies": ["Anthropic", "Amazon"],
+      "type": "Circle Jerk",
+      "title": "Amazon Pledges Another $4 Billion To Anthropic",
+      "details": "",
+      "links": [
+        "https://www.aboutamazon.com/news/aws/amazon-invests-additional-4-billion-anthropic-ai"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "day": "6",
+      "companies": ["Anthropic", "Lyft"],
+      "type": "Circle Jerk",
+      "title": "Lyft Partners With Anthropic",
+      "details": "",
+      "links": [
+        "https://www.anthropic.com/news/lyft-announcement",
+        "https://www.reuters.com/technology/artificial-intelligence/ride-hailing-platform-lyft-ties-up-with-anthropic-ai-powered-customer-care-2025-02-06/"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "day": "27",
+      "companies": ["General"],
+      "type": "Resistance",
+      "title": "Erin Brockovich Publishes Map Of US Data Centers",
+      "details": "",
+      "links": [
+        "https://www.brockovichdatacenter.com/",
+        "https://www.thebrockovichreport.com/p/if-data-centers-are-so-great-why"
+      ]
     }
   ]
 }
