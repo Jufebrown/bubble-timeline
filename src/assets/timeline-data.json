@@ -2909,6 +2909,116 @@
         "https://www.brockovichdatacenter.com/",
         "https://www.thebrockovichreport.com/p/if-data-centers-are-so-great-why"
       ]
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "day": "3",
+      "companies": ["Anthropic"],
+      "type": "Funding",
+      "title": "Anthropic Completes Series E Funding With $3.5 Billion",
+      "details": "",
+      "links": [
+        "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "day": "3",
+      "companies": ["Anthropic"],
+      "type": "Funding",
+      "title": "Anthropic Completes Series E Funding With $3.5 Billion",
+      "details": "",
+      "links": [
+        "https://www.anthropic.com/news/anthropic-raises-series-e-at-usd61-5b-post-money-valuation"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "day": "26",
+      "companies": ["Anthropic", "Databricks"],
+      "type": "Circle Jerk",
+      "title": "Anthropic Partners With Databricks",
+      "details": "",
+      "links": [
+        "https://siliconangle.com/2025/03/26/databricks-partners-anthropic-touts-breakthrough-reinforcement-learning/"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "day": "22",
+      "companies": ["Anthropic"],
+      "type": "Product Release",
+      "title": "Anthropic Releases Claude 4",
+      "details": "",
+      "links": ["https://www.anthropic.com/news/claude-4"]
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "day": "5",
+      "companies": ["Anthropic"],
+      "type": "Resistance",
+      "title": "Reddit Sues Anthropic For Illegal Scraping",
+      "details": "",
+      "links": [
+        "https://qz.com/reddit-anthropic-claude-ai-lawsuit-data-siphoning-1851783685",
+        "https://www.reuters.com/business/reddit-sues-ai-startup-anthropic-allegedly-using-data-without-permission-2025-06-04/"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "day": "2",
+      "companies": ["Anthropic", "ICONIQ", "Fidelity", "Lightspeed"],
+      "type": "Funding",
+      "title": "Anthropic Completes Series F Funding Round With $13 Billion",
+      "details": "",
+      "links": [
+        "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "day": "8",
+      "companies": ["Anthropic"],
+      "type": "Hype",
+      "title": "Anthropic Hires Second Researcher To Explore AI Consciousness",
+      "details": "Their first hire said, 'Given that we have models which are very close to — and in some cases at — human-level intelligence and capabilities, it takes a fair amount to really rule out the possibility of consciousness.' This is another example of an AI booster making a claim with no evidence. Where are these models that are anywhere near human level intelligence?",
+      "links": [
+        "https://observer.com/2025/09/anthropic-expanding-model-welfare-team/",
+        "https://www.youtube.com/shorts/qjm8C2FTyDk"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "day": "5",
+      "companies": ["Anthropic"],
+      "type": "Fail",
+      "title": "Anthropic Settles Piracy Lawsuit For $1.5 Billion",
+      "details": "The ethical AI company pirated 500,000 books to train Claude.",
+      "links": [
+        "https://www.euronews.com/next/2025/08/27/anthropic-settles-ai-copyright-lawsuit-with-book-authors",
+        "https://www.npr.org/2025/09/05/nx-s1-5529404/anthropic-settlement-authors-copyright-ai"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "day": "6",
+      "companies": ["Anthropic", "Deloitte"],
+      "type": "Circle Jerk",
+      "title": "Deloitte Partners With Anthropic",
+      "details": "Is this a joke? After their report fails in Australia and Canada, 'Deloitte will establish a Claude Center of Excellence.'",
+      "links": [
+        "https://www.anthropic.com/news/deloitte-anthropic-partnership",
+        "https://www.prnewswire.com/news-releases/deloitte-and-anthropic-collaborate-to-bring-safe-reliable-and-trusted-ai-to-commercial-and-government-organizations-302210769.html"
+      ]
     }
   ]
 }
