@@ -3019,6 +3019,55 @@
         "https://www.anthropic.com/news/deloitte-anthropic-partnership",
         "https://www.prnewswire.com/news-releases/deloitte-and-anthropic-collaborate-to-bring-safe-reliable-and-trusted-ai-to-commercial-and-government-organizations-302210769.html"
       ]
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "day": "7",
+      "companies": ["Anthropic", "IBM"],
+      "type": "Circle Jerk",
+      "title": "IBM Partners With Anthropic",
+      "details": "",
+      "links": [
+        "https://newsroom.ibm.com/2025-10-07-2025-ibm-and-anthropic-partner-to-advance-enterprise-software-development-with-proven-security-and-governance",
+        "https://techcrunch.com/2025/10/07/anthropic-and-ibm-announce-strategic-partnership/"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "day": "14",
+      "companies": ["Anthropic", "Salesforce"],
+      "type": "Circle Jerk",
+      "title": "Salesforce Partners With Anthropic",
+      "details": "",
+      "links": ["https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership"]
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "day": "23",
+      "companies": ["Anthropic", "Google"],
+      "type": "Circle Jerk",
+      "title": "Google And Anthropic Announce Cloud Deal",
+      "details": "",
+      "links": [
+        "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services",
+        "https://www.cnbc.com/2025/10/23/anthropic-google-cloud-deal-tpu.html"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "day": "29",
+      "companies": ["Anthropic", "Amazon"],
+      "type": "Data Centers",
+      "title": "Amazon Turns On Project Ranier Data Center For Anthropic",
+      "details": "",
+      "links": [
+        "https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster",
+        "https://siliconangle.com/2025/10/29/aws-opens-11b-project-rainier-data-center-campus-built-anthropic/"
+      ]
     }
   ]
 }
