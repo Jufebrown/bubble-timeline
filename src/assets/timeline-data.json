@@ -3068,6 +3068,58 @@
         "https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster",
         "https://siliconangle.com/2025/10/29/aws-opens-11b-project-rainier-data-center-campus-built-anthropic/"
       ]
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "day": "18",
+      "companies": ["Anthropic", "Microsoft", "Nvidia"],
+      "type": "Circle Jerk",
+      "title": "Anthropic, Microsoft and Nvidia Announce Strategic Partnership",
+      "details": "Another $15 billion for the fire.",
+      "links": [
+        "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+        "https://www.reuters.com/technology/anthropic-commits-30-billion-microsoft-azure-compute-2025-11-18/"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "day": "12",
+      "companies": ["Anthropic"],
+      "type": "Funding",
+      "title": "Anthropic Completes Series G Funding For $30 Billion",
+      "details": "",
+      "links": [
+        "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation"
+      ]
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "day": "22",
+      "companies": ["Anthropic"],
+      "type": "Doom",
+      "title": "Claude 4 System Card Claims Claude Resorted To Blackmail In Test",
+      "details": "",
+      "links": [
+        "https://x.com/edzitron/status/2000640421777776845",
+        "https://fortune.com/2025/05/23/anthropic-ai-claude-opus-4-blackmail-engineers-aviod-shut-down/",
+        "https://www.ktvu.com/news/ai-system-resorts-blackmail-when-developers-try-replace"
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "day": "26",
+      "companies": ["Block"],
+      "type": "Red Flag",
+      "title": "Block Lays Off 4,000 Workers. Jack Dorsey Cites Intelligence Tools As Reason",
+      "details": "",
+      "links": [
+        "https://www.youtube.com/watch?v=JRayjrpX10k",
+        "https://x.com/jack/status/2027129697092731343?lang=en"
+      ]
     }
   ]
 }
