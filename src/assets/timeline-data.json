@@ -3113,12 +3113,101 @@
       "month": 2,
       "day": "26",
       "companies": ["Block"],
+      "poi": ["Jack Dorsey"],
       "type": "Red Flag",
       "title": "Block Lays Off 4,000 Workers. Jack Dorsey Cites Intelligence Tools As Reason",
-      "details": "",
+      "details": "Dorsey says he made the decision and he'll own it. Seems more like he's blaming AI instead of taking responsibility for his over-hiring in the pandemic years.",
       "links": [
         "https://www.youtube.com/watch?v=JRayjrpX10k",
         "https://x.com/jack/status/2027129697092731343?lang=en"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "day": "9",
+      "companies": ["xAI"],
+      "poi": ["Elon Musk"],
+      "type": "Launch",
+      "title": "Elon Musk Launches xAI",
+      "details": "",
+      "links": [
+        "https://www.thevccorner.com/p/elon-musks-xai-raises-monster-6b",
+        "https://www.entrepreneur.com/business-news/elon-musk-xai-poaching-wall-street-paying-100-an-hour-teach-grok-finance"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "day": "12",
+      "companies": ["xAI"],
+      "poi": ["Elon Musk"],
+      "type": "Launch",
+      "title": "Elon Musk Officially Announces xAI",
+      "details": "",
+      "links": [
+        "https://www.reuters.com/technology/elon-musks-ai-firm-xai-launches-website-2023-07-12/"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "day": "4",
+      "companies": ["xAI"],
+      "type": "Product Release",
+      "title": "xAI Releases Grok Beta",
+      "details": "",
+      "links": [
+        "https://www.neowin.net/news/elon-musk-gives-a-glimpse-at-xais-grok-chatbot/",
+        "https://www.wsj.com/tech/ai/elon-musk-says-his-new-ai-bot-grok-will-have-sarcasm-and-access-to-x-information-b4e169de"
+      ]
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "day": "",
+      "companies": ["xAI"],
+      "type": "Funding",
+      "title": "xAI Raises $134.7 Million",
+      "details": "",
+      "links": [
+        "https://www.calcalistech.com/ctechnews/article/sjqfyj6b6",
+        "https://www.datacenterdynamics.com/en/news/elon-musks-generative-ai-startup-xai-looks-to-raise-1bn/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "day": "28",
+      "companies": ["xAI"],
+      "type": "Product Release",
+      "title": "xAI Releases Grok 1.5",
+      "details": "",
+      "links": ["https://x.ai/news/grok-1.5"]
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "day": "25",
+      "companies": ["xAI", "Oracle"],
+      "type": "Circle Jerk",
+      "title": "xAI Partners With Oracle",
+      "details": "",
+      "links": [
+        "https://coingape.com/just-in-elon-musks-xai-teams-up-with-oracle-for-ai-supercomputer/"
+      ]
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "day": "26",
+      "companies": ["xAI"],
+      "type": "Funding",
+      "title": "xAI Raises $6 Billion In Funding",
+      "details": "",
+      "links": [
+        "https://x.ai/news/series-b",
+        "https://edition.cnn.com/2024/05/27/tech/elon-musk-xai-6-billion-funding/index.html"
       ]
     }
   ]
